@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="Dua-Puluh" size="1.000000 1.333333" />
+    <ImageTarget name="Sembilan-Belas" size="1.000000 1.333333" />
+    <ImageTarget name="Delapan-Belas" size="1.000000 1.333333" />
+    <ImageTarget name="Tujuh-Belas" size="1.000000 1.333333" />
+    <ImageTarget name="Enam-Belas" size="1.000000 1.333333" />
+    <ImageTarget name="Lima-Belas" size="1.000000 1.333333" />
+    <ImageTarget name="Empat-Belas" size="14.000000 18.666666" />
+    <ImageTarget name="Tiga-Belas" size="1.000000 1.333333" />
+    <ImageTarget name="Dua-Belas" size="12.000000 16.000000" />
+    <ImageTarget name="Sebelas" size="1.000000 1.414402" />
+    <ImageTarget name="Sepuluh" size="1.000000 1.399457" />
+    <ImageTarget name="Sembilan" size="1.000000 1.399457" />
+    <ImageTarget name="Delapan" size="1.000000 1.399457" />
+    <ImageTarget name="Tujuh" size="1.000000 1.399457" />
+    <ImageTarget name="Enam" size="1.000000 1.399457" />
+    <ImageTarget name="Lima" size="1.000000 1.399457" />
+    <ImageTarget name="Empat" size="1.000000 1.399457" />
+    <ImageTarget name="Tiga" size="1.000000 1.399457" />
     <ImageTarget name="Dua" size="1.000000 1.399457" />
     <ImageTarget name="Satu" size="1.000000 1.399457" />
   </Tracking>
