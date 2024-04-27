@@ -19,8 +19,11 @@ public class TrackableObject : MonoBehaviour
         {
             float xCoordinate = Camera.main.WorldToScreenPoint(transform.position).x;
 
-            PengenalanAngkaManager.Instance.AssignCard(transform, xCoordinate);
-
+            //Jika scene saat ini adalah Pengenalan Angka, maka pakai ini
+            if(PengenalanAngkaManager.Instance != null)
+                PengenalanAngkaManager.Instance.AssignCard(transform, xCoordinate);
+            else if(PenjumlahanManager.Instance != null)
+                PenjumlahanManager.Instance.AssignCard(transform, xCoordinate);
         }
         else
         {

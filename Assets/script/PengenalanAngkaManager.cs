@@ -28,6 +28,11 @@ public class PengenalanAngkaManager : MonoBehaviour
         
     }
 
+    /// <summary>
+    /// KENANG-KENANG an
+    /// </summary>
+    /// <param name="card"></param>
+    /// <param name="xCoord"></param>
     public void AssignCard(Transform card, float xCoord)
     {
         if (xCoord < screenWidth / 2)
