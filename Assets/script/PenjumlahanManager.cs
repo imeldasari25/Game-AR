@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class PenjumlahanManager : MonoBehaviour
@@ -48,10 +49,32 @@ public class PenjumlahanManager : MonoBehaviour
 
     public float screenWidth;
 
+    [Space(10)]
+    public int number_A;
+    public int number_B;
+    public int result;
+
+    [Space(10)]
+    public GameObject calcButton;
+    public TextMeshProUGUI resultText;
+
+
     private void Awake()
     {
         Instance = this;
     }
+
+    #region Subscription
+    private void OnEnable()
+    {
+        NumberAnimator.OnNumberAnimationDone += OnNumberAnimDoneHandler;
+    }
+
+    private void OnDestroy()
+    {
+        NumberAnimator.OnNumberAnimationDone -= OnNumberAnimDoneHandler;
+    }
+    #endregion
 
     // Start is called before the first frame update
     void Start()
@@ -59,6 +82,8 @@ public class PenjumlahanManager : MonoBehaviour
         screenWidth = Screen.width;
 
         TrackedCardCount = 0;
+        calcButton.SetActive(false);
+        resultText.gameObject.SetActive(false);
     }
 
     public void AssignCard(Transform card, float xCoord)
@@ -69,28 +94,53 @@ public class PenjumlahanManager : MonoBehaviour
             if (xCoord < screenWidth / 2)
             {
                 Card_1 = card;
+                number_A = Card_1.GetComponent<TrackableNumberObject>().number;
+
                 Card_2 = null;
+                number_B = 0;
             }
             // Kartu berada di sebelah Kanan Layar
             else
             {
                 Card_1 = null;
+                number_A = 0;
+
                 Card_2 = card;
+                number_B = Card_2.GetComponent<TrackableNumberObject>().number;
             }
+
+            calcButton.SetActive(true);
         }
         else if(TrackedCardCount == 2)
         {
             // Kartu berada di sebelah Kiri Layar
             if (xCoord < screenWidth / 2)
             {
-                Card_1 = card;               
+                Card_1 = card;
+                number_A = Card_1.GetComponent<TrackableNumberObject>().number;
             }
             // Kartu berada di sebelah Kanan Layar
             else
             {
                 Card_2 = card;
+                number_B = Card_2.GetComponent<TrackableNumberObject>().number;
             }
+
+            calcButton.SetActive(true);
         }
+    }
+
+    public void OnClick_Result()
+    {
+        Calcualte_Sum();
+
+        Card_1?.GetComponent<NumberAnimator>().StartGoTo();
+        Card_2?.GetComponent<NumberAnimator>().StartGoTo();
+    }
+
+    public void Calcualte_Sum()
+    {
+        result = number_A + number_B;
     }
 
     /// <summary>
@@ -111,5 +161,17 @@ public class PenjumlahanManager : MonoBehaviour
     public void RemoveCardCounter()
     {
         TrackedCardCount--;
+
+        if( TrackedCardCount == 0 )
+        {
+            calcButton.SetActive(false);
+        }
+    }
+
+    private void OnNumberAnimDoneHandler(GameObject numberObj)
+    {
+        resultText.gameObject.SetActive(true);
+
+        resultText.text = result.ToString();
     }
 }

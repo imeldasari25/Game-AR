@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 4933138945015418930}
   - component: {fileID: 4933138945015418931}
   - component: {fileID: 4933138945015418932}
-  - component: {fileID: 4933138945015418933}
   - component: {fileID: 4933138945015418934}
+  - component: {fileID: 1250079870}
+  - component: {fileID: 1250079869}
   m_Layer: 0
   m_Name: tiga
   m_TagString: Untagged
@@ -62,7 +63,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 4933138945015418933}
+  mPreview: {fileID: 1250079870}
 --- !u!114 &4933138945015418932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,6 +117,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: PenjumlahanManager, Assembly-CSharp
+        m_MethodName: AddCardCounter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
@@ -131,7 +144,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &4933138945015418933
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: PenjumlahanManager, Assembly-CSharp
+        m_MethodName: RemoveCardCounter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4933138945015418934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4933138945015418935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f67accb7dcd55ee48a864645c6f08c43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 3
+  isTracked: 0
+--- !u!114 &1250079870
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -150,7 +189,7 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 4933138945015418931}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
---- !u!114 &4933138945015418934
+--- !u!114 &1250079869
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,10 +198,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4933138945015418935}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f67accb7dcd55ee48a864645c6f08c43, type: 3}
+  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTracked: 0
+  speed: 2
+  numberObj: {fileID: 5239778093576688179}
+  targetToGo: {fileID: 0}
 --- !u!1001 &4933138944885665634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -235,5 +276,10 @@ PrefabInstance:
 --- !u!4 &4899000255425759369 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bb803746e2535ea428e686eda1f5d640, type: 3}
+  m_PrefabInstance: {fileID: 4933138944885665634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5239778093576688179 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bb803746e2535ea428e686eda1f5d640, type: 3}
   m_PrefabInstance: {fileID: 4933138944885665634}
   m_PrefabAsset: {fileID: 0}

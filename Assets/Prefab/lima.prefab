@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 9710663226471516}
   - component: {fileID: 9710663226471519}
   - component: {fileID: 9710663226471518}
-  - component: {fileID: 9710663226471505}
   - component: {fileID: 9710663226471504}
   m_Layer: 0
   m_Name: lima
@@ -62,7 +61,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 9710663226471505}
+  mPreview: {fileID: 0}
 --- !u!114 &9710663226471518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,6 +115,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: PenjumlahanManager, Assembly-CSharp
+        m_MethodName: AddCardCounter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
@@ -131,25 +142,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &9710663226471505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9710663226471507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 9710663226471519}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Lima
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 9710663226471519}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: PenjumlahanManager, Assembly-CSharp
+        m_MethodName: RemoveCardCounter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &9710663226471504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,6 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67accb7dcd55ee48a864645c6f08c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  number: 0
   isTracked: 0
 --- !u!1001 &9710662530248794
 PrefabInstance:
