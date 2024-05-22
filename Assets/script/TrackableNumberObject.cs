@@ -20,6 +20,8 @@ public class TrackableNumberObject : MonoBehaviour
                 PengenalanAngkaManager.Instance.AssignCard(transform, xCoordinate);
             else if(PenjumlahanManager.Instance != null)
                 PenjumlahanManager.Instance.AssignCard(transform, xCoordinate);
+            else if(PenguranganManager.Instance != null)
+                PenguranganManager.Instance.AssignCard(transform, xCoordinate);
         }
         else
         {

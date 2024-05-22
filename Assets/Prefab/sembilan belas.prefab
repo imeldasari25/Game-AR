@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 8610873374834751852}
   - component: {fileID: 8610873374834751855}
   - component: {fileID: 8610873374834751841}
+  - component: {fileID: 6995887861671794448}
+  - component: {fileID: 7424857535586900183}
+  - component: {fileID: 6834760394206657537}
   m_Layer: 0
   m_Name: sembilan belas
   m_TagString: Untagged
@@ -62,7 +65,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 0}
+  mPreview: {fileID: 6834760394206657537}
 --- !u!114 &8610873374834751855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,6 +172,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 0
   isTracked: 0
+--- !u!114 &6995887861671794448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8610873374834751840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 8610873374834751852}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Sembilan-Belas
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 8610873374834751852}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &7424857535586900183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8610873374834751840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 8610873374834751852}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Sembilan-Belas
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 8610873374834751852}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &6834760394206657537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8610873374834751840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 8610873374834751852}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Sembilan-Belas
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 8610873374834751852}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &8610873374317670532
 PrefabInstance:
   m_ObjectHideFlags: 0

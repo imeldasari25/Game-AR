@@ -12,6 +12,10 @@ GameObject:
   - component: {fileID: 4440677067638000275}
   - component: {fileID: 4440677067638000274}
   - component: {fileID: 4440677067638000276}
+  - component: {fileID: 2709446956757698700}
+  - component: {fileID: 8057310503919995}
+  - component: {fileID: 2341923771865831927}
+  - component: {fileID: 6080426574060901774}
   m_Layer: 0
   m_Name: sepuluh
   m_TagString: Untagged
@@ -61,7 +65,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 0}
+  mPreview: {fileID: 6080426574060901774}
 --- !u!114 &4440677067638000274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,6 +172,79 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 0
   isTracked: 0
+--- !u!114 &2709446956757698700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4440677067638000279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3
+  scaleSpeed: 100
+  numberObj: {fileID: 8205814745259577761}
+  targetToGo: {fileID: 0}
+--- !u!114 &8057310503919995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4440677067638000279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 4440677067638000275}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Sepuluh
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 4440677067638000275}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &2341923771865831927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4440677067638000279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 4440677067638000275}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Sepuluh
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 4440677067638000275}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &6080426574060901774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4440677067638000279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 4440677067638000275}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Sepuluh
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 4440677067638000275}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &8205814745259577761
 GameObject:
   m_ObjectHideFlags: 0

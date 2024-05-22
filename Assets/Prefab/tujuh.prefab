@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 7389501266426316271}
   - component: {fileID: 7389501266426316270}
   - component: {fileID: 7389501266426316268}
+  - component: {fileID: 1196907954764777723}
+  - component: {fileID: 8493772646789232781}
+  - component: {fileID: 1479519239488885586}
   m_Layer: 0
   m_Name: tujuh
   m_TagString: Untagged
@@ -61,7 +64,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 0}
+  mPreview: {fileID: 1479519239488885586}
 --- !u!114 &7389501266426316270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,8 +169,65 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67accb7dcd55ee48a864645c6f08c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  number: 0
+  number: 7
   isTracked: 0
+--- !u!114 &1196907954764777723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7389501266426316275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 7389501266426316271}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Tujuh
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 7389501266426316271}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &8493772646789232781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7389501266426316275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 7389501266426316271}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Tujuh
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 7389501266426316271}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1479519239488885586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7389501266426316275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 7389501266426316271}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Tujuh
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 7389501266426316271}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &7389501267459909750
 PrefabInstance:
   m_ObjectHideFlags: 0

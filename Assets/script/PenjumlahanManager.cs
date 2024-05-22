@@ -109,7 +109,7 @@ public class PenjumlahanManager : MonoBehaviour
                 number_B = Card_2.GetComponent<TrackableNumberObject>().number;
             }
 
-            calcButton.SetActive(true);
+            calcButton.SetActive(false);
         }
         else if(TrackedCardCount == 2)
         {
@@ -132,13 +132,13 @@ public class PenjumlahanManager : MonoBehaviour
 
     public void OnClick_Result()
     {
-        Calcualte_Sum();
+        Calculate_Sum();
 
         Card_1?.GetComponent<NumberAnimator>().StartGoTo();
         Card_2?.GetComponent<NumberAnimator>().StartGoTo();
     }
 
-    public void Calcualte_Sum()
+    public void Calculate_Sum()
     {
         result = number_A + number_B;
     }

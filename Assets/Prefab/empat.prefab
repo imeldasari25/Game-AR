@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4250608846605574142}
   - component: {fileID: 4250608846605574143}
   - component: {fileID: 4250608846605574141}
-  - component: {fileID: 938324090}
   - component: {fileID: 938324089}
   m_Layer: 0
   m_Name: empat
@@ -63,7 +62,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 938324090}
+  mPreview: {fileID: 0}
 --- !u!114 &4250608846605574143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,25 +169,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 4
   isTracked: 0
---- !u!114 &938324090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4250608846605574130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 4250608846605574142}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Empat
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 4250608846605574142}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &938324089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,7 +181,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  moveSpeed: 3
+  scaleSpeed: 100
   numberObj: {fileID: 3908099628935618130}
   targetToGo: {fileID: 0}
 --- !u!1001 &4250608847821349635

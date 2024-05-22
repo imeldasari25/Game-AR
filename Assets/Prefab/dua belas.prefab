@@ -12,6 +12,11 @@ GameObject:
   - component: {fileID: 5145421384372776999}
   - component: {fileID: 5145421384372776998}
   - component: {fileID: 5145421384372776996}
+  - component: {fileID: 3405047455364951653}
+  - component: {fileID: 6982087163108415760}
+  - component: {fileID: 2145827966702163441}
+  - component: {fileID: 7103483581575552309}
+  - component: {fileID: 6511747359367792415}
   m_Layer: 0
   m_Name: dua belas
   m_TagString: Untagged
@@ -31,8 +36,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4675453301947222857}
-  - {fileID: 4675453301730025087}
+  - {fileID: 4376126146049946727}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -62,7 +66,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 0}
+  mPreview: {fileID: 6511747359367792415}
 --- !u!114 &5145421384372776998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,12 +173,137 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 0
   isTracked: 0
+--- !u!114 &3405047455364951653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5145421384372777003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 5145421384372776999}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Dua-Belas
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 5145421384372776999}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &6982087163108415760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5145421384372777003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 5145421384372776999}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Dua-Belas
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 5145421384372776999}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &2145827966702163441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5145421384372777003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3
+  scaleSpeed: 100
+  numberObj: {fileID: 0}
+  targetToGo: {fileID: 0}
+--- !u!114 &7103483581575552309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5145421384372777003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 5145421384372776999}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Dua-Belas
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 5145421384372776999}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &6511747359367792415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5145421384372777003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 5145421384372776999}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Dua-Belas
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 5145421384372776999}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!1 &6324959646739064591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4376126146049946727}
+  m_Layer: 0
+  m_Name: 12_Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4376126146049946727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6324959646739064591}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4675453301947222857}
+  - {fileID: 4675453301730025087}
+  m_Father: {fileID: 5145421384372776992}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5145421384532405410
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 5145421384372776992}
+    m_TransformParent: {fileID: 4376126146049946727}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: de0d3b82c36c2a84f930e06d43b98830, type: 3}
       propertyPath: m_RootOrder
@@ -194,11 +323,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0d3b82c36c2a84f930e06d43b98830, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.27499974
+      value: -0.27499962
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0d3b82c36c2a84f930e06d43b98830, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.068
+      value: 0.06800001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0d3b82c36c2a84f930e06d43b98830, type: 3}
       propertyPath: m_LocalPosition.z
@@ -210,7 +339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0d3b82c36c2a84f930e06d43b98830, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de0d3b82c36c2a84f930e06d43b98830, type: 3}
       propertyPath: m_LocalRotation.y
@@ -256,7 +385,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 5145421384372776992}
+    m_TransformParent: {fileID: 4376126146049946727}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ca30f0e318536284883c40259821a1e3, type: 3}
       propertyPath: m_RootOrder
@@ -276,11 +405,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca30f0e318536284883c40259821a1e3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.203
+      value: 0.20300007
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca30f0e318536284883c40259821a1e3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.068
+      value: 0.06800001
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca30f0e318536284883c40259821a1e3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -292,7 +421,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca30f0e318536284883c40259821a1e3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca30f0e318536284883c40259821a1e3, type: 3}
       propertyPath: m_LocalRotation.y

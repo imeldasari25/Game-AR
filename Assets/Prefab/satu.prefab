@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7365560227628314534}
   - component: {fileID: 7365560227628314521}
   - component: {fileID: 7365560227628314532}
-  - component: {fileID: 211829465}
   - component: {fileID: 211829464}
   m_Layer: 0
   m_Name: satu
@@ -63,7 +62,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 211829465}
+  mPreview: {fileID: 0}
 --- !u!114 &7365560227628314521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,25 +169,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 1
   isTracked: 0
---- !u!114 &211829465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7365560227628314523}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 7365560227628314534}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Satu
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 7365560227628314534}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &211829464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,7 +181,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  moveSpeed: 3
+  scaleSpeed: 100
   numberObj: {fileID: 7707580708143968472}
   targetToGo: {fileID: 0}
 --- !u!1001 &7365560227680095625

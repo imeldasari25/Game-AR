@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4933138945015418931}
   - component: {fileID: 4933138945015418932}
   - component: {fileID: 4933138945015418934}
-  - component: {fileID: 1250079870}
   - component: {fileID: 1250079869}
   m_Layer: 0
   m_Name: tiga
@@ -63,7 +62,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1250079870}
+  mPreview: {fileID: 0}
 --- !u!114 &4933138945015418932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,25 +169,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 3
   isTracked: 0
---- !u!114 &1250079870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4933138945015418935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 4933138945015418931}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Tiga
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 4933138945015418931}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1250079869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,7 +181,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  moveSpeed: 3
+  scaleSpeed: 100
   numberObj: {fileID: 5239778093576688179}
   targetToGo: {fileID: 0}
 --- !u!1001 &4933138944885665634

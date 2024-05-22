@@ -12,6 +12,10 @@ GameObject:
   - component: {fileID: 9710663226471519}
   - component: {fileID: 9710663226471518}
   - component: {fileID: 9710663226471504}
+  - component: {fileID: 8056207711499422893}
+  - component: {fileID: 8878685051952874233}
+  - component: {fileID: 8520958046071338675}
+  - component: {fileID: 3065141030913483045}
   m_Layer: 0
   m_Name: lima
   m_TagString: Untagged
@@ -61,7 +65,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 0}
+  mPreview: {fileID: 3065141030913483045}
 --- !u!114 &9710663226471518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,8 +170,81 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67accb7dcd55ee48a864645c6f08c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  number: 0
+  number: 5
   isTracked: 0
+--- !u!114 &8056207711499422893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9710663226471507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3
+  scaleSpeed: 100
+  numberObj: {fileID: 928610249809267979}
+  targetToGo: {fileID: 0}
+--- !u!114 &8878685051952874233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9710663226471507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 9710663226471519}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Lima
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 9710663226471519}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &8520958046071338675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9710663226471507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 9710663226471519}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Lima
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 9710663226471519}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &3065141030913483045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9710663226471507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 9710663226471519}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Lima
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 9710663226471519}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &9710662530248794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -240,5 +317,10 @@ PrefabInstance:
 --- !u!4 &551909442293815217 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 24f1d3c62ccb02841b6920b3eb57c883, type: 3}
+  m_PrefabInstance: {fileID: 9710662530248794}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &928610249809267979 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 24f1d3c62ccb02841b6920b3eb57c883, type: 3}
   m_PrefabInstance: {fileID: 9710662530248794}
   m_PrefabAsset: {fileID: 0}

@@ -15,8 +15,22 @@ public class NumberAnimator : MonoBehaviour
 
     bool _isGoToTarget;
     bool _isScaleDown;
+    bool _isAnimationDone;
 
     Vector3 _dir;
+
+    Vector3 _defPos;
+    Quaternion _defRot;
+    Vector3 _defScale;
+
+    private void Start()
+    {
+        _defPos = numberObj.transform.localPosition;
+        _defRot = numberObj.transform.localRotation;
+        _defScale = numberObj.transform.localScale;
+
+        _isAnimationDone = false;
+    }
 
     private void Update()
     {
@@ -35,6 +49,8 @@ public class NumberAnimator : MonoBehaviour
     {
         _isGoToTarget = true;
         _isScaleDown = false;
+
+        _isAnimationDone = true;
     }
 
     public void ToTarget()
@@ -55,9 +71,21 @@ public class NumberAnimator : MonoBehaviour
 
         if(numberObj.transform.localScale.x <= 0)
         {
-            _isScaleDown = false;
-
+            _isScaleDown = false;           
             OnNumberAnimationDone?.Invoke(numberObj);
         }
+    }
+
+    /// <summary>
+    /// Dipanggil didalam Vuforia Event
+    /// </summary>
+    public void Reset()
+    {
+        if(_isAnimationDone)
+        {
+            numberObj.transform.localPosition = _defPos;
+            numberObj.transform.localRotation = _defRot;
+            numberObj.transform.localScale = _defScale;
+        }        
     }
 }
