@@ -8,6 +8,10 @@ public class TrackableNumberObject : MonoBehaviour
 
     public bool isTracked = false;
 
+    public AudioClip numberVoice;
+
+    public AudioSource cameraAudioSource;
+
     // Update is called once per frame
     void Update()
     {
@@ -29,8 +33,17 @@ public class TrackableNumberObject : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Ini di panggil di dalam Event Image Target
+    /// </summary>
+    /// <param name="isTracked"></param>
     public void SetIsTracked(bool isTracked)
     {
         this.isTracked = isTracked;
+
+        if (isTracked) 
+        { 
+            cameraAudioSource.PlayOneShot(numberVoice);
+        }
     }
 }

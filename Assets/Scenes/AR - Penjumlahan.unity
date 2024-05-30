@@ -267,6 +267,25 @@ MonoBehaviour:
   scaleSpeed: 100
   numberObj: {fileID: 1250408010}
   targetToGo: {fileID: 266309177}
+--- !u!114 &82949958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82949951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 82949952}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Dua-Belas
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 82949952}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &94736490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -358,6 +377,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &94736496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94736492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 94736493}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Delapan-Belas
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 94736493}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &94736497
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -485,6 +523,25 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 108891926}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &108891930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108891925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 108891926}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Sembilan-Belas
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 108891926}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &211829458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -580,6 +637,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7365560227628314535, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
   m_PrefabInstance: {fileID: 211829458}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &211829460 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7365560227628314523, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
+  m_PrefabInstance: {fileID: 211829458}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &211829461 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7365560227628314534, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
+  m_PrefabInstance: {fileID: 211829458}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211829460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &211829462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211829460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 211829461}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Satu
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 211829461}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &266309172
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,6 +685,7 @@ GameObject:
   - component: {fileID: 266309175}
   - component: {fileID: 266309174}
   - component: {fileID: 266309173}
+  - component: {fileID: 266309178}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: MainCamera
@@ -692,6 +785,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &266309178
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266309172}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ea4a771a07ad3db4a909956053802f24, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &286125566
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -783,6 +972,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &286125572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286125568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 286125569}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Lima-Belas
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 286125569}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &286125573
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -914,6 +1122,25 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 339553145}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &339553149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339553144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 339553145}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Tujuh
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 339553145}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &423158252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1005,6 +1232,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &423158258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423158254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 423158255}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Delapan
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 423158255}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &423158259
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1347,6 +1593,25 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 924605771}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &924605777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924605770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 924605771}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Tiga-Belas
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 924605771}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &938324083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1442,6 +1707,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4250608846605574137, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
   m_PrefabInstance: {fileID: 938324083}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &938324085 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4250608846605574130, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
+  m_PrefabInstance: {fileID: 938324083}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &938324086 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4250608846605574142, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
+  m_PrefabInstance: {fileID: 938324083}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938324085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &938324087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938324085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 938324086}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Empat
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 938324086}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1116720245
 GameObject:
   m_ObjectHideFlags: 0
@@ -1645,6 +1945,25 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1232198000}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &1232198004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232197999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1232198000}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Empat-Belas
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 1232198000}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1250079863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1740,6 +2059,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4933138945015418930, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
   m_PrefabInstance: {fileID: 1250079863}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1250079865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4933138945015418935, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
+  m_PrefabInstance: {fileID: 1250079863}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1250079866 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4933138945015418931, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
+  m_PrefabInstance: {fileID: 1250079863}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250079865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1250079867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250079865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1250079866}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Tiga
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 1250079866}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1250408006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1852,6 +2206,25 @@ MonoBehaviour:
   numberObj: {fileID: 1250408010}
   targetToGo: {fileID: 266309177}
 --- !u!114 &1250408017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250408008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1250408009}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Sepuluh
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 1250408009}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1250408018
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2171,6 +2544,25 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1432318949}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &1432318953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432318948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1432318949}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Enam
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 1432318949}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1480760963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2262,6 +2654,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1480760969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480760965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1480760966}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Tujuh-Belas
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 1480760966}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1480760970
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2429,6 +2840,25 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1493410474}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &1493410480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493410473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1493410474}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Sebelas
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 1493410474}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1541868873
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2520,6 +2950,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1541868879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541868875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1541868876}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Enam-Belas
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 1541868876}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1541868880
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2633,6 +3082,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3410175730174713893, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
   m_PrefabInstance: {fileID: 1581638136}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1581638138 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3410175730174713889, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
+  m_PrefabInstance: {fileID: 1581638136}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1581638139 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3410175730174713894, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
+  m_PrefabInstance: {fileID: 1581638136}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581638138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1581638140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581638138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1581638139}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Dua
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 1581638139}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1628688222
 GameObject:
   m_ObjectHideFlags: 0
@@ -2859,6 +3343,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1738503112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738503108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1738503109}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Dua-Puluh
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 1738503109}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1738503113
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3140,6 +3643,25 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 2078470281}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &2078470286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2078470280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2078470281}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Lima
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 2078470281}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &2111107811
 GameObject:
   m_ObjectHideFlags: 0
@@ -3282,6 +3804,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &7116771378220247153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7116771378220247149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 7116771378220247150}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Sembilan
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 7116771378220247150}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &7116771378220247154
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
