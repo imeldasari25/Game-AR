@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PengenalanAngkaManager : MonoBehaviour
 {
@@ -45,5 +46,13 @@ public class PengenalanAngkaManager : MonoBehaviour
             Card_1 = null;
             Card_2 = card;
         }
+    }
+
+    /// <summary>
+    /// Ini di panggil di Tombol Back
+    /// </summary>
+    public void OnClick_BackBtn()
+    {
+        SceneManager.LoadScene("Home");
     }
 }

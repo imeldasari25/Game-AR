@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PenjumlahanManager : MonoBehaviour
 {
@@ -173,5 +174,13 @@ public class PenjumlahanManager : MonoBehaviour
         resultText.gameObject.SetActive(true);
 
         resultText.text = result.ToString();
+    }
+
+    /// <summary>
+    /// Ini di panggil di Tombol Back
+    /// </summary>
+    public void OnClick_BackBtn()
+    {
+        SceneManager.LoadScene("Home");
     }
 }

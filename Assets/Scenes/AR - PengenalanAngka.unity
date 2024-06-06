@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1795172027}
     m_Modifications:
+    - target: {fileID: 3625078868967183330, guid: 3d290fa6514821240b5b674800f4e83c, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     - target: {fileID: 3625078868967183331, guid: 3d290fa6514821240b5b674800f4e83c, type: 3}
       propertyPath: m_Name
       value: tujuh belas Variant
@@ -140,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3625078868967183334, guid: 3d290fa6514821240b5b674800f4e83c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3.43
       objectReference: {fileID: 0}
     - target: {fileID: 3625078868967183334, guid: 3d290fa6514821240b5b674800f4e83c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -148,7 +152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3625078868967183334, guid: 3d290fa6514821240b5b674800f4e83c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 3625078868967183334, guid: 3d290fa6514821240b5b674800f4e83c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -277,7 +281,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &383334329
 PrefabInstance:
@@ -286,6 +290,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1795172027}
     m_Modifications:
+    - target: {fileID: 2842890826856781842, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     - target: {fileID: 2842890826856781843, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
       propertyPath: m_Name
       value: sembilan belas Variant
@@ -296,7 +304,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2842890826856781854, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 6.65
       objectReference: {fileID: 0}
     - target: {fileID: 2842890826856781854, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -304,7 +312,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2842890826856781854, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2842890826856781854, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -354,7 +362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 409773708461967554, guid: 06e871b7089f51e48bcba75a6cf3f362, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.79
       objectReference: {fileID: 0}
     - target: {fileID: 409773708461967554, guid: 06e871b7089f51e48bcba75a6cf3f362, type: 3}
       propertyPath: m_LocalPosition.y
@@ -362,7 +370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 409773708461967554, guid: 06e871b7089f51e48bcba75a6cf3f362, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 409773708461967554, guid: 06e871b7089f51e48bcba75a6cf3f362, type: 3}
       propertyPath: m_LocalRotation.w
@@ -392,6 +400,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 409773708461967558, guid: 06e871b7089f51e48bcba75a6cf3f362, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     - target: {fileID: 409773708461967559, guid: 06e871b7089f51e48bcba75a6cf3f362, type: 3}
       propertyPath: m_Name
       value: enam belas Variant
@@ -416,7 +428,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4880120641370804160, guid: 4808d8af05368564c9b583fc908d5ec9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 5.05
       objectReference: {fileID: 0}
     - target: {fileID: 4880120641370804160, guid: 4808d8af05368564c9b583fc908d5ec9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -424,7 +436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4880120641370804160, guid: 4808d8af05368564c9b583fc908d5ec9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2.61
       objectReference: {fileID: 0}
     - target: {fileID: 4880120641370804160, guid: 4808d8af05368564c9b583fc908d5ec9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -454,6 +466,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4880120641370804164, guid: 4808d8af05368564c9b583fc908d5ec9, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     - target: {fileID: 4880120641370804165, guid: 4808d8af05368564c9b583fc908d5ec9, type: 3}
       propertyPath: m_Name
       value: delapan Variant
@@ -482,7 +498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5941386406316719149, guid: 92a5e3dc5a925c44588321ce139011e5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -5.81
       objectReference: {fileID: 0}
     - target: {fileID: 5941386406316719149, guid: 92a5e3dc5a925c44588321ce139011e5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -490,7 +506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5941386406316719149, guid: 92a5e3dc5a925c44588321ce139011e5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2.67
       objectReference: {fileID: 0}
     - target: {fileID: 5941386406316719149, guid: 92a5e3dc5a925c44588321ce139011e5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -520,6 +536,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5941386406316719150, guid: 92a5e3dc5a925c44588321ce139011e5, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92a5e3dc5a925c44588321ce139011e5, type: 3}
 --- !u!4 &499187108 stripped
@@ -600,6 +620,196 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 499187110}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &499187114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499187109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 499187110}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Satu
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 499187110}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &499187115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499187109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 499187110}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Satu
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 499187110}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &499187116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499187109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 499187110}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Satu
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 499187110}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!1 &580774023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 580774024}
+  - component: {fileID: 580774027}
+  - component: {fileID: 580774026}
+  - component: {fileID: 580774025}
+  m_Layer: 5
+  m_Name: Back_Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &580774024
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580774023}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1935614083}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 40, y: -40}
+  m_SizeDelta: {x: 150, y: 150}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &580774025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580774023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 580774026}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1041048003}
+        m_TargetAssemblyTypeName: PengenalanAngkaManager, Assembly-CSharp
+        m_MethodName: OnClick_BackBtn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &580774026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580774023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 6e427be220fb7ad41beeb29eda30bbb6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &580774027
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580774023}
+  m_CullTransparentMesh: 1
 --- !u!1001 &700854047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -619,13 +829,17 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1911891175845329166, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     - target: {fileID: 1911891175845329167, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1911891175845329167, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -4.29
       objectReference: {fileID: 0}
     - target: {fileID: 1911891175845329167, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -633,7 +847,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1911891175845329167, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2.66
       objectReference: {fileID: 0}
     - target: {fileID: 1911891175845329167, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -744,6 +958,63 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 700854050}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &700854054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700854049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 700854050}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Dua
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 700854050}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &700854055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700854049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 700854050}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Dua
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 700854050}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &700854056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700854049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 700854050}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Dua
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 700854050}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &833970907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -755,13 +1026,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: dua puluh Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1365087924474674817, guid: ade524cbc9b12654aa8469d8ec2880c9, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     - target: {fileID: 1365087924474674821, guid: ade524cbc9b12654aa8469d8ec2880c9, type: 3}
       propertyPath: m_RootOrder
       value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1365087924474674821, guid: ade524cbc9b12654aa8469d8ec2880c9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 8.07
       objectReference: {fileID: 0}
     - target: {fileID: 1365087924474674821, guid: ade524cbc9b12654aa8469d8ec2880c9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -769,7 +1044,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1365087924474674821, guid: ade524cbc9b12654aa8469d8ec2880c9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.33
       objectReference: {fileID: 0}
     - target: {fileID: 1365087924474674821, guid: ade524cbc9b12654aa8469d8ec2880c9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -947,7 +1222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7398127745995239450, guid: 4048e71314f8d5a4ea56bb27f57722e2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 5.05
       objectReference: {fileID: 0}
     - target: {fileID: 7398127745995239450, guid: 4048e71314f8d5a4ea56bb27f57722e2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -955,7 +1230,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7398127745995239450, guid: 4048e71314f8d5a4ea56bb27f57722e2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 7398127745995239450, guid: 4048e71314f8d5a4ea56bb27f57722e2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -985,6 +1260,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7398127745995239454, guid: 4048e71314f8d5a4ea56bb27f57722e2, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     - target: {fileID: 7398127745995239455, guid: 4048e71314f8d5a4ea56bb27f57722e2, type: 3}
       propertyPath: m_Name
       value: delapan belas Variant
@@ -1009,7 +1288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 917128296615584747, guid: 9d72e77f6fc2c304b81ef30e31ddad45, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.77
       objectReference: {fileID: 0}
     - target: {fileID: 917128296615584747, guid: 9d72e77f6fc2c304b81ef30e31ddad45, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1017,7 +1296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 917128296615584747, guid: 9d72e77f6fc2c304b81ef30e31ddad45, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2.59
       objectReference: {fileID: 0}
     - target: {fileID: 917128296615584747, guid: 9d72e77f6fc2c304b81ef30e31ddad45, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1051,6 +1330,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enam Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 917128296615584759, guid: 9d72e77f6fc2c304b81ef30e31ddad45, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d72e77f6fc2c304b81ef30e31ddad45, type: 3}
 --- !u!4 &1003056880 stripped
@@ -1075,7 +1358,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6597981457928403144, guid: a335f355443926b46ad5454282efef7f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -4.17
       objectReference: {fileID: 0}
     - target: {fileID: 6597981457928403144, guid: a335f355443926b46ad5454282efef7f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1083,7 +1366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6597981457928403144, guid: a335f355443926b46ad5454282efef7f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 6597981457928403144, guid: a335f355443926b46ad5454282efef7f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1113,6 +1396,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6597981457928403148, guid: a335f355443926b46ad5454282efef7f, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a335f355443926b46ad5454282efef7f, type: 3}
 --- !u!4 &1023242666 stripped
@@ -1180,6 +1467,7 @@ GameObject:
   - component: {fileID: 1125444930}
   - component: {fileID: 1125444929}
   - component: {fileID: 1125444928}
+  - component: {fileID: 1125444933}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: MainCamera
@@ -1272,13 +1560,109 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1125444927}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -3.277}
+  m_LocalPosition: {x: 0, y: 0, z: -9.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1125444933
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125444927}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ea4a771a07ad3db4a909956053802f24, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1167143976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1292,7 +1676,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 486325583479560409, guid: ba101b1ae7a96ee4fa039894a84bc69e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.22
       objectReference: {fileID: 0}
     - target: {fileID: 486325583479560409, guid: ba101b1ae7a96ee4fa039894a84bc69e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1300,7 +1684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 486325583479560409, guid: ba101b1ae7a96ee4fa039894a84bc69e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 486325583479560409, guid: ba101b1ae7a96ee4fa039894a84bc69e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1334,6 +1718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lima belas Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 486325583479560413, guid: ba101b1ae7a96ee4fa039894a84bc69e, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba101b1ae7a96ee4fa039894a84bc69e, type: 3}
 --- !u!4 &1167143977 stripped
@@ -1348,6 +1736,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1795172027}
     m_Modifications:
+    - target: {fileID: 6090327891752029462, guid: 859f0cfbe738ca945b887f1155cf7b00, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     - target: {fileID: 6090327891752029463, guid: 859f0cfbe738ca945b887f1155cf7b00, type: 3}
       propertyPath: m_Name
       value: sembilan Variant
@@ -1358,7 +1750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6090327891752029466, guid: 859f0cfbe738ca945b887f1155cf7b00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 6.54
       objectReference: {fileID: 0}
     - target: {fileID: 6090327891752029466, guid: 859f0cfbe738ca945b887f1155cf7b00, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1366,7 +1758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6090327891752029466, guid: 859f0cfbe738ca945b887f1155cf7b00, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: 6090327891752029466, guid: 859f0cfbe738ca945b887f1155cf7b00, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1416,7 +1808,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1679201276552159394, guid: 666e740810c091e4c822b3f5cb39d77b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.24
       objectReference: {fileID: 0}
     - target: {fileID: 1679201276552159394, guid: 666e740810c091e4c822b3f5cb39d77b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1424,7 +1816,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1679201276552159394, guid: 666e740810c091e4c822b3f5cb39d77b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2.68
       objectReference: {fileID: 0}
     - target: {fileID: 1679201276552159394, guid: 666e740810c091e4c822b3f5cb39d77b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1462,6 +1854,10 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1679201276552159398, guid: 666e740810c091e4c822b3f5cb39d77b, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     - target: {fileID: 1679201276552159401, guid: 666e740810c091e4c822b3f5cb39d77b, type: 3}
       propertyPath: m_Name
       value: empat Variant
@@ -1547,6 +1943,63 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1443104354}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &1443104358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443104353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1443104354}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Empat
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 1443104354}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1443104359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443104353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1443104354}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Empat
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 1443104354}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1443104360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443104353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1443104354}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Empat
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 1443104354}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1502121175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1558,13 +2011,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: tiga Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1150378542175244113, guid: 2c5cadfff20a7604985b753081e6eabd, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     - target: {fileID: 1150378542175244117, guid: 2c5cadfff20a7604985b753081e6eabd, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1150378542175244117, guid: 2c5cadfff20a7604985b753081e6eabd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.79
       objectReference: {fileID: 0}
     - target: {fileID: 1150378542175244117, guid: 2c5cadfff20a7604985b753081e6eabd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1572,7 +2029,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1150378542175244117, guid: 2c5cadfff20a7604985b753081e6eabd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2.68
       objectReference: {fileID: 0}
     - target: {fileID: 1150378542175244117, guid: 2c5cadfff20a7604985b753081e6eabd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1682,6 +2139,63 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1502121178}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!114 &1502121182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502121177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1502121178}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Tiga
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 1502121178}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1502121183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502121177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1502121178}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Tiga
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 1502121178}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1502121184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502121177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1502121178}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Tiga
+  mDatasetName: Vuforia/PengenalanAngka.xml
+  mCastedBehaviour: {fileID: 1502121178}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1700613083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1699,7 +2213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 550194544381246099, guid: 23632749583e64a4d8c2900a74cff2aa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3.4
       objectReference: {fileID: 0}
     - target: {fileID: 550194544381246099, guid: 23632749583e64a4d8c2900a74cff2aa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1707,7 +2221,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 550194544381246099, guid: 23632749583e64a4d8c2900a74cff2aa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2.61
       objectReference: {fileID: 0}
     - target: {fileID: 550194544381246099, guid: 23632749583e64a4d8c2900a74cff2aa, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1737,6 +2251,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 550194544381246103, guid: 23632749583e64a4d8c2900a74cff2aa, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23632749583e64a4d8c2900a74cff2aa, type: 3}
 --- !u!4 &1700613084 stripped
@@ -1806,13 +2324,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: empat belas Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5151976847267016633, guid: ae5895a06e93d3a438c0773ef75f64fd, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     - target: {fileID: 5151976847267016637, guid: ae5895a06e93d3a438c0773ef75f64fd, type: 3}
       propertyPath: m_RootOrder
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5151976847267016637, guid: ae5895a06e93d3a438c0773ef75f64fd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.13
       objectReference: {fileID: 0}
     - target: {fileID: 5151976847267016637, guid: ae5895a06e93d3a438c0773ef75f64fd, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1820,7 +2342,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5151976847267016637, guid: ae5895a06e93d3a438c0773ef75f64fd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 5151976847267016637, guid: ae5895a06e93d3a438c0773ef75f64fd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1870,7 +2392,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4004632996996743419, guid: c0d1162b71686ce47b7475f11d098409, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -5.82
       objectReference: {fileID: 0}
     - target: {fileID: 4004632996996743419, guid: c0d1162b71686ce47b7475f11d098409, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1878,7 +2400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4004632996996743419, guid: c0d1162b71686ce47b7475f11d098409, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 4004632996996743419, guid: c0d1162b71686ce47b7475f11d098409, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1912,6 +2434,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sebelas Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4004632996996743423, guid: c0d1162b71686ce47b7475f11d098409, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c0d1162b71686ce47b7475f11d098409, type: 3}
 --- !u!4 &1887511147 stripped
@@ -1930,13 +2456,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: sepuluh Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7188207076782939434, guid: 3c2a2a8b7a7f3f640b0b7a2a13a84544, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     - target: {fileID: 7188207076782939438, guid: 3c2a2a8b7a7f3f640b0b7a2a13a84544, type: 3}
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7188207076782939438, guid: 3c2a2a8b7a7f3f640b0b7a2a13a84544, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 7.96
       objectReference: {fileID: 0}
     - target: {fileID: 7188207076782939438, guid: 3c2a2a8b7a7f3f640b0b7a2a13a84544, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1944,7 +2474,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7188207076782939438, guid: 3c2a2a8b7a7f3f640b0b7a2a13a84544, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2.58
       objectReference: {fileID: 0}
     - target: {fileID: 7188207076782939438, guid: 3c2a2a8b7a7f3f640b0b7a2a13a84544, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1981,6 +2511,107 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7188207076782939438, guid: 3c2a2a8b7a7f3f640b0b7a2a13a84544, type: 3}
   m_PrefabInstance: {fileID: 1918206972}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1935614079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1935614083}
+  - component: {fileID: 1935614082}
+  - component: {fileID: 1935614081}
+  - component: {fileID: 1935614080}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1935614080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935614079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1935614081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935614079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1935614082
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935614079}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 4
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 1
+  m_TargetDisplay: 0
+--- !u!224 &1935614083
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935614079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 580774024}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &1937330329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1988,6 +2619,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1795172027}
     m_Modifications:
+    - target: {fileID: 2638780516960600696, guid: 2b93ad04f97a9a04bb104cc055978c91, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     - target: {fileID: 2638780516960600697, guid: 2b93ad04f97a9a04bb104cc055978c91, type: 3}
       propertyPath: m_Name
       value: tiga belas Variant
@@ -1998,7 +2633,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2638780516960600700, guid: 2b93ad04f97a9a04bb104cc055978c91, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.61
       objectReference: {fileID: 0}
     - target: {fileID: 2638780516960600700, guid: 2b93ad04f97a9a04bb104cc055978c91, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2006,7 +2641,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2638780516960600700, guid: 2b93ad04f97a9a04bb104cc055978c91, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 2638780516960600700, guid: 2b93ad04f97a9a04bb104cc055978c91, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2056,7 +2691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7920328480427805415, guid: 96bb7a004f4f07442b50c2d5ed5d74a4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 7920328480427805415, guid: 96bb7a004f4f07442b50c2d5ed5d74a4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2064,7 +2699,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7920328480427805415, guid: 96bb7a004f4f07442b50c2d5ed5d74a4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2.68
       objectReference: {fileID: 0}
     - target: {fileID: 7920328480427805415, guid: 96bb7a004f4f07442b50c2d5ed5d74a4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2098,6 +2733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lima Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7920328480427805419, guid: 96bb7a004f4f07442b50c2d5ed5d74a4, type: 3}
+      propertyPath: cameraAudioSource
+      value: 
+      objectReference: {fileID: 1125444933}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96bb7a004f4f07442b50c2d5ed5d74a4, type: 3}
 --- !u!4 &2144959858 stripped
