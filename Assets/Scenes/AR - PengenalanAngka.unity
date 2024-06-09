@@ -131,6 +131,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1795172027}
     m_Modifications:
     - target: {fileID: 3625078868967183330, guid: 3d290fa6514821240b5b674800f4e83c, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: 948de8255f673084996261b8db93fcc8, type: 3}
+    - target: {fileID: 3625078868967183330, guid: 3d290fa6514821240b5b674800f4e83c, type: 3}
       propertyPath: cameraAudioSource
       value: 
       objectReference: {fileID: 1125444933}
@@ -182,7 +186,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4460295995178231614, guid: 3d290fa6514821240b5b674800f4e83c, type: 3}
+    - {fileID: 1420721119452381858, guid: 3d290fa6514821240b5b674800f4e83c, type: 3}
+    - {fileID: 5479065638856766373, guid: 3d290fa6514821240b5b674800f4e83c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3d290fa6514821240b5b674800f4e83c, type: 3}
 --- !u!4 &1291609 stripped
 Transform:
@@ -291,6 +298,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1795172027}
     m_Modifications:
     - target: {fileID: 2842890826856781842, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: 5dc08c8bfb162cf4ab30a04f3e418f69, type: 3}
+    - target: {fileID: 2842890826856781842, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
       propertyPath: cameraAudioSource
       value: 
       objectReference: {fileID: 1125444933}
@@ -342,7 +353,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1069041749139103090, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
+    - {fileID: 3964971989095758244, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
+    - {fileID: 3538262926191048291, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
 --- !u!4 &383334330 stripped
 Transform:
@@ -401,6 +415,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 409773708461967558, guid: 06e871b7089f51e48bcba75a6cf3f362, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: 91253c553b75d3c43a1949bb6cee670c, type: 3}
+    - target: {fileID: 409773708461967558, guid: 06e871b7089f51e48bcba75a6cf3f362, type: 3}
       propertyPath: cameraAudioSource
       value: 
       objectReference: {fileID: 1125444933}
@@ -408,7 +426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: enam belas Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5017872642821401853, guid: 06e871b7089f51e48bcba75a6cf3f362, type: 3}
+    - {fileID: 9053179336619645984, guid: 06e871b7089f51e48bcba75a6cf3f362, type: 3}
+    - {fileID: 4984476893212650694, guid: 06e871b7089f51e48bcba75a6cf3f362, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 06e871b7089f51e48bcba75a6cf3f362, type: 3}
 --- !u!4 &447396924 stripped
 Transform:
@@ -467,6 +488,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4880120641370804164, guid: 4808d8af05368564c9b583fc908d5ec9, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: 286326bee7b85244b90d19d0d1fe0804, type: 3}
+    - target: {fileID: 4880120641370804164, guid: 4808d8af05368564c9b583fc908d5ec9, type: 3}
       propertyPath: cameraAudioSource
       value: 
       objectReference: {fileID: 1125444933}
@@ -474,7 +499,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: delapan Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 497030792305827151, guid: 4808d8af05368564c9b583fc908d5ec9, type: 3}
+    - {fileID: 1446380378314761461, guid: 4808d8af05368564c9b583fc908d5ec9, type: 3}
+    - {fileID: 2323719351919316759, guid: 4808d8af05368564c9b583fc908d5ec9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4808d8af05368564c9b583fc908d5ec9, type: 3}
 --- !u!4 &473348166 stripped
 Transform:
@@ -537,6 +565,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5941386406316719150, guid: 92a5e3dc5a925c44588321ce139011e5, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: 8d466e6468dbdc24fa16a17a8cc3c265, type: 3}
+    - target: {fileID: 5941386406316719150, guid: 92a5e3dc5a925c44588321ce139011e5, type: 3}
       propertyPath: cameraAudioSource
       value: 
       objectReference: {fileID: 1125444933}
@@ -563,102 +595,7 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &499187111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499187109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 499187110}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Satu
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 499187110}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &499187112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499187109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 499187110}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Satu
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 499187110}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &499187113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499187109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 499187110}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Satu
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 499187110}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &499187114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499187109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 499187110}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Satu
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 499187110}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &499187115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499187109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 499187110}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Satu
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 499187110}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &499187116
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -830,6 +767,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1911891175845329166, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: 56d349ea6e69ff94a8a8abf18a51ef9b, type: 3}
+    - target: {fileID: 1911891175845329166, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
       propertyPath: cameraAudioSource
       value: 
       objectReference: {fileID: 1125444933}
@@ -901,102 +842,7 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &700854051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 700854049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 700854050}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Dua
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 700854050}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &700854052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 700854049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 700854050}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Dua
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 700854050}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &700854053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 700854049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 700854050}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Dua
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 700854050}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &700854054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 700854049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 700854050}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Dua
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 700854050}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &700854055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 700854049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 700854050}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Dua
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 700854050}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &700854056
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1026,6 +872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: dua puluh Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1365087924474674817, guid: ade524cbc9b12654aa8469d8ec2880c9, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: 010177fed61920e4abdc4f5b8d0e28ac, type: 3}
     - target: {fileID: 1365087924474674817, guid: ade524cbc9b12654aa8469d8ec2880c9, type: 3}
       propertyPath: cameraAudioSource
       value: 
@@ -1074,7 +924,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 296874686761937502, guid: ade524cbc9b12654aa8469d8ec2880c9, type: 3}
+    - {fileID: 2723105088876644831, guid: ade524cbc9b12654aa8469d8ec2880c9, type: 3}
+    - {fileID: 1675837582306573243, guid: ade524cbc9b12654aa8469d8ec2880c9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ade524cbc9b12654aa8469d8ec2880c9, type: 3}
 --- !u!4 &833970908 stripped
 Transform:
@@ -1261,6 +1114,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7398127745995239454, guid: 4048e71314f8d5a4ea56bb27f57722e2, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: 7ec9d023378a7c24d856710878f2a60f, type: 3}
+    - target: {fileID: 7398127745995239454, guid: 4048e71314f8d5a4ea56bb27f57722e2, type: 3}
       propertyPath: cameraAudioSource
       value: 
       objectReference: {fileID: 1125444933}
@@ -1268,7 +1125,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: delapan belas Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5139555182922445409, guid: 4048e71314f8d5a4ea56bb27f57722e2, type: 3}
+    - {fileID: 2682033496559796702, guid: 4048e71314f8d5a4ea56bb27f57722e2, type: 3}
+    - {fileID: 4726280120904479626, guid: 4048e71314f8d5a4ea56bb27f57722e2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4048e71314f8d5a4ea56bb27f57722e2, type: 3}
 --- !u!4 &988947120 stripped
 Transform:
@@ -1331,10 +1191,17 @@ PrefabInstance:
       value: enam Variant
       objectReference: {fileID: 0}
     - target: {fileID: 917128296615584759, guid: 9d72e77f6fc2c304b81ef30e31ddad45, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: f2ff56e2c1f32764dbbf655cf692e899, type: 3}
+    - target: {fileID: 917128296615584759, guid: 9d72e77f6fc2c304b81ef30e31ddad45, type: 3}
       propertyPath: cameraAudioSource
       value: 
       objectReference: {fileID: 1125444933}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4641029090383541348, guid: 9d72e77f6fc2c304b81ef30e31ddad45, type: 3}
+    - {fileID: 3890822719425345857, guid: 9d72e77f6fc2c304b81ef30e31ddad45, type: 3}
+    - {fileID: 3200498833408852324, guid: 9d72e77f6fc2c304b81ef30e31ddad45, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9d72e77f6fc2c304b81ef30e31ddad45, type: 3}
 --- !u!4 &1003056880 stripped
 Transform:
@@ -1397,10 +1264,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6597981457928403148, guid: a335f355443926b46ad5454282efef7f, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: af04af83d0d2ff246a648cd0a9be2b95, type: 3}
+    - target: {fileID: 6597981457928403148, guid: a335f355443926b46ad5454282efef7f, type: 3}
       propertyPath: cameraAudioSource
       value: 
       objectReference: {fileID: 1125444933}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5090993827190657015, guid: a335f355443926b46ad5454282efef7f, type: 3}
+    - {fileID: 9109705620444026333, guid: a335f355443926b46ad5454282efef7f, type: 3}
+    - {fileID: 8943536540877263352, guid: a335f355443926b46ad5454282efef7f, type: 3}
+    - {fileID: 3727186981121386125, guid: a335f355443926b46ad5454282efef7f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a335f355443926b46ad5454282efef7f, type: 3}
 --- !u!4 &1023242666 stripped
 Transform:
@@ -1719,10 +1594,17 @@ PrefabInstance:
       value: lima belas Variant
       objectReference: {fileID: 0}
     - target: {fileID: 486325583479560413, guid: ba101b1ae7a96ee4fa039894a84bc69e, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f22e5be66ad9cf458accf344bf0623b, type: 3}
+    - target: {fileID: 486325583479560413, guid: ba101b1ae7a96ee4fa039894a84bc69e, type: 3}
       propertyPath: cameraAudioSource
       value: 
       objectReference: {fileID: 1125444933}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2261346190685260172, guid: ba101b1ae7a96ee4fa039894a84bc69e, type: 3}
+    - {fileID: 8869290626566326767, guid: ba101b1ae7a96ee4fa039894a84bc69e, type: 3}
+    - {fileID: 7043805660769138007, guid: ba101b1ae7a96ee4fa039894a84bc69e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ba101b1ae7a96ee4fa039894a84bc69e, type: 3}
 --- !u!4 &1167143977 stripped
 Transform:
@@ -1736,6 +1618,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1795172027}
     m_Modifications:
+    - target: {fileID: 6090327891752029462, guid: 859f0cfbe738ca945b887f1155cf7b00, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: 41a18861c8dc85b4c95345099b96022e, type: 3}
     - target: {fileID: 6090327891752029462, guid: 859f0cfbe738ca945b887f1155cf7b00, type: 3}
       propertyPath: cameraAudioSource
       value: 
@@ -1788,7 +1674,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 713746924851674987, guid: 859f0cfbe738ca945b887f1155cf7b00, type: 3}
+    - {fileID: 3767235913373940552, guid: 859f0cfbe738ca945b887f1155cf7b00, type: 3}
+    - {fileID: 2170641746384737550, guid: 859f0cfbe738ca945b887f1155cf7b00, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 859f0cfbe738ca945b887f1155cf7b00, type: 3}
 --- !u!4 &1259464888 stripped
 Transform:
@@ -1855,6 +1744,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1679201276552159398, guid: 666e740810c091e4c822b3f5cb39d77b, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: a2e8a594cb78a1341ac05d988e13710a, type: 3}
+    - target: {fileID: 1679201276552159398, guid: 666e740810c091e4c822b3f5cb39d77b, type: 3}
       propertyPath: cameraAudioSource
       value: 
       objectReference: {fileID: 1125444933}
@@ -1886,102 +1779,7 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1443104355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1443104353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1443104354}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Empat
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 1443104354}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1443104356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1443104353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1443104354}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Empat
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 1443104354}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1443104357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1443104353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1443104354}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Empat
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 1443104354}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1443104358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1443104353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1443104354}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Empat
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 1443104354}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1443104359
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1443104353}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1443104354}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Empat
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 1443104354}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1443104360
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2011,6 +1809,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tiga Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1150378542175244113, guid: 2c5cadfff20a7604985b753081e6eabd, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: be01e042c32517440b5fbf99ac2bae95, type: 3}
     - target: {fileID: 1150378542175244113, guid: 2c5cadfff20a7604985b753081e6eabd, type: 3}
       propertyPath: cameraAudioSource
       value: 
@@ -2082,102 +1884,7 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1502121179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502121177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1502121178}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Tiga
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 1502121178}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1502121180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502121177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1502121178}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Tiga
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 1502121178}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1502121181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502121177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1502121178}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Tiga
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 1502121178}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1502121182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502121177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1502121178}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Tiga
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 1502121178}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1502121183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502121177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1502121178}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Tiga
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 1502121178}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1502121184
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2252,10 +1959,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 550194544381246103, guid: 23632749583e64a4d8c2900a74cff2aa, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: d3fdb8e393bb1814faee14913e116eac, type: 3}
+    - target: {fileID: 550194544381246103, guid: 23632749583e64a4d8c2900a74cff2aa, type: 3}
       propertyPath: cameraAudioSource
       value: 
       objectReference: {fileID: 1125444933}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8477509171972353065, guid: 23632749583e64a4d8c2900a74cff2aa, type: 3}
+    - {fileID: 1509152816535259126, guid: 23632749583e64a4d8c2900a74cff2aa, type: 3}
+    - {fileID: 8192648279998625664, guid: 23632749583e64a4d8c2900a74cff2aa, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 23632749583e64a4d8c2900a74cff2aa, type: 3}
 --- !u!4 &1700613084 stripped
 Transform:
@@ -2325,6 +2039,10 @@ PrefabInstance:
       value: empat belas Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5151976847267016633, guid: ae5895a06e93d3a438c0773ef75f64fd, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: 713395df3af220840929c14e8e2ad441, type: 3}
+    - target: {fileID: 5151976847267016633, guid: ae5895a06e93d3a438c0773ef75f64fd, type: 3}
       propertyPath: cameraAudioSource
       value: 
       objectReference: {fileID: 1125444933}
@@ -2372,7 +2090,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6977384890573222564, guid: ae5895a06e93d3a438c0773ef75f64fd, type: 3}
+    - {fileID: 4146170289256328156, guid: ae5895a06e93d3a438c0773ef75f64fd, type: 3}
+    - {fileID: 1120830756106464281, guid: ae5895a06e93d3a438c0773ef75f64fd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ae5895a06e93d3a438c0773ef75f64fd, type: 3}
 --- !u!4 &1860014448 stripped
 Transform:
@@ -2435,10 +2156,18 @@ PrefabInstance:
       value: sebelas Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4004632996996743423, guid: c0d1162b71686ce47b7475f11d098409, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: fc7d6862c2d3c86469a03b27cbe42eeb, type: 3}
+    - target: {fileID: 4004632996996743423, guid: c0d1162b71686ce47b7475f11d098409, type: 3}
       propertyPath: cameraAudioSource
       value: 
       objectReference: {fileID: 1125444933}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2279299115808205413, guid: c0d1162b71686ce47b7475f11d098409, type: 3}
+    - {fileID: 5990980482071084030, guid: c0d1162b71686ce47b7475f11d098409, type: 3}
+    - {fileID: 1780469214600543350, guid: c0d1162b71686ce47b7475f11d098409, type: 3}
+    - {fileID: 7262608067714269993, guid: c0d1162b71686ce47b7475f11d098409, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c0d1162b71686ce47b7475f11d098409, type: 3}
 --- !u!4 &1887511147 stripped
 Transform:
@@ -2456,6 +2185,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sepuluh Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7188207076782939434, guid: 3c2a2a8b7a7f3f640b0b7a2a13a84544, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: 4b93d6aeb49744d47b8bd7c7a2b35533, type: 3}
     - target: {fileID: 7188207076782939434, guid: 3c2a2a8b7a7f3f640b0b7a2a13a84544, type: 3}
       propertyPath: cameraAudioSource
       value: 
@@ -2504,7 +2237,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 721653201407771184, guid: 3c2a2a8b7a7f3f640b0b7a2a13a84544, type: 3}
+    - {fileID: 9142869372040826441, guid: 3c2a2a8b7a7f3f640b0b7a2a13a84544, type: 3}
+    - {fileID: 6808721456935974597, guid: 3c2a2a8b7a7f3f640b0b7a2a13a84544, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3c2a2a8b7a7f3f640b0b7a2a13a84544, type: 3}
 --- !u!4 &1918206973 stripped
 Transform:
@@ -2620,6 +2356,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1795172027}
     m_Modifications:
     - target: {fileID: 2638780516960600696, guid: 2b93ad04f97a9a04bb104cc055978c91, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: edcbe50f0c6fc064283abdf49f0faf43, type: 3}
+    - target: {fileID: 2638780516960600696, guid: 2b93ad04f97a9a04bb104cc055978c91, type: 3}
       propertyPath: cameraAudioSource
       value: 
       objectReference: {fileID: 1125444933}
@@ -2671,7 +2411,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4373862596915492227, guid: 2b93ad04f97a9a04bb104cc055978c91, type: 3}
+    - {fileID: 5283368239640494067, guid: 2b93ad04f97a9a04bb104cc055978c91, type: 3}
+    - {fileID: 7409439757821882425, guid: 2b93ad04f97a9a04bb104cc055978c91, type: 3}
+    - {fileID: 4209757311329226935, guid: 2b93ad04f97a9a04bb104cc055978c91, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2b93ad04f97a9a04bb104cc055978c91, type: 3}
 --- !u!4 &1937330330 stripped
 Transform:
@@ -2734,10 +2478,17 @@ PrefabInstance:
       value: lima Variant
       objectReference: {fileID: 0}
     - target: {fileID: 7920328480427805419, guid: 96bb7a004f4f07442b50c2d5ed5d74a4, type: 3}
+      propertyPath: numberVoice
+      value: 
+      objectReference: {fileID: 8300000, guid: d91629fee70912b40a5cf6f2171036bb, type: 3}
+    - target: {fileID: 7920328480427805419, guid: 96bb7a004f4f07442b50c2d5ed5d74a4, type: 3}
       propertyPath: cameraAudioSource
       value: 
       objectReference: {fileID: 1125444933}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5134462595452379038, guid: 96bb7a004f4f07442b50c2d5ed5d74a4, type: 3}
+    - {fileID: 1983924918000814088, guid: 96bb7a004f4f07442b50c2d5ed5d74a4, type: 3}
+    - {fileID: 1657247707901885506, guid: 96bb7a004f4f07442b50c2d5ed5d74a4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 96bb7a004f4f07442b50c2d5ed5d74a4, type: 3}
 --- !u!4 &2144959858 stripped
 Transform:
