@@ -20,6 +20,22 @@ public class SoalPilihanGandaSO : ScriptableObject
 
     [Range(0, 3)]
     public int indexJawabanBenar;
+
+    [Title("Tips")]
+    [TextArea]
+    public string tipsText;
+
+    [Title("Runtime")]
+    public int JumlahBintang;
+
+    /// <summary>
+    /// Di panggil oleh manager saat jawaban benar
+    /// </summary>
+    /// <param name="jumlahBintang"></param>
+    public void SetBintang(int jumlahBintang)
+    {
+        JumlahBintang = jumlahBintang;
+    }
 }
 
 [System.Serializable]

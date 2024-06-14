@@ -9,6 +9,8 @@ public class SoalManager : MonoBehaviour
 {
     public static SoalManager Instance;
 
+    public LevelState CurrentLevelState;
+
     [ListDrawerSettings(ShowIndexLabels = true)]
     public List<SoalPilihanGandaSO> Soal;
 
@@ -16,12 +18,27 @@ public class SoalManager : MonoBehaviour
     public int activeSoalIndex;
     [ReadOnly]
     public SoalPilihanGandaSO activeSoalSO;
+    [ReadOnly, ShowInInspector]
+    private float timerInSecond;
+    [ReadOnly, ShowInInspector]
+    private int minutes;
+    [ReadOnly, ShowInInspector]
+    private int seconds;
+    [ReadOnly, ShowInInspector]
+    private int jumlahBintang;
 
     [Title("UI Reference")]
     public TextMeshProUGUI soalTxt;
     public Image soalImg;
     public List<TextMeshProUGUI> jawabanTxt;
     public List<Image> jawabanImg;
+    public GameObject winPanel;
+    public List<Image> bintangImg;
+    public GameObject losePanel;
+    public TextMeshProUGUI levelTxt;
+    public TextMeshProUGUI timerTxt;
+
+    public const float DEFAULT_TIMER = 30f;
 
     public void Awake()
     {
@@ -33,10 +50,25 @@ public class SoalManager : MonoBehaviour
         UpdateSoal(0);
     }
 
+    private void Update()
+    {
+        if (CurrentLevelState == LevelState.UdahJawab)
+            return;
+
+        timerInSecond -= Time.unscaledDeltaTime;
+        minutes = Mathf.FloorToInt(timerInSecond / 60f);
+        seconds = Mathf.FloorToInt(timerInSecond % 60f);
+        string timerString = string.Format("{0:00}:{1:00}", minutes, seconds);
+
+        timerTxt.text = timerString;
+    }
+
     [Button]
     [PropertySpace(10)]
     public void UpdateSoal(int indexSoal)
     {
+        ResetLevelState();
+
         activeSoalIndex = indexSoal;
         activeSoalSO = Soal[activeSoalIndex];
 
@@ -82,9 +114,18 @@ public class SoalManager : MonoBehaviour
             else if (activeSoalSO.ListJawaban[i].gambar != null) 
             {
                 jawabanImg[i].sprite = activeSoalSO.ListJawaban[i].gambar;
-            }
+            }         
         }
         #endregion
+    }
+
+    public void ResetLevelState()
+    {
+        winPanel.SetActive(false);
+        losePanel.SetActive(false);
+        timerInSecond = DEFAULT_TIMER;
+        CurrentLevelState = LevelState.Mikir;
+        jumlahBintang = 0;
     }
 
     /// <summary>
@@ -93,13 +134,81 @@ public class SoalManager : MonoBehaviour
     /// <param name="indexJawaban"></param>
     public void AnswerSoal(int indexJawaban)
     {
+        CurrentLevelState = LevelState.UdahJawab;
+
         if(indexJawaban == activeSoalSO.indexJawabanBenar)
         {
-            Debug.Log("YEY JAWABAN BENAR");
+            CountStar();
+            winPanel.SetActive(true);
         }
         else
         {
-            Debug.Log("HUUUU, CUPU !!!");
+            losePanel.SetActive(true);
         }
     }
+
+    public void CountStar()
+    {
+        int maxBintang = 3;
+        float timePerStar = DEFAULT_TIMER / maxBintang;
+
+        jumlahBintang = 1;
+
+        for (int i = 0; i < maxBintang; i++)
+        {
+            timerInSecond -= timePerStar;
+            
+            if(timerInSecond >= 0)
+            {
+                jumlahBintang++;
+            }
+            else
+            {
+                break;
+            }
+        }
+
+        foreach(var bintang in bintangImg)
+        {
+            bintang.color = Color.grey;
+        }
+
+        for(int i = 0; i < jumlahBintang; i++)
+        {
+            bintangImg[i].color = Color.white;
+        }
+
+        Debug.Log("DAPET " + jumlahBintang + " Bintang");
+    }
+
+    #region CALL_BY_UI_BUTTON
+    public void OnClick_BackToMenuBtn()
+    {
+
+    }
+
+    public void OnClick_NextBtn()
+    {        
+        activeSoalIndex++;
+
+        if(activeSoalIndex > Soal.Count - 1)
+        {
+            Debug.Log("SOAL UDAH ABIS");
+
+            activeSoalIndex = Soal.Count - 1;
+        }
+
+        UpdateSoal(activeSoalIndex);
+    }
+
+    public void OnClick_RestartBtn()
+    {
+        UpdateSoal(activeSoalIndex);
+    }
+    #endregion
+}
+
+public enum LevelState
+{
+    Mikir, UdahJawab
 }
