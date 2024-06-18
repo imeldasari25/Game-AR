@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4142,12 +4142,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b86e4133d8b5656459277cb5c25523da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentLevelState: 0
   Soal:
   - {fileID: 11400000, guid: 67e4e602485724246bbf592c7138c806, type: 2}
   - {fileID: 11400000, guid: 15657bdbf92d22449ae4af328a6ab9ac, type: 2}
   activeSoalIndex: 0
   activeSoalSO: {fileID: 11400000, guid: 67e4e602485724246bbf592c7138c806, type: 2}
-  timerInSecond: 180
   soalTxt: {fileID: 1815026186}
   soalImg: {fileID: 1038172663}
   jawabanTxt:
@@ -4161,6 +4161,10 @@ MonoBehaviour:
   - {fileID: 1543515845}
   - {fileID: 1039439647}
   winPanel: {fileID: 826018878}
+  bintangImg:
+  - {fileID: 1462077691}
+  - {fileID: 274081945}
+  - {fileID: 1421295968}
   losePanel: {fileID: 784854594}
   levelTxt: {fileID: 842757778}
   timerTxt: {fileID: 491475344}
