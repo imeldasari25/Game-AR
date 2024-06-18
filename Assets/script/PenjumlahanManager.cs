@@ -82,6 +82,8 @@ public class PenjumlahanManager : MonoBehaviour
     {
         screenWidth = Screen.width;
 
+        Screen.orientation = ScreenOrientation.LandscapeRight;
+
         TrackedCardCount = 0;
         calcButton.SetActive(false);
         resultText.gameObject.SetActive(false);

@@ -21,6 +21,8 @@ public class PengenalanAngkaManager : MonoBehaviour
     void Start()
     {
         screenWidth = Screen.width;
+
+        Screen.orientation = ScreenOrientation.LandscapeRight;
     }
 
     // Update is called once per frame

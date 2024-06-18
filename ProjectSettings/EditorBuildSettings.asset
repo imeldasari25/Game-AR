@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AR - Penjumlahan.unity
     guid: 99c4afedb42863845a50ea2817d17dcf
+  - enabled: 1
+    path: Assets/Scenes/Quiz - Development.unity
+    guid: 6b7f26d3f1e35e34598b87b04fa7ef39
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 99e36eafb6f6cb442879509d81a465eb, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f8a934ad5bd82b144992307ebf0c31aa, type: 2}

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SoalManager : MonoBehaviour
@@ -37,8 +38,9 @@ public class SoalManager : MonoBehaviour
     public GameObject losePanel;
     public TextMeshProUGUI levelTxt;
     public TextMeshProUGUI timerTxt;
+    public GameObject pausePanel;
 
-    public const float DEFAULT_TIMER = 30f;
+    public const float DEFAULT_TIMER = 180f;
 
     public void Awake()
     {
@@ -47,20 +49,32 @@ public class SoalManager : MonoBehaviour
 
     private void Start()
     {
-        UpdateSoal(0);
+        // Mengambil index yang tersimpan di PlayerPrefs
+        int index = PlayerPrefs.GetInt("Index Soal");
+
+        UpdateSoal(index);
     }
 
     private void Update()
     {
-        if (CurrentLevelState == LevelState.UdahJawab)
+        if (CurrentLevelState != LevelState.Mikir)
             return;
 
-        timerInSecond -= Time.unscaledDeltaTime;
-        minutes = Mathf.FloorToInt(timerInSecond / 60f);
-        seconds = Mathf.FloorToInt(timerInSecond % 60f);
-        string timerString = string.Format("{0:00}:{1:00}", minutes, seconds);
+        if (timerInSecond > 0)
+        {
+            timerInSecond -= Time.deltaTime;
+            minutes = Mathf.FloorToInt(timerInSecond / 60f);
+            seconds = Mathf.FloorToInt(timerInSecond % 60f);
+            string timerString = string.Format("{0:00}:{1:00}", minutes, seconds);
 
-        timerTxt.text = timerString;
+            timerTxt.text = timerString;
+        }
+        else
+        {
+            CurrentLevelState = LevelState.UdahJawab;
+
+            losePanel.SetActive(true);
+        }
     }
 
     [Button]
@@ -71,6 +85,8 @@ public class SoalManager : MonoBehaviour
 
         activeSoalIndex = indexSoal;
         activeSoalSO = Soal[activeSoalIndex];
+
+        levelTxt.text = "Level " + (activeSoalIndex + 1);
 
         #region Pengecekan_Soal_Text
         // Jika ada soal text
@@ -126,6 +142,9 @@ public class SoalManager : MonoBehaviour
         timerInSecond = DEFAULT_TIMER;
         CurrentLevelState = LevelState.Mikir;
         jumlahBintang = 0;
+
+        pausePanel.SetActive(false);
+        Time.timeScale = 1;
     }
 
     /// <summary>
@@ -184,7 +203,8 @@ public class SoalManager : MonoBehaviour
     #region CALL_BY_UI_BUTTON
     public void OnClick_BackToMenuBtn()
     {
-
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Home");
     }
 
     public void OnClick_NextBtn()
@@ -205,10 +225,24 @@ public class SoalManager : MonoBehaviour
     {
         UpdateSoal(activeSoalIndex);
     }
+
+    public void OnClick_PauseBtn()
+    {
+        CurrentLevelState = LevelState.Pause;
+        pausePanel.SetActive(true);
+        //Time.timeScale = 0;
+    }
+
+    public void OnClick_ResumeBtn()
+    {
+        CurrentLevelState = LevelState.Mikir;
+        pausePanel.SetActive(false);
+        Time.timeScale = 1;
+    }
     #endregion
 }
 
 public enum LevelState
 {
-    Mikir, UdahJawab
+    Mikir, UdahJawab, Pause
 }
