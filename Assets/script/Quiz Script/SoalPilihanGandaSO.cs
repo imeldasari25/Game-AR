@@ -16,16 +16,14 @@ public class SoalPilihanGandaSO : ScriptableObject
 
     [Title("Jawaban")]
     [TableList(ShowIndexLabels = true)]
+    [InfoBox("Elemennya harus 4, HARUS !!!")]
     public List<Jawaban> ListJawaban;
 
     [Range(0, 3)]
     public int indexJawabanBenar;
 
-    [Title("Tips")]
-    [TextArea]
-    public string tipsText;
-
     [Title("Runtime")]
+    [ReadOnly]
     public int JumlahBintang;
 
     /// <summary>

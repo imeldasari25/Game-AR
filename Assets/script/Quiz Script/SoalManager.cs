@@ -12,8 +12,8 @@ public class SoalManager : MonoBehaviour
 
     public LevelState CurrentLevelState;
 
-    [ListDrawerSettings(ShowIndexLabels = true)]
-    public List<SoalPilihanGandaSO> Soal;
+    [InlineEditor]
+    public SoalDatabaseSO Soal;
 
     [ReadOnly]
     public int activeSoalIndex;
@@ -35,12 +35,15 @@ public class SoalManager : MonoBehaviour
     public List<Image> jawabanImg;
     public GameObject winPanel;
     public List<Image> bintangImg;
+    public TextMeshProUGUI timerLeftTxt;
     public GameObject losePanel;
     public TextMeshProUGUI levelTxt;
     public TextMeshProUGUI timerTxt;
     public GameObject pausePanel;
 
     public const float DEFAULT_TIMER = 180f;
+
+    string _timerString;
 
     public void Awake()
     {
@@ -65,9 +68,9 @@ public class SoalManager : MonoBehaviour
             timerInSecond -= Time.deltaTime;
             minutes = Mathf.FloorToInt(timerInSecond / 60f);
             seconds = Mathf.FloorToInt(timerInSecond % 60f);
-            string timerString = string.Format("{0:00}:{1:00}", minutes, seconds);
+            _timerString = string.Format("{0:00}:{1:00}", minutes, seconds);
 
-            timerTxt.text = timerString;
+            timerTxt.text = _timerString;
         }
         else
         {
@@ -84,7 +87,7 @@ public class SoalManager : MonoBehaviour
         ResetLevelState();
 
         activeSoalIndex = indexSoal;
-        activeSoalSO = Soal[activeSoalIndex];
+        activeSoalSO = Soal.SemuaSoal[activeSoalIndex];
 
         levelTxt.text = "Level " + (activeSoalIndex + 1);
 
@@ -168,6 +171,8 @@ public class SoalManager : MonoBehaviour
 
     public void CountStar()
     {
+        timerLeftTxt.text = _timerString;
+
         int maxBintang = 3;
         float timePerStar = DEFAULT_TIMER / maxBintang;
 
@@ -211,11 +216,11 @@ public class SoalManager : MonoBehaviour
     {        
         activeSoalIndex++;
 
-        if(activeSoalIndex > Soal.Count - 1)
+        if(activeSoalIndex > Soal.SemuaSoal.Count - 1)
         {
             Debug.Log("SOAL UDAH ABIS");
 
-            activeSoalIndex = Soal.Count - 1;
+            activeSoalIndex = Soal.SemuaSoal.Count - 1;
         }
 
         UpdateSoal(activeSoalIndex);
