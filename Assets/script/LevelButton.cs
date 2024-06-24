@@ -28,6 +28,8 @@ public class LevelButton : MonoBehaviour
     {
         PlayerPrefs.SetInt("Index Soal", index);
 
+        HomeManager.Instance.PlaySfx();
+
         SceneManager.LoadScene("Quiz - Development");
     }
 }

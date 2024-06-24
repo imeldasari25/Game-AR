@@ -11,5 +11,7 @@ public class JawabanButton : MonoBehaviour
     public void OnClick_JawbanBtn(int indexJawaban)
     {
         SoalManager.Instance.AnswerSoal(indexJawaban);
+
+        SoalManager.Instance.PlaySfx();
     }
 }

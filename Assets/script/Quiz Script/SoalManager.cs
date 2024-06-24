@@ -41,6 +41,11 @@ public class SoalManager : MonoBehaviour
     public TextMeshProUGUI timerTxt;
     public GameObject pausePanel;
 
+    [BoxGroup("SFX")]
+    public AudioClip clickSfx;
+    [BoxGroup("SFX")]
+    public AudioSource sfxAudioSource;
+
     public const float DEFAULT_TIMER = 180f;
 
     string _timerString;
@@ -210,6 +215,8 @@ public class SoalManager : MonoBehaviour
     {
         Time.timeScale = 1;
         SceneManager.LoadScene("Home");
+
+        PlaySfx();
     }
 
     public void OnClick_NextBtn()
@@ -224,11 +231,15 @@ public class SoalManager : MonoBehaviour
         }
 
         UpdateSoal(activeSoalIndex);
+
+        PlaySfx();
     }
 
     public void OnClick_RestartBtn()
     {
         UpdateSoal(activeSoalIndex);
+
+        PlaySfx();
     }
 
     public void OnClick_PauseBtn()
@@ -236,6 +247,8 @@ public class SoalManager : MonoBehaviour
         CurrentLevelState = LevelState.Pause;
         pausePanel.SetActive(true);
         //Time.timeScale = 0;
+
+        PlaySfx();
     }
 
     public void OnClick_ResumeBtn()
@@ -243,6 +256,13 @@ public class SoalManager : MonoBehaviour
         CurrentLevelState = LevelState.Mikir;
         pausePanel.SetActive(false);
         Time.timeScale = 1;
+
+        PlaySfx();
+    }
+
+    public void PlaySfx()
+    {
+        sfxAudioSource.PlayOneShot(clickSfx);
     }
     #endregion
 }
