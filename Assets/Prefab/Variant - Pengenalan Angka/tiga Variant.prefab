@@ -51,9 +51,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4933138945015418931, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
+      propertyPath: mHeight
+      value: 1.734605
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933138945015418931, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.734605
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933138945015418931, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/Test.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933138945015418931, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
+      propertyPath: mTrackableName
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4933138945015418935, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
       propertyPath: m_Name
-      value: tiga
+      value: tiga Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}

@@ -609,8 +609,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 499187110}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Satu
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 1
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 499187110}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -628,8 +628,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 499187110}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Satu
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 1
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 499187110}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -647,8 +647,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 499187110}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Satu
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 1
+  mDatasetName: Vuforia/Test.xml
+  mCastedBehaviour: {fileID: 499187110}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &499187117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499187109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 499187110}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 1
+  mDatasetName: Vuforia/Test.xml
+  mCastedBehaviour: {fileID: 499187110}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &499187118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499187109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 499187110}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 1
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 499187110}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -796,6 +834,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: dua  Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1911891175845329164, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
+      propertyPath: mHeight
+      value: 1.735358
+      objectReference: {fileID: 0}
+    - target: {fileID: 1911891175845329164, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
+      propertyPath: mPreview
+      value: 
+      objectReference: {fileID: 700854056}
+    - target: {fileID: 1911891175845329164, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.735358
+      objectReference: {fileID: 0}
+    - target: {fileID: 1911891175845329164, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/Test.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 1911891175845329164, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
+      propertyPath: mTrackableName
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1911891175845329165, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
       propertyPath: OnTargetLost.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -894,8 +952,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 700854050}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Dua
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 2
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 700854050}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -913,8 +971,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 700854050}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Dua
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 2
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 700854050}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -932,8 +990,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 700854050}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Dua
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 2
+  mDatasetName: Vuforia/Test.xml
+  mCastedBehaviour: {fileID: 700854050}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &700854056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700854049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 700854050}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 2
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 700854050}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -1218,6 +1295,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1795172027}
     m_Modifications:
+    - target: {fileID: 917128296615584746, guid: 9d72e77f6fc2c304b81ef30e31ddad45, type: 3}
+      propertyPath: mHeight
+      value: 1.737242
+      objectReference: {fileID: 0}
+    - target: {fileID: 917128296615584746, guid: 9d72e77f6fc2c304b81ef30e31ddad45, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.737242
+      objectReference: {fileID: 0}
+    - target: {fileID: 917128296615584746, guid: 9d72e77f6fc2c304b81ef30e31ddad45, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/Test.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 917128296615584746, guid: 9d72e77f6fc2c304b81ef30e31ddad45, type: 3}
+      propertyPath: mTrackableName
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 917128296615584747, guid: 9d72e77f6fc2c304b81ef30e31ddad45, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1869,8 +1962,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1443104354}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Empat
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 3
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 1443104354}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -1888,8 +1981,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1443104354}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Empat
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 3
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 1443104354}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -1907,8 +2000,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1443104354}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Empat
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 3
+  mDatasetName: Vuforia/Test.xml
+  mCastedBehaviour: {fileID: 1443104354}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1443104360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443104353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1443104354}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 3
+  mDatasetName: Vuforia/Test.xml
+  mCastedBehaviour: {fileID: 1443104354}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1443104361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443104353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1443104354}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 3
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 1443104354}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -2012,8 +2143,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1502121178}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Tiga
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 3
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 1502121178}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -2031,8 +2162,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1502121178}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Tiga
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 3
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 1502121178}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -2050,8 +2181,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1502121178}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Tiga
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 3
+  mDatasetName: Vuforia/Test.xml
+  mCastedBehaviour: {fileID: 1502121178}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1502121185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502121177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1502121178}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 3
+  mDatasetName: Vuforia/Test.xml
+  mCastedBehaviour: {fileID: 1502121178}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1502121186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502121177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1502121178}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 3
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 1502121178}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}

@@ -7,6 +7,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8865941319421220768, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}
+      propertyPath: mHeight
+      value: 1.734605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865941319421220768, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.734605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865941319421220768, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/Test.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 8865941319421220768, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}
+      propertyPath: mTrackableName
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 8865941319421220769, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +69,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8865941319421220772, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}
       propertyPath: m_Name
-      value: empat belas
+      value: empat belas Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}

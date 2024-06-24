@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3410175730174713889, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
       propertyPath: m_Name
-      value: 'dua '
+      value: dua  Variant
       objectReference: {fileID: 0}
     - target: {fileID: 3410175730174713893, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
       propertyPath: m_RootOrder
@@ -54,6 +54,22 @@ PrefabInstance:
     - target: {fileID: 3410175730174713893, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410175730174713894, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
+      propertyPath: mHeight
+      value: 1.735358
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410175730174713894, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.735358
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410175730174713894, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/Test.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410175730174713894, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
+      propertyPath: mTrackableName
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}

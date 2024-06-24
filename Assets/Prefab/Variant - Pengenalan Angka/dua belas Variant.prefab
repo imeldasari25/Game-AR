@@ -51,9 +51,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5145421384372776999, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
+      propertyPath: mHeight
+      value: 1.735358
+      objectReference: {fileID: 0}
+    - target: {fileID: 5145421384372776999, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.735358
+      objectReference: {fileID: 0}
+    - target: {fileID: 5145421384372776999, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/Test.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 5145421384372776999, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
+      propertyPath: mTrackableName
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 5145421384372777003, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
       propertyPath: m_Name
-      value: dua belas
+      value: dua belas Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}

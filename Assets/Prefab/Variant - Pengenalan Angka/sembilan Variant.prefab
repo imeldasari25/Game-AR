@@ -51,9 +51,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3083286487894075793, guid: d49ac7e27c2260241a41697c878122db, type: 3}
+      propertyPath: mHeight
+      value: 1.734605
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083286487894075793, guid: d49ac7e27c2260241a41697c878122db, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.734605
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083286487894075793, guid: d49ac7e27c2260241a41697c878122db, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/Test.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 3083286487894075793, guid: d49ac7e27c2260241a41697c878122db, type: 3}
+      propertyPath: mTrackableName
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3083286487894075805, guid: d49ac7e27c2260241a41697c878122db, type: 3}
       propertyPath: m_Name
-      value: sembilan
+      value: sembilan Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d49ac7e27c2260241a41697c878122db, type: 3}
