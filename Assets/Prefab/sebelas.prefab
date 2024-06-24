@@ -55,13 +55,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Sebelas
+  mTrackableName: 11
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/PengenalanAngka.xml
-  mAspectRatio: 1.414402
+  mDataSetPath: Vuforia/Test.xml
+  mAspectRatio: 1.735358
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.414402
+  mHeight: 1.735358
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -173,6 +173,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 0
   isTracked: 0
+  numberVoice: {fileID: 0}
+  cameraAudioSource: {fileID: 0}
 --- !u!114 &5260198821525285969
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -11,22 +11,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: satu Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 7365560227628314534, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
-      propertyPath: mHeight
-      value: 1.735593
-      objectReference: {fileID: 0}
-    - target: {fileID: 7365560227628314534, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
-      propertyPath: mAspectRatio
-      value: 1.735593
-      objectReference: {fileID: 0}
-    - target: {fileID: 7365560227628314534, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
-      propertyPath: mDataSetPath
-      value: Vuforia/Test.xml
-      objectReference: {fileID: 0}
-    - target: {fileID: 7365560227628314534, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
-      propertyPath: mTrackableName
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7365560227628314535, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
       propertyPath: m_RootOrder
       value: 0

@@ -56,20 +56,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4250608846605574142, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
-      propertyPath: mHeight
-      value: 1.734605
-      objectReference: {fileID: 0}
-    - target: {fileID: 4250608846605574142, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
-      propertyPath: mAspectRatio
-      value: 1.734605
+      propertyPath: mPreview
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4250608846605574142, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
       propertyPath: mDataSetPath
       value: Vuforia/Test.xml
-      objectReference: {fileID: 0}
-    - target: {fileID: 4250608846605574142, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
-      propertyPath: mTrackableName
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
