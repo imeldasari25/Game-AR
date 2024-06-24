@@ -7,6 +7,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1992100682341232514, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
+      propertyPath: mHeight
+      value: 1.735358
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992100682341232514, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.735358
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992100682341232514, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/Test.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 1992100682341232514, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
+      propertyPath: mTrackableName
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 1992100682341232515, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +69,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1992100682341232518, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
       propertyPath: m_Name
-      value: sebelas
+      value: sebelas Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}

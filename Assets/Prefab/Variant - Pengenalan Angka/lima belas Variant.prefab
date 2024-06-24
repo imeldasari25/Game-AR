@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1593071663013300665, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
       propertyPath: m_Name
-      value: lima belas
+      value: lima belas Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1593071663013300668, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
       propertyPath: m_RootOrder
@@ -54,6 +54,22 @@ PrefabInstance:
     - target: {fileID: 1593071663013300668, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593071663013300669, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
+      propertyPath: mHeight
+      value: 1.734605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593071663013300669, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.734605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593071663013300669, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/Test.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593071663013300669, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
+      propertyPath: mTrackableName
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}

@@ -9,7 +9,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3943027763104824656, guid: c91cda773a85a954e8b25c1098d33e6c, type: 3}
       propertyPath: m_Name
-      value: delapan belas
+      value: delapan belas Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3943027763104824660, guid: c91cda773a85a954e8b25c1098d33e6c, type: 3}
+      propertyPath: mHeight
+      value: 1.734605
+      objectReference: {fileID: 0}
+    - target: {fileID: 3943027763104824660, guid: c91cda773a85a954e8b25c1098d33e6c, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.734605
+      objectReference: {fileID: 0}
+    - target: {fileID: 3943027763104824660, guid: c91cda773a85a954e8b25c1098d33e6c, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/Test.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 3943027763104824660, guid: c91cda773a85a954e8b25c1098d33e6c, type: 3}
+      propertyPath: mTrackableName
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 3943027763104824661, guid: c91cda773a85a954e8b25c1098d33e6c, type: 3}
       propertyPath: m_RootOrder

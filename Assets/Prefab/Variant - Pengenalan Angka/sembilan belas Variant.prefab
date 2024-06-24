@@ -9,7 +9,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8610873374834751840, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
       propertyPath: m_Name
-      value: sembilan belas
+      value: sembilan belas Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8610873374834751852, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
+      propertyPath: mHeight
+      value: 1.734605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8610873374834751852, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.734605
+      objectReference: {fileID: 0}
+    - target: {fileID: 8610873374834751852, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/Test.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 8610873374834751852, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
+      propertyPath: mTrackableName
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 8610873374834751853, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
       propertyPath: m_RootOrder
