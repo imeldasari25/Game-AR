@@ -2,6 +2,7 @@ using Sirenix.OdinInspector;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -39,6 +40,28 @@ public class HomeManager : MonoBehaviour
     [BoxGroup("Quiz")]
     public Transform levelBtnParent;
     #endregion
+
+    #region Setting
+    [BoxGroup("Setting")]
+    public Toggle musicToggle;
+
+    [BoxGroup("Setting")]
+    public Toggle sfxToggle;
+
+    [BoxGroup("Setting")]
+    public Sprite toggleOn;
+
+    [BoxGroup("Setting")]
+    public Sprite toggleOff;
+
+    [BoxGroup("Setting")]
+    public AudioMixer audioMixer;
+    #endregion
+
+    [BoxGroup("SFX")]
+    public AudioClip clickSfx;
+    [BoxGroup("SFX")]
+    public AudioSource sfxAudioSource;
 
     private void Awake()
     {
@@ -116,6 +139,11 @@ public class HomeManager : MonoBehaviour
     #endregion
 
     #region CALL_BY_BUTTON_UI
+    public void PlaySfx()
+    {
+        sfxAudioSource.PlayOneShot(clickSfx);
+    }
+
     public void OnClick_HomeBtn()
     {
         ChangeCurrentTab(Tab.Home);
@@ -134,6 +162,31 @@ public class HomeManager : MonoBehaviour
     public void OnClick_SettingBtn()
     {
         ChangeCurrentTab(Tab.Setting);
+    }
+
+    public void OnClick_ExitBtn()
+    {
+        Application.Quit();
+    }
+
+    public void OnClick_MusicToggle()
+    {
+        musicToggle.GetComponentInChildren<Image>().sprite = 
+            musicToggle.isOn ? toggleOn : toggleOff;
+
+        audioMixer.SetFloat("MusicVol", musicToggle.isOn ? 0 : -80);
+    }
+
+    public void OnClick_SfxToggle()
+    {
+        //sfxToggle.isOn = !sfxToggle.isOn;
+
+        if(sfxToggle.isOn)
+            sfxToggle.GetComponentInChildren<Image>().sprite = toggleOn;
+        else
+            sfxToggle.GetComponentInChildren<Image>().sprite = toggleOff;
+
+        audioMixer.SetFloat("SfxVol", sfxToggle.isOn ? 0 : -80);
     }
     #endregion
 }

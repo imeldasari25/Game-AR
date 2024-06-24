@@ -12,15 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91927339f52234746ba46eaafb547c97, type: 3}
   m_Name: Soal_1
   m_EditorClassIdentifier: 
-  soalText: Berapa Buaya ??
-  soalGambar: {fileID: 21300000, guid: 78e382f100bcae245a326a09a3f31ab2, type: 3}
+  soalText: 1 + 1 =
+  soalGambar: {fileID: 0}
   ListJawaban:
+  - text: 1
+    gambar: {fileID: 0}
+  - text: 2
+    gambar: {fileID: 0}
   - text: 3
     gambar: {fileID: 0}
-  - text: 5
+  - text: 4
     gambar: {fileID: 0}
-  - text: 7
-    gambar: {fileID: 0}
-  - text: 6
-    gambar: {fileID: 0}
-  indexJawabanBenar: 3
+  indexJawabanBenar: 1
+  JumlahBintang: 0
