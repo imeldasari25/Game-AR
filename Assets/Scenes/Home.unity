@@ -4649,7 +4649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentTab: 0
   homeTab: {fileID: 505631523}
-  quizTab: {fileID: 574612271}
+  quizTab: {fileID: 1758225891}
   leaderboardTab: {fileID: 1921330477}
   settingTab: {fileID: 313851578}
   homeToggle: {fileID: 1607702697}
