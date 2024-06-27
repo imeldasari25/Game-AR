@@ -12,9 +12,7 @@ GameObject:
   - component: {fileID: 7705432697652896821}
   - component: {fileID: 7705432697652896822}
   - component: {fileID: 7705432697652896816}
-  - component: {fileID: 3056983593528672304}
-  - component: {fileID: 1361115778915676374}
-  - component: {fileID: 3090575074460778507}
+  - component: {fileID: 6546917308739309320}
   m_Layer: 0
   m_Name: enam belas
   m_TagString: Untagged
@@ -65,7 +63,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 3090575074460778507}
+  mPreview: {fileID: 6546917308739309320}
 --- !u!114 &7705432697652896822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,11 +168,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67accb7dcd55ee48a864645c6f08c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  number: 0
+  number: 16
   isTracked: 0
   numberVoice: {fileID: 0}
   cameraAudioSource: {fileID: 0}
---- !u!114 &3056983593528672304
+--- !u!114 &6546917308739309320
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,46 +186,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 7705432697652896821}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Enam-Belas
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 7705432697652896821}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1361115778915676374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7705432697652896817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 7705432697652896821}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Enam-Belas
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 7705432697652896821}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &3090575074460778507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7705432697652896817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 7705432697652896821}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Enam-Belas
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 16
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 7705432697652896821}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}

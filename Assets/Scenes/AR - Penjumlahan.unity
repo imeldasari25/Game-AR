@@ -130,6 +130,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2111107812}
     m_Modifications:
+    - target: {fileID: 82949957, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
+      propertyPath: numberObj
+      value: 
+      objectReference: {fileID: 1250408010}
+    - target: {fileID: 82949957, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
+      propertyPath: targetToGo
+      value: 
+      objectReference: {fileID: 266309177}
+    - target: {fileID: 3438610098029029712, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
+      propertyPath: mHiddenRoot
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438610098029029712, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438610098029029712, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5145421384372776992, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -182,186 +202,18 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1290285820}
-    - target: {fileID: 5145421384372776999, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
-      propertyPath: mPreview
-      value: 
-      objectReference: {fileID: 5145421384372776997, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
     - target: {fileID: 5145421384372777003, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
       propertyPath: m_Name
       value: dua belas
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3438610098029029712, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
 --- !u!4 &82949950 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5145421384372776992, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
   m_PrefabInstance: {fileID: 82949949}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &82949951 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5145421384372777003, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
-  m_PrefabInstance: {fileID: 82949949}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &82949952 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5145421384372776999, guid: 2936b8a9417e04945b8ea9148d706039, type: 3}
-  m_PrefabInstance: {fileID: 82949949}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82949951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &82949955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82949951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 82949952}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 12
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 82949952}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &82949956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82949951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 82949952}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 12
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 82949952}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &82949957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82949951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  scaleSpeed: 100
-  numberObj: {fileID: 1250408010}
-  targetToGo: {fileID: 266309177}
---- !u!114 &82949958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82949951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 82949952}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 12
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 82949952}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &82949959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82949951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 82949952}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 12
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 82949952}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &82949960
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82949951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 82949952}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 12
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 82949952}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &82949961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82949951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 82949952}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 12
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 82949952}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &82949962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82949951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 82949952}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 12
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 82949952}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1001 &94736490
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -373,10 +225,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: delapan belas
       objectReference: {fileID: 0}
-    - target: {fileID: 3943027763104824660, guid: c91cda773a85a954e8b25c1098d33e6c, type: 3}
-      propertyPath: mPreview
-      value: 
-      objectReference: {fileID: 3943027763104824662, guid: c91cda773a85a954e8b25c1098d33e6c, type: 3}
     - target: {fileID: 3943027763104824661, guid: c91cda773a85a954e8b25c1098d33e6c, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -429,143 +277,26 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1290285820}
-    m_RemovedComponents: []
+    - target: {fileID: 5536054666742283929, guid: c91cda773a85a954e8b25c1098d33e6c, type: 3}
+      propertyPath: mHiddenRoot
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5536054666742283929, guid: c91cda773a85a954e8b25c1098d33e6c, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5536054666742283929, guid: c91cda773a85a954e8b25c1098d33e6c, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5536054666742283929, guid: c91cda773a85a954e8b25c1098d33e6c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c91cda773a85a954e8b25c1098d33e6c, type: 3}
 --- !u!4 &94736491 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3943027763104824661, guid: c91cda773a85a954e8b25c1098d33e6c, type: 3}
   m_PrefabInstance: {fileID: 94736490}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &94736492 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3943027763104824656, guid: c91cda773a85a954e8b25c1098d33e6c, type: 3}
-  m_PrefabInstance: {fileID: 94736490}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &94736493 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3943027763104824660, guid: c91cda773a85a954e8b25c1098d33e6c, type: 3}
-  m_PrefabInstance: {fileID: 94736490}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94736492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &94736496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94736492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 94736493}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 18
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 94736493}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &94736497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94736492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 94736493}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 18
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 94736493}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &94736498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94736492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 94736493}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 18
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 94736493}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &94736499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94736492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 94736493}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 18
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 94736493}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &94736500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94736492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 94736493}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 18
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 94736493}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &94736501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94736492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 94736493}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 18
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 94736493}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1001 &108891923
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -573,14 +304,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2111107812}
     m_Modifications:
+    - target: {fileID: 1034400052378168032, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
+      propertyPath: mHiddenRoot
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1034400052378168032, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1034400052378168032, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8610873374834751840, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
       propertyPath: m_Name
       value: sembilan belas
       objectReference: {fileID: 0}
-    - target: {fileID: 8610873374834751852, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
-      propertyPath: mPreview
-      value: 
-      objectReference: {fileID: 8610873374834751854, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
     - target: {fileID: 8610873374834751853, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -633,143 +372,14 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1290285820}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1034400052378168032, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
 --- !u!4 &108891924 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8610873374834751853, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
   m_PrefabInstance: {fileID: 108891923}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &108891925 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8610873374834751840, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
-  m_PrefabInstance: {fileID: 108891923}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &108891926 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8610873374834751852, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
-  m_PrefabInstance: {fileID: 108891923}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108891925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &108891929
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108891925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 108891926}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 19
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 108891926}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &108891930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108891925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 108891926}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 19
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 108891926}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &108891931
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108891925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 108891926}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 19
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 108891926}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &108891932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108891925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 108891926}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 19
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 108891926}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &108891933
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108891925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 108891926}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 19
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 108891926}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &108891934
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 108891925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 108891926}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 19
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 108891926}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1 &115997150
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,26 +421,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 2111107812}
     m_Modifications:
     - target: {fileID: 211829464, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
-      propertyPath: moveSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 211829464, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
-      propertyPath: scaleSpeed
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 211829464, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
       propertyPath: targetToGo
       value: 
       objectReference: {fileID: 266309177}
-    - target: {fileID: 211829465, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
+    - target: {fileID: 2580220150137852699, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
       propertyPath: mHiddenRoot
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 211829465, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
+    - target: {fileID: 2580220150137852699, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
       propertyPath: mMeshFilter
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 211829465, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
+    - target: {fileID: 2580220150137852699, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
       propertyPath: mMeshRenderer
       value: 
       objectReference: {fileID: 0}
@@ -891,124 +493,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 211829465, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
+    - {fileID: 2580220150137852699, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
 --- !u!4 &211829459 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7365560227628314535, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
   m_PrefabInstance: {fileID: 211829458}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &211829460 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7365560227628314523, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
-  m_PrefabInstance: {fileID: 211829458}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &211829461 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7365560227628314534, guid: 022be128dda883f4cae5c4fccabf125d, type: 3}
-  m_PrefabInstance: {fileID: 211829458}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 211829460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &211829462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 211829460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 211829461}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 1
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 211829461}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &211829463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 211829460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 211829461}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 1
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 211829461}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &211829464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 211829460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 211829461}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 1
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 211829461}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &211829465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 211829460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 211829461}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 1
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 211829461}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &211829466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 211829460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 211829461}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 1
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 211829461}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1 &266309172
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,10 +764,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1593071663013300669, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
-      propertyPath: mPreview
-      value: 
-      objectReference: {fileID: 1593071663013300671, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
     - target: {fileID: 1593071663013300670, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
       propertyPath: OnTargetLost.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -1285,143 +772,26 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1290285820}
-    m_RemovedComponents: []
+    - target: {fileID: 6694974599429050743, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
+      propertyPath: mHiddenRoot
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694974599429050743, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694974599429050743, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6694974599429050743, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
 --- !u!4 &286125567 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1593071663013300668, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
   m_PrefabInstance: {fileID: 286125566}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &286125568 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1593071663013300665, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
-  m_PrefabInstance: {fileID: 286125566}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &286125569 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1593071663013300669, guid: 13e2a1569b9e6ae45aa7ece66817522b, type: 3}
-  m_PrefabInstance: {fileID: 286125566}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286125568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &286125572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286125568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 286125569}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 15
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 286125569}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &286125573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286125568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 286125569}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 15
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 286125569}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &286125574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286125568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 286125569}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 15
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 286125569}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &286125575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286125568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 286125569}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 15
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 286125569}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &286125576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286125568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 286125569}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 15
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 286125569}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &286125577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286125568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 286125569}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 15
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 286125569}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1001 &339553142
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1429,6 +799,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2111107812}
     m_Modifications:
+    - target: {fileID: 3185843289998224064, guid: f89a642b664410848adf3089f3602d89, type: 3}
+      propertyPath: mHiddenRoot
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3185843289998224064, guid: f89a642b664410848adf3089f3602d89, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3185843289998224064, guid: f89a642b664410848adf3089f3602d89, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7389501266426316264, guid: f89a642b664410848adf3089f3602d89, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -1473,10 +855,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7389501266426316268, guid: f89a642b664410848adf3089f3602d89, type: 3}
-      propertyPath: number
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 7389501266426316270, guid: f89a642b664410848adf3089f3602d89, type: 3}
       propertyPath: OnTargetLost.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -1485,151 +863,18 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1290285820}
-    - target: {fileID: 7389501266426316271, guid: f89a642b664410848adf3089f3602d89, type: 3}
-      propertyPath: mPreview
-      value: 
-      objectReference: {fileID: 7389501266426316269, guid: f89a642b664410848adf3089f3602d89, type: 3}
     - target: {fileID: 7389501266426316275, guid: f89a642b664410848adf3089f3602d89, type: 3}
       propertyPath: m_Name
       value: tujuh
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3185843289998224064, guid: f89a642b664410848adf3089f3602d89, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f89a642b664410848adf3089f3602d89, type: 3}
 --- !u!4 &339553143 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7389501266426316264, guid: f89a642b664410848adf3089f3602d89, type: 3}
   m_PrefabInstance: {fileID: 339553142}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &339553144 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7389501266426316275, guid: f89a642b664410848adf3089f3602d89, type: 3}
-  m_PrefabInstance: {fileID: 339553142}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &339553145 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7389501266426316271, guid: f89a642b664410848adf3089f3602d89, type: 3}
-  m_PrefabInstance: {fileID: 339553142}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339553144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &339553148
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339553144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 339553145}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 7
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 339553145}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &339553149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339553144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 339553145}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 7
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 339553145}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &339553150
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339553144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 339553145}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 7
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 339553145}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &339553151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339553144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 339553145}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 7
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 339553145}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &339553152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339553144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 339553145}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 7
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 339553145}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &339553153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339553144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 339553145}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 7
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 339553145}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1001 &423158252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1649,10 +894,6 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1290285820}
-    - target: {fileID: 3837258074748643620, guid: 68dc38e4f22e82c4f9f014644c3c443c, type: 3}
-      propertyPath: mPreview
-      value: 
-      objectReference: {fileID: 3837258074748643618, guid: 68dc38e4f22e82c4f9f014644c3c443c, type: 3}
     - target: {fileID: 3837258074748643621, guid: 68dc38e4f22e82c4f9f014644c3c443c, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -1697,143 +938,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6271467896565636610, guid: 68dc38e4f22e82c4f9f014644c3c443c, type: 3}
+      propertyPath: mHiddenRoot
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271467896565636610, guid: 68dc38e4f22e82c4f9f014644c3c443c, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271467896565636610, guid: 68dc38e4f22e82c4f9f014644c3c443c, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6271467896565636610, guid: 68dc38e4f22e82c4f9f014644c3c443c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 68dc38e4f22e82c4f9f014644c3c443c, type: 3}
 --- !u!4 &423158253 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3837258074748643621, guid: 68dc38e4f22e82c4f9f014644c3c443c, type: 3}
   m_PrefabInstance: {fileID: 423158252}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &423158254 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3837258074748643616, guid: 68dc38e4f22e82c4f9f014644c3c443c, type: 3}
-  m_PrefabInstance: {fileID: 423158252}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &423158255 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3837258074748643620, guid: 68dc38e4f22e82c4f9f014644c3c443c, type: 3}
-  m_PrefabInstance: {fileID: 423158252}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 423158254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &423158258
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 423158254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 423158255}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 8
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 423158255}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &423158259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 423158254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 423158255}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 8
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 423158255}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &423158260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 423158254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 423158255}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 8
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 423158255}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &423158261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 423158254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 423158255}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 8
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 423158255}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &423158262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 423158254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 423158255}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 8
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 423158255}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &423158263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 423158254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 423158255}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 8
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 423158255}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1 &461060619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1967,11 +1091,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 461060619}
   m_CullTransparentMesh: 1
---- !u!1 &756673575 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 928610249809267979, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
-  m_PrefabInstance: {fileID: 2078470278}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &791127774
 GameObject:
   m_ObjectHideFlags: 0
@@ -2039,6 +1158,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &846319550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 846319551}
+  m_Layer: 0
+  m_Name: Digit_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &846319551
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846319550}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1196764738}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &850000472
 GameObject:
@@ -2148,10 +1298,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2111107812}
     m_Modifications:
-    - target: {fileID: 1623343677654165834, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
-      propertyPath: mPreview
+    - target: {fileID: 924605775, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
+      propertyPath: targetToGo
       value: 
-      objectReference: {fileID: 1623343677654165836, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
+      objectReference: {fileID: 266309177}
     - target: {fileID: 1623343677654165835, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -2208,183 +1358,57 @@ PrefabInstance:
       propertyPath: m_Name
       value: tiga belas
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 2181013612377888939, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
+      propertyPath: mHiddenRoot
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181013612377888939, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181013612377888939, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2181013612377888939, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
 --- !u!4 &924605769 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1623343677654165835, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
   m_PrefabInstance: {fileID: 924605768}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &924605770 stripped
+--- !u!1 &928499630
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1623343677654165838, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
-  m_PrefabInstance: {fileID: 924605768}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &924605771 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1623343677654165834, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
-  m_PrefabInstance: {fileID: 924605768}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 924605770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &924605772 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3825504953253632344, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
-  m_PrefabInstance: {fileID: 924605768}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &924605774
-MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 924605770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 924605771}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 13
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 924605771}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &924605775
-MonoBehaviour:
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 928499631}
+  m_Layer: 0
+  m_Name: Digit_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &928499631
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 924605770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  scaleSpeed: 100
-  numberObj: {fileID: 924605772}
-  targetToGo: {fileID: 266309177}
---- !u!114 &924605776
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 924605770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 924605771}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 13
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 924605771}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &924605777
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 924605770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 924605771}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 13
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 924605771}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &924605778
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 924605770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 924605771}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 13
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 924605771}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &924605779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 924605770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 924605771}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 13
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 924605771}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &924605780
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 924605770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 924605771}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 13
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 924605771}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &924605781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 924605770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 924605771}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 13
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 924605771}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
+  m_GameObject: {fileID: 928499630}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.4, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1196764738}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &938324083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2393,29 +1417,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 2111107812}
     m_Modifications:
     - target: {fileID: 938324089, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
-      propertyPath: moveSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 938324089, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
-      propertyPath: scaleSpeed
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 938324089, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
       propertyPath: targetToGo
       value: 
       objectReference: {fileID: 266309177}
-    - target: {fileID: 938324090, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
-      propertyPath: mHiddenRoot
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 938324090, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
-      propertyPath: mMeshFilter
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 938324090, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
-      propertyPath: mMeshRenderer
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4250608846605574130, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
       propertyPath: m_Name
       value: empat
@@ -2472,125 +1476,26 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1290285820}
+    - target: {fileID: 4477762786742534038, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
+      propertyPath: mHiddenRoot
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477762786742534038, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4477762786742534038, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 938324090, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
+    - {fileID: 4477762786742534038, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
 --- !u!4 &938324084 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4250608846605574137, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
   m_PrefabInstance: {fileID: 938324083}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &938324085 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4250608846605574130, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
-  m_PrefabInstance: {fileID: 938324083}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &938324086 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4250608846605574142, guid: c29a9ff9580dec54ea4093393fdebe7f, type: 3}
-  m_PrefabInstance: {fileID: 938324083}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938324085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &938324087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938324085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 938324086}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 4
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 938324086}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &938324088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938324085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 938324086}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 4
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 938324086}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &938324089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938324085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 938324086}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 4
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 938324086}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &938324090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938324085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 938324086}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 4
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 938324086}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &938324091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 938324085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 938324086}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 4
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 938324086}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1 &1116720245
 GameObject:
   m_ObjectHideFlags: 0
@@ -2685,6 +1590,39 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1196764737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1196764738}
+  m_Layer: 0
+  m_Name: Result_Parent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1196764738
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196764737}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -4.29}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 846319551}
+  - {fileID: 928499631}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1232197997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2692,10 +1630,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2111107812}
     m_Modifications:
-    - target: {fileID: 8865941319421220768, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}
-      propertyPath: mPreview
+    - target: {fileID: 3117821810955633271, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}
+      propertyPath: mHiddenRoot
       value: 
-      objectReference: {fileID: 8865941319421220774, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}
+      objectReference: {fileID: 0}
+    - target: {fileID: 3117821810955633271, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3117821810955633271, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8865941319421220769, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -2752,143 +1698,14 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1290285820}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3117821810955633271, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}
 --- !u!4 &1232197998 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8865941319421220769, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}
   m_PrefabInstance: {fileID: 1232197997}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1232197999 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8865941319421220772, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}
-  m_PrefabInstance: {fileID: 1232197997}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1232198000 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8865941319421220768, guid: 6f9a0da4552925c45b1007f4511f65db, type: 3}
-  m_PrefabInstance: {fileID: 1232197997}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232197999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1232198003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232197999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1232198000}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 14
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1232198000}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1232198004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232197999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1232198000}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 14
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1232198000}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1232198005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232197999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1232198000}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 14
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1232198000}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1232198006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232197999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1232198000}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 14
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1232198000}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1232198007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232197999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1232198000}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 14
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1232198000}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1232198008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232197999}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1232198000}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 14
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1232198000}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1250079863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2897,29 +1714,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 2111107812}
     m_Modifications:
     - target: {fileID: 1250079869, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
-      propertyPath: moveSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1250079869, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
-      propertyPath: scaleSpeed
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1250079869, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
       propertyPath: targetToGo
       value: 
       objectReference: {fileID: 266309177}
-    - target: {fileID: 1250079870, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
-      propertyPath: mHiddenRoot
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1250079870, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
-      propertyPath: mMeshFilter
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1250079870, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
-      propertyPath: mMeshRenderer
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4933138945015418930, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2976,125 +1773,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: tiga
       objectReference: {fileID: 0}
+    - target: {fileID: 7641095280367774325, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
+      propertyPath: mHiddenRoot
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641095280367774325, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641095280367774325, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 1250079870, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
+    - {fileID: 7641095280367774325, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
 --- !u!4 &1250079864 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4933138945015418930, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
   m_PrefabInstance: {fileID: 1250079863}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1250079865 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4933138945015418935, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
-  m_PrefabInstance: {fileID: 1250079863}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1250079866 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4933138945015418931, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
-  m_PrefabInstance: {fileID: 1250079863}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250079865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1250079867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250079865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1250079866}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 3
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1250079866}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1250079868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250079865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1250079866}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 3
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1250079866}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1250079869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250079865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1250079866}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 3
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1250079866}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1250079870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250079865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1250079866}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 3
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1250079866}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1250079871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250079865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1250079866}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 3
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1250079866}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1250408006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3102,6 +1800,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2111107812}
     m_Modifications:
+    - target: {fileID: 1250408014, guid: a2fe9f243e765974ba5afefab0c5c8d1, type: 3}
+      propertyPath: targetToGo
+      value: 
+      objectReference: {fileID: 266309177}
     - target: {fileID: 4440677067638000272, guid: a2fe9f243e765974ba5afefab0c5c8d1, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -3154,172 +1856,35 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1290285820}
-    - target: {fileID: 4440677067638000275, guid: a2fe9f243e765974ba5afefab0c5c8d1, type: 3}
-      propertyPath: mPreview
-      value: 
-      objectReference: {fileID: 4440677067638000277, guid: a2fe9f243e765974ba5afefab0c5c8d1, type: 3}
     - target: {fileID: 4440677067638000279, guid: a2fe9f243e765974ba5afefab0c5c8d1, type: 3}
       propertyPath: m_Name
       value: sepuluh
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8377237485226233404, guid: a2fe9f243e765974ba5afefab0c5c8d1, type: 3}
+      propertyPath: mHiddenRoot
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377237485226233404, guid: a2fe9f243e765974ba5afefab0c5c8d1, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8377237485226233404, guid: a2fe9f243e765974ba5afefab0c5c8d1, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8377237485226233404, guid: a2fe9f243e765974ba5afefab0c5c8d1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a2fe9f243e765974ba5afefab0c5c8d1, type: 3}
 --- !u!4 &1250408007 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4440677067638000272, guid: a2fe9f243e765974ba5afefab0c5c8d1, type: 3}
   m_PrefabInstance: {fileID: 1250408006}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1250408008 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4440677067638000279, guid: a2fe9f243e765974ba5afefab0c5c8d1, type: 3}
-  m_PrefabInstance: {fileID: 1250408006}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1250408009 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4440677067638000275, guid: a2fe9f243e765974ba5afefab0c5c8d1, type: 3}
-  m_PrefabInstance: {fileID: 1250408006}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250408008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1250408010 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8205814745259577761, guid: a2fe9f243e765974ba5afefab0c5c8d1, type: 3}
   m_PrefabInstance: {fileID: 1250408006}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1250408014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250408008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  scaleSpeed: 100
-  numberObj: {fileID: 1250408010}
-  targetToGo: {fileID: 266309177}
---- !u!114 &1250408017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250408008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1250408009}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 10
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1250408009}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1250408018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250408008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1250408009}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 10
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1250408009}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1250408019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250408008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1250408009}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 10
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1250408009}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1250408020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250408008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1250408009}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 10
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1250408009}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1250408021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250408008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1250408009}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 10
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1250408009}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1250408022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250408008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1250408009}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 10
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1250408009}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1 &1290285819
 GameObject:
   m_ObjectHideFlags: 0
@@ -3356,9 +1921,17 @@ MonoBehaviour:
   number_A: 0
   number_B: 0
   result: 0
-  calcButton: {fileID: 0}
-  resultText: {fileID: 0}
-  plusIcon: {fileID: 0}
+  digit_1: {fileID: 0}
+  digit_2: {fileID: 0}
+  plusIcon: {fileID: 115997151}
+  digit_1_Parent: {fileID: 846319551}
+  digit_2_Parent: {fileID: 928499631}
+  resultDigitParent: {fileID: 1196764738}
+  angkaPrefab:
+  - {fileID: 1706505238511064196, guid: a8cfda08f224fd14facdaffac6144b4c, type: 3}
+  - {fileID: 1095684650139465651, guid: 70df3bbbe8c882b49b3b3b5b52b1d046, type: 3}
+  - {fileID: 4773406359488557125, guid: 655c56c359c5bad4781e371c7cf7b48c, type: 3}
+  - {fileID: 5879164664434924629, guid: fe2e3e02844d48c4fb0e1e4bb1ebf112, type: 3}
 --- !u!4 &1290285821
 Transform:
   m_ObjectHideFlags: 0
@@ -3486,10 +2059,6 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1290285820}
-    - target: {fileID: 2263798370671030118, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
-      propertyPath: number
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 2263798370671030119, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
       propertyPath: m_Name
       value: enam
@@ -3538,147 +2107,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2263798370671030139, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
-      propertyPath: mPreview
+    - target: {fileID: 3523145771211096260, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
+      propertyPath: mHiddenRoot
       value: 
-      objectReference: {fileID: 2263798370671030117, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
-    m_RemovedComponents: []
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523145771211096260, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3523145771211096260, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3523145771211096260, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
 --- !u!4 &1432318947 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2263798370671030138, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
   m_PrefabInstance: {fileID: 1432318946}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1432318948 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2263798370671030119, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
-  m_PrefabInstance: {fileID: 1432318946}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1432318949 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2263798370671030139, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
-  m_PrefabInstance: {fileID: 1432318946}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432318948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1432318952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432318948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1432318949}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 6
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1432318949}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1432318953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432318948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1432318949}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 6
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1432318949}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1432318954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432318948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1432318949}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 6
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1432318949}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1432318955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432318948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1432318949}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 6
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1432318949}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1432318956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432318948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1432318949}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 6
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1432318949}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1432318957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1432318948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1432318949}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 6
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1432318949}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1480760963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3686,6 +2134,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2111107812}
     m_Modifications:
+    - target: {fileID: 3304745358941201811, guid: 429c473bc3df17c4f872e21a22d942db, type: 3}
+      propertyPath: mHiddenRoot
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3304745358941201811, guid: 429c473bc3df17c4f872e21a22d942db, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3304745358941201811, guid: 429c473bc3df17c4f872e21a22d942db, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5340641817152440264, guid: 429c473bc3df17c4f872e21a22d942db, type: 3}
       propertyPath: m_Name
       value: tujuh belas
@@ -3698,10 +2158,6 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1290285820}
-    - target: {fileID: 5340641817152440268, guid: 429c473bc3df17c4f872e21a22d942db, type: 3}
-      propertyPath: mPreview
-      value: 
-      objectReference: {fileID: 5340641817152440266, guid: 429c473bc3df17c4f872e21a22d942db, type: 3}
     - target: {fileID: 5340641817152440269, guid: 429c473bc3df17c4f872e21a22d942db, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -3746,143 +2202,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3304745358941201811, guid: 429c473bc3df17c4f872e21a22d942db, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 429c473bc3df17c4f872e21a22d942db, type: 3}
 --- !u!4 &1480760964 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5340641817152440269, guid: 429c473bc3df17c4f872e21a22d942db, type: 3}
   m_PrefabInstance: {fileID: 1480760963}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1480760965 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5340641817152440264, guid: 429c473bc3df17c4f872e21a22d942db, type: 3}
-  m_PrefabInstance: {fileID: 1480760963}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1480760966 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5340641817152440268, guid: 429c473bc3df17c4f872e21a22d942db, type: 3}
-  m_PrefabInstance: {fileID: 1480760963}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480760965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1480760969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480760965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1480760966}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 17
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1480760966}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1480760970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480760965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1480760966}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 17
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1480760966}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1480760971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480760965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1480760966}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 17
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1480760966}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1480760972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480760965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1480760966}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 17
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1480760966}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1480760973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480760965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1480760966}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 17
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1480760966}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1480760974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480760965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1480760966}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 17
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1480760966}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1493410471
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3890,6 +2217,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2111107812}
     m_Modifications:
+    - target: {fileID: 1493410478, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
+      propertyPath: targetToGo
+      value: 
+      objectReference: {fileID: 266309177}
+    - target: {fileID: 652881706323095768, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
+      propertyPath: mHiddenRoot
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 652881706323095768, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 652881706323095768, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1992100682341232513, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
       propertyPath: OnTargetLost.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -3898,10 +2241,6 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1290285820}
-    - target: {fileID: 1992100682341232514, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
-      propertyPath: mPreview
-      value: 
-      objectReference: {fileID: 1992100682341232512, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
     - target: {fileID: 1992100682341232515, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -3950,183 +2289,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: sebelas
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 652881706323095768, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
 --- !u!4 &1493410472 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1992100682341232515, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
   m_PrefabInstance: {fileID: 1493410471}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1493410473 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1992100682341232518, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
-  m_PrefabInstance: {fileID: 1493410471}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1493410474 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1992100682341232514, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
-  m_PrefabInstance: {fileID: 1493410471}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493410473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1493410475 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4309393813153212836, guid: 8c55e1c17a3d5824997dc7ac1a6f0fd5, type: 3}
-  m_PrefabInstance: {fileID: 1493410471}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1493410477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493410473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1493410474}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 11
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1493410474}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1493410478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493410473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  scaleSpeed: 100
-  numberObj: {fileID: 1493410475}
-  targetToGo: {fileID: 266309177}
---- !u!114 &1493410479
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493410473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1493410474}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 11
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1493410474}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1493410480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493410473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1493410474}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 11
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1493410474}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1493410481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493410473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1493410474}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 11
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1493410474}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1493410482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493410473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1493410474}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 11
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1493410474}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1493410483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493410473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1493410474}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 11
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1493410474}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1493410484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493410473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1493410474}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 11
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1493410474}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1541868873
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4134,6 +2304,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2111107812}
     m_Modifications:
+    - target: {fileID: 6546917308739309320, guid: 4926577b30ba2d54dab2624a9060fe83, type: 3}
+      propertyPath: mHiddenRoot
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6546917308739309320, guid: 4926577b30ba2d54dab2624a9060fe83, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6546917308739309320, guid: 4926577b30ba2d54dab2624a9060fe83, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7705432697652896817, guid: 4926577b30ba2d54dab2624a9060fe83, type: 3}
       propertyPath: m_Name
       value: enam belas
@@ -4182,10 +2364,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7705432697652896821, guid: 4926577b30ba2d54dab2624a9060fe83, type: 3}
-      propertyPath: mPreview
-      value: 
-      objectReference: {fileID: 7705432697652896823, guid: 4926577b30ba2d54dab2624a9060fe83, type: 3}
     - target: {fileID: 7705432697652896822, guid: 4926577b30ba2d54dab2624a9060fe83, type: 3}
       propertyPath: OnTargetLost.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -4194,143 +2372,14 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1290285820}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6546917308739309320, guid: 4926577b30ba2d54dab2624a9060fe83, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4926577b30ba2d54dab2624a9060fe83, type: 3}
 --- !u!4 &1541868874 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7705432697652896820, guid: 4926577b30ba2d54dab2624a9060fe83, type: 3}
   m_PrefabInstance: {fileID: 1541868873}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1541868875 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7705432697652896817, guid: 4926577b30ba2d54dab2624a9060fe83, type: 3}
-  m_PrefabInstance: {fileID: 1541868873}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1541868876 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7705432697652896821, guid: 4926577b30ba2d54dab2624a9060fe83, type: 3}
-  m_PrefabInstance: {fileID: 1541868873}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1541868875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1541868879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1541868875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1541868876}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 16
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1541868876}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1541868880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1541868875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1541868876}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 16
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1541868876}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1541868881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1541868875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1541868876}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 16
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1541868876}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1541868882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1541868875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1541868876}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 16
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1541868876}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1541868883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1541868875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1541868876}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 16
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1541868876}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1541868884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1541868875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1541868876}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 16
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1541868876}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1001 &1581638136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4339,29 +2388,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 2111107812}
     m_Modifications:
     - target: {fileID: 1581638142, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
-      propertyPath: moveSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1581638142, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
-      propertyPath: scaleSpeed
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 1581638142, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
       propertyPath: targetToGo
       value: 
       objectReference: {fileID: 266309177}
-    - target: {fileID: 1581638143, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
-      propertyPath: mHiddenRoot
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1581638143, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
-      propertyPath: mMeshFilter
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1581638143, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
-      propertyPath: mMeshRenderer
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 3410175730174713889, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
       propertyPath: m_Name
       value: 'dua '
@@ -4418,125 +2447,26 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1290285820}
+    - target: {fileID: 6242936201080051563, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
+      propertyPath: mHiddenRoot
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6242936201080051563, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6242936201080051563, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 1581638143, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
+    - {fileID: 6242936201080051563, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
 --- !u!4 &1581638137 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3410175730174713893, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
   m_PrefabInstance: {fileID: 1581638136}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1581638138 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3410175730174713889, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
-  m_PrefabInstance: {fileID: 1581638136}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1581638139 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3410175730174713894, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
-  m_PrefabInstance: {fileID: 1581638136}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581638138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1581638140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581638138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1581638139}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 2
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1581638139}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1581638141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581638138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1581638139}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 2
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1581638139}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1581638142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581638138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1581638139}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 2
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1581638139}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1581638143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581638138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1581638139}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 2
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1581638139}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1581638144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581638138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1581638139}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 2
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1581638139}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1 &1650777908
 GameObject:
   m_ObjectHideFlags: 0
@@ -4645,10 +2575,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: dua puluh
       objectReference: {fileID: 0}
-    - target: {fileID: 5259989484995634172, guid: 72ce639d86def974faf37b7c38ee7ff5, type: 3}
-      propertyPath: mPreview
-      value: 
-      objectReference: {fileID: 5259989484995634174, guid: 72ce639d86def974faf37b7c38ee7ff5, type: 3}
     - target: {fileID: 5259989484995634173, guid: 72ce639d86def974faf37b7c38ee7ff5, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -4701,143 +2627,26 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1290285820}
-    m_RemovedComponents: []
+    - target: {fileID: 7736512950120003870, guid: 72ce639d86def974faf37b7c38ee7ff5, type: 3}
+      propertyPath: mHiddenRoot
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7736512950120003870, guid: 72ce639d86def974faf37b7c38ee7ff5, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7736512950120003870, guid: 72ce639d86def974faf37b7c38ee7ff5, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7736512950120003870, guid: 72ce639d86def974faf37b7c38ee7ff5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 72ce639d86def974faf37b7c38ee7ff5, type: 3}
 --- !u!4 &1738503107 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5259989484995634173, guid: 72ce639d86def974faf37b7c38ee7ff5, type: 3}
   m_PrefabInstance: {fileID: 1738503106}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1738503108 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5259989484995634168, guid: 72ce639d86def974faf37b7c38ee7ff5, type: 3}
-  m_PrefabInstance: {fileID: 1738503106}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1738503109 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5259989484995634172, guid: 72ce639d86def974faf37b7c38ee7ff5, type: 3}
-  m_PrefabInstance: {fileID: 1738503106}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738503108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1738503112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738503108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1738503109}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 20
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1738503109}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1738503113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738503108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1738503109}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 20
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1738503109}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1738503114
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738503108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1738503109}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 20
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1738503109}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1738503115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738503108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1738503109}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 20
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1738503109}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1738503116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738503108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1738503109}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 20
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1738503109}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1738503117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738503108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1738503109}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 20
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 1738503109}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1001 &2078470278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4845,10 +2654,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2111107812}
     m_Modifications:
-    - target: {fileID: 9710663226471504, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
-      propertyPath: number
-      value: 5
-      objectReference: {fileID: 0}
+    - target: {fileID: 2078470284, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
+      propertyPath: targetToGo
+      value: 
+      objectReference: {fileID: 266309177}
     - target: {fileID: 9710663226471507, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
       propertyPath: m_Name
       value: lima
@@ -4905,163 +2714,26 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1290285820}
-    - target: {fileID: 9710663226471519, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
-      propertyPath: mPreview
+    - target: {fileID: 4826740821819242957, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
+      propertyPath: mHiddenRoot
       value: 
-      objectReference: {fileID: 9710663226471505, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
-    m_RemovedComponents: []
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826740821819242957, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826740821819242957, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4826740821819242957, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
 --- !u!4 &2078470279 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9710663226471516, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
   m_PrefabInstance: {fileID: 2078470278}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2078470280 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9710663226471507, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
-  m_PrefabInstance: {fileID: 2078470278}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2078470281 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9710663226471519, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
-  m_PrefabInstance: {fileID: 2078470278}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078470280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2078470284
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078470280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  scaleSpeed: 100
-  numberObj: {fileID: 756673575}
-  targetToGo: {fileID: 266309177}
---- !u!114 &2078470285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078470280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2078470281}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 5
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 2078470281}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &2078470286
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078470280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2078470281}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 5
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 2078470281}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &2078470287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078470280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2078470281}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 5
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 2078470281}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &2078470288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078470280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2078470281}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 5
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 2078470281}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &2078470289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078470280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2078470281}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 5
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 2078470281}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &2078470290
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078470280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2078470281}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 5
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 2078470281}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1 &2111107811
 GameObject:
   m_ObjectHideFlags: 0
@@ -5164,10 +2836,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3083286487894075793, guid: d49ac7e27c2260241a41697c878122db, type: 3}
-      propertyPath: mPreview
-      value: 
-      objectReference: {fileID: 3083286487894075807, guid: d49ac7e27c2260241a41697c878122db, type: 3}
     - target: {fileID: 3083286487894075805, guid: d49ac7e27c2260241a41697c878122db, type: 3}
       propertyPath: m_Name
       value: sembilan
@@ -5180,140 +2848,23 @@ PrefabInstance:
       propertyPath: OnTargetFound.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1290285820}
-    m_RemovedComponents: []
+    - target: {fileID: 4721521728527066504, guid: d49ac7e27c2260241a41697c878122db, type: 3}
+      propertyPath: mHiddenRoot
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4721521728527066504, guid: d49ac7e27c2260241a41697c878122db, type: 3}
+      propertyPath: mMeshFilter
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4721521728527066504, guid: d49ac7e27c2260241a41697c878122db, type: 3}
+      propertyPath: mMeshRenderer
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4721521728527066504, guid: d49ac7e27c2260241a41697c878122db, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d49ac7e27c2260241a41697c878122db, type: 3}
 --- !u!4 &7116771378220247148 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3083286487894075792, guid: d49ac7e27c2260241a41697c878122db, type: 3}
   m_PrefabInstance: {fileID: 7116771378220247147}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &7116771378220247149 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3083286487894075805, guid: d49ac7e27c2260241a41697c878122db, type: 3}
-  m_PrefabInstance: {fileID: 7116771378220247147}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7116771378220247150 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3083286487894075793, guid: d49ac7e27c2260241a41697c878122db, type: 3}
-  m_PrefabInstance: {fileID: 7116771378220247147}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7116771378220247149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &7116771378220247153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7116771378220247149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 7116771378220247150}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 9
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 7116771378220247150}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &7116771378220247154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7116771378220247149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 7116771378220247150}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 9
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 7116771378220247150}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &7116771378220247155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7116771378220247149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 7116771378220247150}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 9
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 7116771378220247150}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &7116771378220247156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7116771378220247149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 7116771378220247150}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 9
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 7116771378220247150}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &7116771378220247157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7116771378220247149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 7116771378220247150}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 9
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 7116771378220247150}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &7116771378220247158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7116771378220247149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 7116771378220247150}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 9
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 7116771378220247150}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}

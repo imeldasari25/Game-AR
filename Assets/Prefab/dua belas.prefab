@@ -12,11 +12,9 @@ GameObject:
   - component: {fileID: 5145421384372776999}
   - component: {fileID: 5145421384372776998}
   - component: {fileID: 5145421384372776996}
-  - component: {fileID: 3405047455364951653}
-  - component: {fileID: 6982087163108415760}
   - component: {fileID: 2145827966702163441}
-  - component: {fileID: 7103483581575552309}
-  - component: {fileID: 6511747359367792415}
+  - component: {fileID: 82949957}
+  - component: {fileID: 3438610098029029712}
   m_Layer: 0
   m_Name: dua belas
   m_TagString: Untagged
@@ -66,7 +64,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 6511747359367792415}
+  mPreview: {fileID: 3438610098029029712}
 --- !u!114 &5145421384372776998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,48 +169,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67accb7dcd55ee48a864645c6f08c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  number: 0
+  number: 12
   isTracked: 0
   numberVoice: {fileID: 0}
   cameraAudioSource: {fileID: 0}
---- !u!114 &3405047455364951653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5145421384372777003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 5145421384372776999}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Dua-Belas
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 5145421384372776999}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &6982087163108415760
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5145421384372777003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 5145421384372776999}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Dua-Belas
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 5145421384372776999}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &2145827966702163441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -229,7 +189,23 @@ MonoBehaviour:
   scaleSpeed: 100
   numberObj: {fileID: 0}
   targetToGo: {fileID: 0}
---- !u!114 &7103483581575552309
+--- !u!114 &82949957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5145421384372777003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3
+  scaleSpeed: 100
+  numberObj: {fileID: 0}
+  targetToGo: {fileID: 0}
+--- !u!114 &3438610098029029712
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -243,27 +219,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 5145421384372776999}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Dua-Belas
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 5145421384372776999}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &6511747359367792415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5145421384372777003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 5145421384372776999}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Dua-Belas
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 12
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 5145421384372776999}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}

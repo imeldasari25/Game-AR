@@ -12,9 +12,7 @@ GameObject:
   - component: {fileID: 3837258074748643620}
   - component: {fileID: 3837258074748643619}
   - component: {fileID: 3837258074748643617}
-  - component: {fileID: 6252830598927952370}
-  - component: {fileID: 7127955173889720848}
-  - component: {fileID: 8078552705267727274}
+  - component: {fileID: 6271467896565636610}
   m_Layer: 0
   m_Name: delapan
   m_TagString: Untagged
@@ -64,7 +62,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 8078552705267727274}
+  mPreview: {fileID: 6271467896565636610}
 --- !u!114 &3837258074748643619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,11 +167,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67accb7dcd55ee48a864645c6f08c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  number: 0
+  number: 8
   isTracked: 0
   numberVoice: {fileID: 0}
   cameraAudioSource: {fileID: 0}
---- !u!114 &6252830598927952370
+--- !u!114 &6271467896565636610
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,46 +185,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 3837258074748643620}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Delapan
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 3837258074748643620}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &7127955173889720848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3837258074748643616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 3837258074748643620}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Delapan
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 3837258074748643620}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &8078552705267727274
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3837258074748643616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 3837258074748643620}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Delapan
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 8
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 3837258074748643620}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}

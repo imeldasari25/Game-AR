@@ -12,9 +12,7 @@ GameObject:
   - component: {fileID: 1593071663013300669}
   - component: {fileID: 1593071663013300670}
   - component: {fileID: 1593071663013300664}
-  - component: {fileID: 8170905607341761586}
-  - component: {fileID: 7760388679925618826}
-  - component: {fileID: 1136480331514747113}
+  - component: {fileID: 6694974599429050743}
   m_Layer: 0
   m_Name: lima belas
   m_TagString: Untagged
@@ -65,7 +63,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1136480331514747113}
+  mPreview: {fileID: 6694974599429050743}
 --- !u!114 &1593071663013300670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,11 +168,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f67accb7dcd55ee48a864645c6f08c43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  number: 0
+  number: 15
   isTracked: 0
   numberVoice: {fileID: 0}
   cameraAudioSource: {fileID: 0}
---- !u!114 &8170905607341761586
+--- !u!114 &6694974599429050743
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -188,46 +186,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1593071663013300669}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Lima-Belas
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 1593071663013300669}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &7760388679925618826
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1593071663013300665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1593071663013300669}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Lima-Belas
-  mDatasetName: Vuforia/PengenalanAngka.xml
-  mCastedBehaviour: {fileID: 1593071663013300669}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &1136480331514747113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1593071663013300665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1593071663013300669}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Lima-Belas
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 15
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 1593071663013300669}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
