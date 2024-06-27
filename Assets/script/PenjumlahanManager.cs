@@ -56,9 +56,7 @@ public class PenjumlahanManager : MonoBehaviour
     public int result;
 
     [Space(10)]
-    public GameObject calcButton;
-    public TextMeshProUGUI resultText;
-
+    public Transform plusIcon;
 
     private void Awake()
     {
@@ -68,12 +66,10 @@ public class PenjumlahanManager : MonoBehaviour
     #region Subscription
     private void OnEnable()
     {
-        NumberAnimator.OnNumberAnimationDone += OnNumberAnimDoneHandler;
     }
 
     private void OnDestroy()
-    {
-        NumberAnimator.OnNumberAnimationDone -= OnNumberAnimDoneHandler;
+    {        
     }
     #endregion
 
@@ -85,8 +81,7 @@ public class PenjumlahanManager : MonoBehaviour
         Screen.orientation = ScreenOrientation.LandscapeRight;
 
         TrackedCardCount = 0;
-        calcButton.SetActive(false);
-        resultText.gameObject.SetActive(false);
+        plusIcon.gameObject.SetActive(false);
     }
 
     public void AssignCard(Transform card, float xCoord)
@@ -111,8 +106,6 @@ public class PenjumlahanManager : MonoBehaviour
                 Card_2 = card;
                 number_B = Card_2.GetComponent<TrackableNumberObject>().number;
             }
-
-            calcButton.SetActive(false);
         }
         else if(TrackedCardCount == 2)
         {
@@ -128,9 +121,16 @@ public class PenjumlahanManager : MonoBehaviour
                 Card_2 = card;
                 number_B = Card_2.GetComponent<TrackableNumberObject>().number;
             }
-
-            calcButton.SetActive(true);
+            PlacePlusIcon();
         }
+
+        plusIcon.gameObject.SetActive(TrackedCardCount == 2);
+    }
+
+    public void PlacePlusIcon()
+    {
+        Vector3 midpointPosition = (Card_1.position + Card_2.position) / 2f;
+        plusIcon.transform.position = midpointPosition;
     }
 
     public void OnClick_Result()
@@ -167,15 +167,8 @@ public class PenjumlahanManager : MonoBehaviour
 
         if( TrackedCardCount == 0 )
         {
-            calcButton.SetActive(false);
+            plusIcon.gameObject.SetActive(false);
         }
-    }
-
-    private void OnNumberAnimDoneHandler(GameObject numberObj)
-    {
-        resultText.gameObject.SetActive(true);
-
-        resultText.text = result.ToString();
     }
 
     /// <summary>
