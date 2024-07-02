@@ -65,6 +65,9 @@ public class PenjumlahanManager : MonoBehaviour
     public Transform digit_2_Parent;
     public Transform resultDigitParent;
 
+    [Range(0, 2)]
+    public float resultOffset;
+
     [ListDrawerSettings(ShowIndexLabels = true)]
     public List<GameObject> angkaPrefab;
 
@@ -162,13 +165,15 @@ public class PenjumlahanManager : MonoBehaviour
             Destroy(digit_2);
 
         digit_1 = Instantiate(angkaPrefab[digit1], digit_1_Parent);
-        digit_2 = Instantiate(angkaPrefab[digit2], digit_2_Parent);
+
+        if(result.ToString().Length > 1) 
+            digit_2 = Instantiate(angkaPrefab[digit2], digit_2_Parent);
 
         try
         {
             Vector3 midpointPosition = (Card_1.position + Card_2.position) / 2f;
 
-            Vector3 midpointOffset = midpointPosition + Vector3.up * 1.75f;
+            Vector3 midpointOffset = midpointPosition + Vector3.up * resultOffset;
 
             resultDigitParent.transform.position = midpointOffset;
         }
