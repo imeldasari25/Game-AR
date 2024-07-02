@@ -2151,7 +2151,7 @@ MonoBehaviour:
   result: 0
   digit_1: {fileID: 0}
   digit_2: {fileID: 0}
-  plusIcon: {fileID: 115997151}
+  mathOPIcon: {fileID: 115997151}
   digit_1_Parent: {fileID: 846319551}
   digit_2_Parent: {fileID: 928499631}
   resultDigitParent: {fileID: 1196764738}
