@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.4440221, g: 0.49316514, b: 0.5722316, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -921,6 +921,7 @@ MonoBehaviour:
   Card_1: {fileID: 0}
   Card_2: {fileID: 0}
   screenWidth: 0
+  screenHeight: 0
   number_A: 0
   number_B: 0
   result: 0
@@ -3229,13 +3230,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Dua
+  mTrackableName: 2
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/PengenalanAngka.xml
-  mAspectRatio: 1.399457
+  mDataSetPath: Vuforia/Test.xml
+  mAspectRatio: 1.735358
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.399457
+  mHeight: 1.735358
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -6243,13 +6244,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Satu
+  mTrackableName: 1
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/PengenalanAngka.xml
-  mAspectRatio: 1.399457
+  mDataSetPath: Vuforia/Test.xml
+  mAspectRatio: 1.735593
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.399457
+  mHeight: 1.735593
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
