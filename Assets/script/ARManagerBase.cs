@@ -47,6 +47,7 @@ public abstract class ARManagerBase : MonoBehaviour
     public Transform Card_2;
 
     public float screenWidth;
+    public float screenHeight;
 
     [Space(10)]
     public int number_A;
@@ -69,9 +70,17 @@ public abstract class ARManagerBase : MonoBehaviour
 
     protected virtual void Start()
     {
-        screenWidth = Screen.width;
-
         Screen.orientation = ScreenOrientation.LandscapeLeft;
+
+#if UNITY_EDITOR
+        screenWidth = Screen.width;
+#endif
+
+#if PLATFORM_ANDROID
+        screenWidth = Screen.height;
+#endif
+
+        Debug.Log($"Width = {screenWidth}, Height = {screenHeight}");
 
         TrackedCardCount = 0;
         mathOPIcon.gameObject.SetActive(false);

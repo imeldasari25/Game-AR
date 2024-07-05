@@ -47,7 +47,7 @@ PlayerSettings:
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
-  m_ActiveColorSpace: 1
+  m_ActiveColorSpace: 0
   unsupportedMSAAFallback: 0
   m_MTRendering: 1
   mipStripping: 0
@@ -137,9 +137,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 1
-  preloadedAssets:
-  - {fileID: 3850716010420870896, guid: f8a934ad5bd82b144992307ebf0c31aa, type: 2}
-  - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type: 3}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -159,7 +157,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.Sari.ARPengenalanAngka
+    Android: com.Sari.ARMathAdventure
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -277,7 +275,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 9c03060dc91e6b047adf27ff1ac6fdcb, type: 3}
+      m_Icon: {fileID: 2800000, guid: e3f46b2d06e5c0c4da181edb941f4da9, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -425,7 +423,7 @@ PlayerSettings:
     m_GraphicsJobMode: 0
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: AndroidPlayer
-    m_APIs: 0b000000
+    m_APIs: 0b00000008000000
     m_Automatic: 0
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
@@ -454,7 +452,7 @@ PlayerSettings:
     tvOS: 1
   m_BuildTargetGroupLightmapEncodingQuality:
   - m_BuildTarget: Android
-    m_EncodingQuality: 1
+    m_EncodingQuality: 0
   - m_BuildTarget: iPhone
     m_EncodingQuality: 1
   - m_BuildTarget: tvOS

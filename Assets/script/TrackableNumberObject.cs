@@ -19,13 +19,24 @@ public class TrackableNumberObject : MonoBehaviour
         {
             float xCoordinate = Camera.main.WorldToScreenPoint(transform.position).x;
 
+            Debug.Log(xCoordinate);
+
             //Jika scene saat ini adalah Pengenalan Angka, maka pakai ini
             if(PengenalanAngkaManager.Instance != null)
+            {
                 PengenalanAngkaManager.Instance.AssignCard(transform, xCoordinate);
+                //Debug.Log("Pengenalan Angka - Test");
+            }
             else if(PenjumlahanManager.Instance != null)
+            {
                 PenjumlahanManager.Instance.AssignCard(transform, xCoordinate);
+                //Debug.Log("Penjumlahan - Test");
+            }
             else if(PenguranganManager.Instance != null)
+            {
                 PenguranganManager.Instance.AssignCard(transform, xCoordinate);
+                //Debug.Log("Pengurangan - Test");
+            }
         }
         else
         {
@@ -41,9 +52,16 @@ public class TrackableNumberObject : MonoBehaviour
     {
         this.isTracked = isTracked;
 
-        if (isTracked) 
-        { 
-            cameraAudioSource.PlayOneShot(numberVoice);
+        if (isTracked)
+        {
+            try
+            {
+                if(numberVoice != null)
+                {
+                    cameraAudioSource.PlayOneShot(numberVoice);
+                }
+            }
+            catch { }
         }
     }
 }

@@ -1,19 +1,13 @@
 {
     "m_SelectedDeviceId": "HU9LAIZ9Q4YDTG7X",
     "m_SelectedPackage": {
-        "deviceId": "HU9LAIZ9Q4YDTG7X",
-        "name": "com.Sari.ARPengenalanAngka",
-        "processId": 30937,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "HU9LAIZ9Q4YDTG7X",
-            "name": "com.Sari.ARPengenalanAngka",
-            "processId": 22721,
-            "exited": true
-        },
         {
             "deviceId": "HU9LAIZ9Q4YDTG7X",
             "name": "com.oppo.launcher",
@@ -22,14 +16,32 @@
         },
         {
             "deviceId": "HU9LAIZ9Q4YDTG7X",
-            "name": "com.Sari.ARPengenalanAngka",
-            "processId": 4013,
-            "exited": false
+            "name": "com.Sari.ARMathAdventure",
+            "processId": 9204,
+            "exited": true
         },
         {
             "deviceId": "HU9LAIZ9Q4YDTG7X",
-            "name": "com.Sari.ARPengenalanAngka",
-            "processId": 30937,
+            "name": "com.Sari.ARMathAdventure",
+            "processId": 16236,
+            "exited": true
+        },
+        {
+            "deviceId": "HU9LAIZ9Q4YDTG7X",
+            "name": "com.Sari.ARMathAdventure",
+            "processId": 25565,
+            "exited": true
+        },
+        {
+            "deviceId": "HU9LAIZ9Q4YDTG7X",
+            "name": "com.Sari.ARMathAdventure",
+            "processId": 32339,
+            "exited": true
+        },
+        {
+            "deviceId": "HU9LAIZ9Q4YDTG7X",
+            "name": "com.Sari.ARMathAdventure",
+            "processId": 3940,
             "exited": false
         }
     ],

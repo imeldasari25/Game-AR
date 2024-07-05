@@ -18,6 +18,7 @@ public class PenjumlahanManager : ARManagerBase
     public override void PlaceResultNumber()
     {
         result = number_A + number_B;
+        Debug.Log($"{number_A} + {number_B} = {result}");
 
         // Step 2: Extract each digit of the sum and store them in separate variables
         int digit1 = result % 10;         // Extract the ones place digit
