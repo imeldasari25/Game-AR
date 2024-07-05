@@ -77,6 +77,15 @@ public class HomeManager : MonoBehaviour
         ChangeCurrentTab(Tab.Home);
     }
 
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            Application.Quit();
+            return;
+        }
+    }
+
     public void ChangeCurrentTab(Tab newTab)
     {
         CurrentTab = newTab;

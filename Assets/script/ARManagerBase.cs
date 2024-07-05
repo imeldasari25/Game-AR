@@ -71,10 +71,19 @@ public abstract class ARManagerBase : MonoBehaviour
     {
         screenWidth = Screen.width;
 
-        Screen.orientation = ScreenOrientation.LandscapeRight;
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
 
         TrackedCardCount = 0;
         mathOPIcon.gameObject.SetActive(false);
+    }
+
+    protected virtual void Update()
+    {
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            OnClick_BackBtn();
+            return;
+        }
     }
 
     public void AssignCard(Transform card, float xCoord)
@@ -174,4 +183,22 @@ public abstract class ARManagerBase : MonoBehaviour
     {
         SceneManager.LoadScene("Home");
     }
+
+    //void OnGUI()
+    //{
+    //    // Create a new GUIStyle
+    //    GUIStyle style = new GUIStyle();
+
+    //    // Set the font size
+    //    style.fontSize = 48;
+
+    //    // Optionally, set other style properties like color
+    //    style.normal.textColor = Color.white;
+
+    //    // Define the position and size of the label
+    //    Rect rect = new Rect(10, 10, 300, 40);
+
+    //    // Display the variable in a label with the custom style
+    //    GUI.Label(rect, "Variable Value: " + TrackedCardCount, style);
+    //}
 }

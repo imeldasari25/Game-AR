@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4250608846605574142}
   - component: {fileID: 4250608846605574143}
   - component: {fileID: 4250608846605574141}
-  - component: {fileID: 938324089}
   - component: {fileID: 4477762786742534038}
   m_Layer: 0
   m_Name: empat
@@ -172,22 +171,6 @@ MonoBehaviour:
   isTracked: 0
   numberVoice: {fileID: 0}
   cameraAudioSource: {fileID: 0}
---- !u!114 &938324089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4250608846605574130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  scaleSpeed: 100
-  numberObj: {fileID: 3908099628935618130}
-  targetToGo: {fileID: 0}
 --- !u!114 &4477762786742534038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -264,11 +247,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a025a34ebf7189c48aae5d099a11aa92, type: 3}
---- !u!1 &3908099628935618130 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6571623146927158794, guid: a025a34ebf7189c48aae5d099a11aa92, type: 3}
-  m_PrefabInstance: {fileID: 7858574122821412952}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4429161885052126440 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5798605263252729008, guid: a025a34ebf7189c48aae5d099a11aa92, type: 3}

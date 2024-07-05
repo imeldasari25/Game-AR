@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4933138945015418931}
   - component: {fileID: 4933138945015418932}
   - component: {fileID: 4933138945015418934}
-  - component: {fileID: 1250079869}
   - component: {fileID: 7641095280367774325}
   m_Layer: 0
   m_Name: tiga
@@ -172,22 +171,6 @@ MonoBehaviour:
   isTracked: 0
   numberVoice: {fileID: 0}
   cameraAudioSource: {fileID: 0}
---- !u!114 &1250079869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4933138945015418935}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  scaleSpeed: 100
-  numberObj: {fileID: 5239778093576688179}
-  targetToGo: {fileID: 0}
 --- !u!114 &7641095280367774325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,10 +250,5 @@ PrefabInstance:
 --- !u!4 &4899000255425759369 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6547439669034632943, guid: fe2e3e02844d48c4fb0e1e4bb1ebf112, type: 3}
-  m_PrefabInstance: {fileID: 1810890663788482150}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5239778093576688179 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5879164664434924629, guid: fe2e3e02844d48c4fb0e1e4bb1ebf112, type: 3}
   m_PrefabInstance: {fileID: 1810890663788482150}
   m_PrefabAsset: {fileID: 0}

@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 5145421384372776999}
   - component: {fileID: 5145421384372776998}
   - component: {fileID: 5145421384372776996}
-  - component: {fileID: 2145827966702163441}
-  - component: {fileID: 82949957}
   - component: {fileID: 3438610098029029712}
   m_Layer: 0
   m_Name: dua belas
@@ -173,38 +171,6 @@ MonoBehaviour:
   isTracked: 0
   numberVoice: {fileID: 0}
   cameraAudioSource: {fileID: 0}
---- !u!114 &2145827966702163441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5145421384372777003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  scaleSpeed: 100
-  numberObj: {fileID: 0}
-  targetToGo: {fileID: 0}
---- !u!114 &82949957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5145421384372777003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  scaleSpeed: 100
-  numberObj: {fileID: 0}
-  targetToGo: {fileID: 0}
 --- !u!114 &3438610098029029712
 MonoBehaviour:
   m_ObjectHideFlags: 0

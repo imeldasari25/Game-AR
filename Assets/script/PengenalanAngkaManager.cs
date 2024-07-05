@@ -22,13 +22,17 @@ public class PengenalanAngkaManager : MonoBehaviour
     {
         screenWidth = Screen.width;
 
-        Screen.orientation = ScreenOrientation.LandscapeRight;
+        Screen.orientation = ScreenOrientation.LandscapeLeft;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            OnClick_BackBtn();
+            return;
+        }
     }
 
     /// <summary>

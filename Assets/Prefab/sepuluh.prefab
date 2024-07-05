@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 4440677067638000275}
   - component: {fileID: 4440677067638000274}
   - component: {fileID: 4440677067638000276}
-  - component: {fileID: 2709446956757698700}
-  - component: {fileID: 1250408014}
   - component: {fileID: 8377237485226233404}
   m_Layer: 0
   m_Name: sepuluh
@@ -173,38 +171,6 @@ MonoBehaviour:
   isTracked: 0
   numberVoice: {fileID: 0}
   cameraAudioSource: {fileID: 0}
---- !u!114 &2709446956757698700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4440677067638000279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  scaleSpeed: 100
-  numberObj: {fileID: 8205814745259577761}
-  targetToGo: {fileID: 0}
---- !u!114 &1250408014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4440677067638000279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  scaleSpeed: 100
-  numberObj: {fileID: 8205814745259577761}
-  targetToGo: {fileID: 0}
 --- !u!114 &8377237485226233404
 MonoBehaviour:
   m_ObjectHideFlags: 0

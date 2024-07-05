@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 1623343677654165834}
   - component: {fileID: 1623343677654165837}
   - component: {fileID: 1623343677654165839}
-  - component: {fileID: 2331495162836957536}
-  - component: {fileID: 924605775}
   - component: {fileID: 2181013612377888939}
   m_Layer: 0
   m_Name: tiga belas
@@ -173,38 +171,6 @@ MonoBehaviour:
   isTracked: 0
   numberVoice: {fileID: 0}
   cameraAudioSource: {fileID: 0}
---- !u!114 &2331495162836957536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1623343677654165838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  scaleSpeed: 100
-  numberObj: {fileID: 3825504953253632344}
-  targetToGo: {fileID: 0}
---- !u!114 &924605775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1623343677654165838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  scaleSpeed: 100
-  numberObj: {fileID: 3825504953253632344}
-  targetToGo: {fileID: 0}
 --- !u!114 &2181013612377888939
 MonoBehaviour:
   m_ObjectHideFlags: 0

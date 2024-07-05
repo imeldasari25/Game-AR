@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7365560227628314534}
   - component: {fileID: 7365560227628314521}
   - component: {fileID: 7365560227628314532}
-  - component: {fileID: 211829464}
   - component: {fileID: 2580220150137852699}
   m_Layer: 0
   m_Name: satu
@@ -172,22 +171,6 @@ MonoBehaviour:
   isTracked: 0
   numberVoice: {fileID: 0}
   cameraAudioSource: {fileID: 0}
---- !u!114 &211829464
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7365560227628314523}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5f077f6174bc3e4dab1ed12d2ed72fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  scaleSpeed: 100
-  numberObj: {fileID: 7707580708143968472}
-  targetToGo: {fileID: 0}
 --- !u!114 &2580220150137852699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,10 +250,5 @@ PrefabInstance:
 --- !u!4 &7042789231175101026 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 324109428328066313, guid: 70df3bbbe8c882b49b3b3b5b52b1d046, type: 3}
-  m_PrefabInstance: {fileID: 7332551455997036395}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &7707580708143968472 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1095684650139465651, guid: 70df3bbbe8c882b49b3b3b5b52b1d046, type: 3}
   m_PrefabInstance: {fileID: 7332551455997036395}
   m_PrefabAsset: {fileID: 0}
