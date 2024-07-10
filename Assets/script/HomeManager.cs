@@ -1,3 +1,4 @@
+using Newtonsoft.Json;
 using Sirenix.OdinInspector;
 using System.Collections;
 using System.Collections.Generic;
@@ -31,6 +32,7 @@ public class HomeManager : MonoBehaviour
     public Toggle settingToggle;
 
     #region Download Marker Variable
+    [BoxGroup("Download Marker")]
     public string downloadURL;
     #endregion
 
@@ -67,9 +69,16 @@ public class HomeManager : MonoBehaviour
     [BoxGroup("SFX")]
     public AudioSource sfxAudioSource;
 
+    [BoxGroup("Player Data")]
+    public int playerCurrentLevel;
+    public const string SAVE_DATA_KEY = "PlayerSave";
+    public const string RANDOMIZED_QUIZ_INDEX = "RandomizedQuiz";
+
     private void Awake()
     {
         Instance = this;
+
+        LoadPlayerData();
     }
 
     private void Start()
@@ -87,6 +96,18 @@ public class HomeManager : MonoBehaviour
         {
             Application.Quit();
             return;
+        }
+    }
+
+    void LoadPlayerData()
+    {
+        if (PlayerPrefs.HasKey(SAVE_DATA_KEY))
+        {
+            playerCurrentLevel = PlayerPrefs.GetInt(SAVE_DATA_KEY);
+        }
+        else
+        {
+            PlayerPrefs.SetInt(SAVE_DATA_KEY, 0);
         }
     }
 
@@ -205,6 +226,15 @@ public class HomeManager : MonoBehaviour
     public void OnClick_ToGDrive()
     {
         Application.OpenURL(downloadURL);
+
+        PlaySfx();
+    }
+
+    public void OnClick_PlayQuizBtn()
+    {
+        PlaySfx();
+
+        SceneManager.LoadScene("Quiz - Development");
     }
     #endregion
 }

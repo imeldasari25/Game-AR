@@ -1,10 +1,12 @@
 using Sirenix.OdinInspector;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Newtonsoft.Json;
 
 public class SoalManager : MonoBehaviour
 {
@@ -15,8 +17,6 @@ public class SoalManager : MonoBehaviour
     [InlineEditor]
     public SoalDatabaseSO Soal;
 
-    [ReadOnly]
-    public int activeSoalIndex;
     [ReadOnly]
     public SoalPilihanGandaSO activeSoalSO;
     [ReadOnly, ShowInInspector]
@@ -46,21 +46,61 @@ public class SoalManager : MonoBehaviour
     [BoxGroup("SFX")]
     public AudioSource sfxAudioSource;
 
+    [BoxGroup("Player Data")]
+    public int playerCurrentLevel;
+    [BoxGroup("Player Data")]
+    public List<int> indexSoalRandom;
+
     public const float DEFAULT_TIMER = 180f;
 
     string _timerString;
 
     public void Awake()
     {
-        Instance = this; 
+        Instance = this;
     }
 
     private void Start()
     {
         // Mengambil index yang tersimpan di PlayerPrefs
-        int index = PlayerPrefs.GetInt("Index Soal");
+        LoadPlayerData();
 
-        UpdateSoal(index);
+        UpdateSoal(indexSoalRandom[playerCurrentLevel]);
+    }
+
+    void SavePlayerData()
+    {
+        PlayerPrefs.SetInt(HomeManager.SAVE_DATA_KEY, playerCurrentLevel);
+
+        PlayerPrefs.SetString(HomeManager.RANDOMIZED_QUIZ_INDEX, JsonConvert.SerializeObject(indexSoalRandom));
+    }
+
+    void LoadPlayerData()
+    {
+        if (PlayerPrefs.HasKey(HomeManager.SAVE_DATA_KEY))
+        {
+            playerCurrentLevel = PlayerPrefs.GetInt(HomeManager.SAVE_DATA_KEY);
+        }
+        else
+        {
+            PlayerPrefs.SetInt(HomeManager.SAVE_DATA_KEY, 0);
+        }
+
+        if(PlayerPrefs.HasKey(HomeManager.RANDOMIZED_QUIZ_INDEX))
+        {
+            indexSoalRandom = JsonConvert.DeserializeObject<List<int>>(PlayerPrefs.GetString(HomeManager.RANDOMIZED_QUIZ_INDEX));
+        }
+        else
+        {
+            indexSoalRandom = new List<int>();
+
+            for(int i = 0; i < Soal.SemuaSoal.Count; i++)
+            {
+                indexSoalRandom.Add(i);
+            }
+
+            PlayerPrefs.SetString(HomeManager.RANDOMIZED_QUIZ_INDEX, JsonConvert.SerializeObject(indexSoalRandom));
+        }
     }
 
     private void Update()
@@ -91,10 +131,14 @@ public class SoalManager : MonoBehaviour
     {
         ResetLevelState();
 
-        activeSoalIndex = indexSoal;
-        activeSoalSO = Soal.SemuaSoal[activeSoalIndex];
+        //playerCurrentLevel = indexSoal;
+        activeSoalSO = Soal.SemuaSoal[indexSoalRandom[playerCurrentLevel]];
 
-        levelTxt.text = "Level " + (activeSoalIndex + 1);
+        // LABEL Menyesuaikan Konten Soal
+        levelTxt.text = "Soal " + (indexSoalRandom[playerCurrentLevel] + 1);
+
+        // LABEL mengulang ke 1 lagi, ex: Soal 20 -> Soal 1
+            //levelTxt.text = "Soal " + (playerCurrentLevel + 1);
 
         #region Pengecekan_Soal_Text
         // Jika ada soal text
@@ -210,6 +254,18 @@ public class SoalManager : MonoBehaviour
         Debug.Log("DAPET " + jumlahBintang + " Bintang");
     }
 
+    private void RandomizeSoal()
+    {
+        // Fisher-Yates shuffle algorithm
+        for (int i = Soal.SemuaSoal.Count - 1; i > 0; i--)
+        {
+            int randomIndex = UnityEngine.Random.Range(0, i + 1);
+            int temp = indexSoalRandom[i];
+            indexSoalRandom[i] = indexSoalRandom[randomIndex];
+            indexSoalRandom[randomIndex] = temp;
+        }
+    }
+
     #region CALL_BY_UI_BUTTON
     public void OnClick_BackToMenuBtn()
     {
@@ -221,23 +277,26 @@ public class SoalManager : MonoBehaviour
 
     public void OnClick_NextBtn()
     {        
-        activeSoalIndex++;
-
-        if(activeSoalIndex > Soal.SemuaSoal.Count - 1)
+        playerCurrentLevel++;
+        
+        // JIKA SOAL UDAH HABIS
+        if(playerCurrentLevel > Soal.SemuaSoal.Count - 1)
         {
             Debug.Log("SOAL UDAH ABIS");
 
-            activeSoalIndex = Soal.SemuaSoal.Count - 1;
+            playerCurrentLevel = 0;
+            RandomizeSoal();
         }
+        SavePlayerData();
 
-        UpdateSoal(activeSoalIndex);
+        UpdateSoal(indexSoalRandom[playerCurrentLevel]);
 
         PlaySfx();
     }
 
     public void OnClick_RestartBtn()
     {
-        UpdateSoal(activeSoalIndex);
+        UpdateSoal(indexSoalRandom[playerCurrentLevel]);
 
         PlaySfx();
     }

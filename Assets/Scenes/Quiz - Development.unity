@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2124,7 +2124,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Level 1
+  m_text: Soal 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3cdeb089595cce440915cff42cc88293, type: 2}
   m_sharedMaterial: {fileID: -3265734141436511070, guid: 3cdeb089595cce440915cff42cc88293, type: 2}
@@ -3691,7 +3691,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentLevelState: 0
   Soal: {fileID: 11400000, guid: 74b9cbeaeeb036e45be9f11e1ad778f5, type: 2}
-  activeSoalIndex: 0
   activeSoalSO: {fileID: 11400000, guid: 67e4e602485724246bbf592c7138c806, type: 2}
   soalTxt: {fileID: 1815026186}
   soalImg: {fileID: 1038172663}
@@ -3717,6 +3716,8 @@ MonoBehaviour:
   pausePanel: {fileID: 259721048}
   clickSfx: {fileID: 8300000, guid: f6852cefdbf615445a07e2a005233b8d, type: 3}
   sfxAudioSource: {fileID: 2099557978}
+  playerCurrentLevel: 0
+  indexSoalRandom: 
 --- !u!4 &1355588366
 Transform:
   m_ObjectHideFlags: 0
