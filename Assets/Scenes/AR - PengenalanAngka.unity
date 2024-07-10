@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.46169478, g: 0.512416, b: 0.5899326, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -592,6 +592,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: satu Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5941386406316719148, guid: 92a5e3dc5a925c44588321ce139011e5, type: 3}
+      propertyPath: mHeight
+      value: 1.735593
+      objectReference: {fileID: 0}
+    - target: {fileID: 5941386406316719148, guid: 92a5e3dc5a925c44588321ce139011e5, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.735593
+      objectReference: {fileID: 0}
+    - target: {fileID: 5941386406316719148, guid: 92a5e3dc5a925c44588321ce139011e5, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/Test.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 5941386406316719148, guid: 92a5e3dc5a925c44588321ce139011e5, type: 3}
+      propertyPath: mTrackableName
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5941386406316719149, guid: 92a5e3dc5a925c44588321ce139011e5, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -797,8 +813,24 @@ PrefabInstance:
       value: dua  Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1911891175845329164, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
+      propertyPath: mHeight
+      value: 1.735358
+      objectReference: {fileID: 0}
+    - target: {fileID: 1911891175845329164, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
       propertyPath: mPreview
       value: 
+      objectReference: {fileID: 700854065}
+    - target: {fileID: 1911891175845329164, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.735358
+      objectReference: {fileID: 0}
+    - target: {fileID: 1911891175845329164, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/Test.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 1911891175845329164, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
+      propertyPath: mTrackableName
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1911891175845329165, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
       propertyPath: OnTargetLost.m_PersistentCalls.m_Calls.Array.size
@@ -899,8 +931,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 700854050}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Dua
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 2
+  mDatasetName: Vuforia/Test.xml
+  mCastedBehaviour: {fileID: 700854050}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &700854065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700854049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 700854050}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 2
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 700854050}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -1836,6 +1887,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1443104372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443104353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1443104354}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 4
+  mDatasetName: Vuforia/Test.xml
+  mCastedBehaviour: {fileID: 1443104354}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
+--- !u!114 &1443104373
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

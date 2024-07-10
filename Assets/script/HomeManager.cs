@@ -30,6 +30,10 @@ public class HomeManager : MonoBehaviour
     [BoxGroup("Toggle")]
     public Toggle settingToggle;
 
+    #region Download Marker Variable
+    public string downloadURL;
+    #endregion
+
     #region Menu Quiz Variable
     [BoxGroup("Quiz")]
     public SoalDatabaseSO SoalBank;
@@ -196,6 +200,11 @@ public class HomeManager : MonoBehaviour
             sfxToggle.GetComponentInChildren<Image>().sprite = toggleOff;
 
         audioMixer.SetFloat("SfxVol", sfxToggle.isOn ? 0 : -80);
+    }
+
+    public void OnClick_ToGDrive()
+    {
+        Application.OpenURL(downloadURL);
     }
     #endregion
 }

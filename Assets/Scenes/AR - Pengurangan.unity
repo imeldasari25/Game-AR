@@ -3713,8 +3713,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 6870315053313043444}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Satu
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 1
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 6870315053313043444}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -3732,8 +3732,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 6870315053313043444}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Satu
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 1
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 6870315053313043444}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -3751,8 +3751,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 6870315053313043444}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Satu
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 1
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 6870315053313043444}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -3770,8 +3770,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 6870315053313043444}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Satu
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 1
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 6870315053313043444}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -4251,8 +4251,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 7774191695842259213}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Dua
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 2
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 7774191695842259213}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -4270,8 +4270,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 7774191695842259213}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Dua
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 2
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 7774191695842259213}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -4289,8 +4289,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 7774191695842259213}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Dua
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 2
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 7774191695842259213}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -4308,8 +4308,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 7774191695842259213}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Dua
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 2
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 7774191695842259213}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -6382,13 +6382,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Satu
+  mTrackableName: 1
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/PengenalanAngka.xml
-  mAspectRatio: 1.399457
+  mDataSetPath: Vuforia/Test.xml
+  mAspectRatio: 1.735593
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.399457
+  mHeight: 1.735593
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -6440,8 +6440,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 6870315053313043444}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Satu
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 1
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 6870315053313043444}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -6839,13 +6839,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Dua
+  mTrackableName: 2
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/PengenalanAngka.xml
-  mAspectRatio: 1.399457
+  mDataSetPath: Vuforia/Test.xml
+  mAspectRatio: 1.735358
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.399457
+  mHeight: 1.735358
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -6897,8 +6897,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 7774191695842259213}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Dua
-  mDatasetName: Vuforia/PengenalanAngka.xml
+  mTargetName: 2
+  mDatasetName: Vuforia/Test.xml
   mCastedBehaviour: {fileID: 7774191695842259213}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
