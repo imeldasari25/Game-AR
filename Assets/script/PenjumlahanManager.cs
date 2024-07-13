@@ -36,11 +36,8 @@ public class PenjumlahanManager : ARManagerBase
 
         try
         {
-            Vector3 midpointPosition = (Card_1.position + Card_2.position) / 2f;
-
-            Vector3 midpointOffset = midpointPosition + Vector3.up * resultOffset;
-
-            resultDigitParent.transform.position = midpointOffset;
+            // OTAK ATIK Vector3.right nya
+            resultDigitParent.transform.position = Card_2.position + Vector3.right * resultOffset;
         }
         catch { }
     }

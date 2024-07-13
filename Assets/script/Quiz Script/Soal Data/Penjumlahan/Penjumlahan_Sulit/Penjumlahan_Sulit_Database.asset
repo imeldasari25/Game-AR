@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9eb3a6a2a671d174f928dd95f9c2c117, type: 3}
-  m_Name: Pengurangan_Level_1_Database
+  m_Name: Penjumlahan_Sulit_Database
   m_EditorClassIdentifier: 
   SemuaSoal:
-  - {fileID: 11400000, guid: 540e63fab67346a4da171180816804c6, type: 2}
-  - {fileID: 11400000, guid: 84a45afbdd983df40adc5a97f755c08b, type: 2}
-  - {fileID: 11400000, guid: 16dd3ea540a07da42bd8fd6c5b5ad9db, type: 2}
+  - {fileID: 11400000, guid: 79d6922f14859d54985ef93e840351d8, type: 2}
+  - {fileID: 11400000, guid: cd63616358981044dbbfa74353efd99f, type: 2}
+  - {fileID: 11400000, guid: a1f4a2e2527971d45803392282026801, type: 2}

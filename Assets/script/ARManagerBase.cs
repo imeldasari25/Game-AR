@@ -62,7 +62,6 @@ public abstract class ARManagerBase : MonoBehaviour
     public Transform digit_2_Parent;
     public Transform resultDigitParent;
 
-    [Range(0, 2)]
     public float resultOffset;
 
     [ListDrawerSettings(ShowIndexLabels = true)]
