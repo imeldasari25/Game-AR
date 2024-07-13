@@ -10,5 +10,6 @@ using UnityEditor;
 [CreateAssetMenu(fileName = "New Database", menuName = "Quiz/Soal Bank")]
 public class SoalDatabaseSO : ScriptableObject
 {
+    [ListDrawerSettings(ShowIndexLabels = true)]
     public List<SoalPilihanGandaSO> SemuaSoal;
 }

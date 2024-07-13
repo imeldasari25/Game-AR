@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eb3a6a2a671d174f928dd95f9c2c117, type: 3}
+  m_Name: Pengurangan_Level_2_Database
+  m_EditorClassIdentifier: 
+  SemuaSoal:
+  - {fileID: 11400000, guid: f3822bddce52c7147863977e34588c3f, type: 2}
+  - {fileID: 11400000, guid: 3bf8bf7138837ea4183e0727dddea893, type: 2}
+  - {fileID: 11400000, guid: 71e6b9bce9843134b949623f10f5db79, type: 2}

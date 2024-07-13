@@ -37,8 +37,8 @@ public class HomeManager : MonoBehaviour
     #endregion
 
     #region Menu Quiz Variable
-    [BoxGroup("Quiz")]
-    public SoalDatabaseSO SoalBank;
+    //[BoxGroup("Quiz")]
+    //public SoalDatabaseSO SoalBank;
 
     [BoxGroup("Quiz")]
     public GameObject levelBtnPrefab;
@@ -70,13 +70,28 @@ public class HomeManager : MonoBehaviour
     public AudioSource sfxAudioSource;
 
     [BoxGroup("Player Data")]
-    public int playerCurrentLevel;
-    public const string SAVE_DATA_KEY = "PlayerSave";
-    public const string RANDOMIZED_QUIZ_INDEX = "RandomizedQuiz";
+    [InfoBox("0,1,2 untuk Penjumalahan \n 3,4,5 untuk Pengurangan")]
+    public List<int> playerCurrentLevel;
+
+    public const string PENJUMLAHAN_MUDAH = "Penjumlahan_Mudah";
+    public const string PENJUMLAHAN_SEDANG = "Penjumlahan_Sedang";
+    public const string PENJUMLAHAN_SULIT = "Penjumlahan_Sulit";
+
+    public const string PENGURANGAN_MUDAH = "Pengurangan_Mudah";
+    public const string PENGURANGAN_SEDANG = "Pengurangan_Sedang";
+    public const string PENGURANGAN_SULIT = "Pengurangan_Sulit";
+
+    public const string SELECTED_DIFFICULTY = "SelectedDifficulty";
 
     private void Awake()
     {
         Instance = this;
+
+        playerCurrentLevel = new List<int>();
+        for (int i = 0; i < 6; i++)
+        {
+            playerCurrentLevel.Add(0);
+        }
 
         LoadPlayerData();
     }
@@ -85,7 +100,7 @@ public class HomeManager : MonoBehaviour
     {
         Screen.orientation = ScreenOrientation.Portrait;
 
-        SpawnAllLevelButtons();
+        //SpawnAllLevelButtons();
 
         ChangeCurrentTab(Tab.Home);
     }
@@ -101,14 +116,63 @@ public class HomeManager : MonoBehaviour
 
     void LoadPlayerData()
     {
-        if (PlayerPrefs.HasKey(SAVE_DATA_KEY))
+        #region Penjumlahan
+        if (PlayerPrefs.HasKey(PENJUMLAHAN_MUDAH))
         {
-            playerCurrentLevel = PlayerPrefs.GetInt(SAVE_DATA_KEY);
+            playerCurrentLevel[0] = PlayerPrefs.GetInt(PENJUMLAHAN_MUDAH);
         }
         else
         {
-            PlayerPrefs.SetInt(SAVE_DATA_KEY, 0);
+            PlayerPrefs.SetInt(PENJUMLAHAN_MUDAH, 0);
         }
+
+        if (PlayerPrefs.HasKey(PENJUMLAHAN_SEDANG))
+        {
+            playerCurrentLevel[1] = PlayerPrefs.GetInt(PENJUMLAHAN_SEDANG);
+        }
+        else
+        {
+            PlayerPrefs.SetInt(PENJUMLAHAN_SEDANG, 0);
+        }
+
+        if (PlayerPrefs.HasKey(PENJUMLAHAN_SULIT))
+        {
+            playerCurrentLevel[2] = PlayerPrefs.GetInt(PENJUMLAHAN_SULIT);
+        }
+        else
+        {
+            PlayerPrefs.SetInt(PENJUMLAHAN_SULIT, 0);
+        }
+        #endregion
+
+        #region Pengurangan
+        if (PlayerPrefs.HasKey(PENGURANGAN_MUDAH))
+        {
+            playerCurrentLevel[3] = PlayerPrefs.GetInt(PENGURANGAN_MUDAH);
+        }
+        else
+        {
+            PlayerPrefs.SetInt(PENGURANGAN_MUDAH, 0);
+        }
+
+        if (PlayerPrefs.HasKey(PENGURANGAN_SEDANG))
+        {
+            playerCurrentLevel[4] = PlayerPrefs.GetInt(PENGURANGAN_SEDANG);
+        }
+        else
+        {
+            PlayerPrefs.SetInt(PENGURANGAN_SEDANG, 0);
+        }
+
+        if (PlayerPrefs.HasKey(PENGURANGAN_SULIT))
+        {
+            playerCurrentLevel[5] = PlayerPrefs.GetInt(PENGURANGAN_SULIT);
+        }
+        else
+        {
+            PlayerPrefs.SetInt(PENGURANGAN_SULIT, 0);
+        }
+        #endregion
     }
 
     public void ChangeCurrentTab(Tab newTab)
@@ -138,22 +202,22 @@ public class HomeManager : MonoBehaviour
         settingToggle.isOn = CurrentTab == Tab.Setting;
     }
 
-    public void SpawnAllLevelButtons()
-    {
-        if (SoalBank.SemuaSoal.Count == 0)
-            return;
+    //public void SpawnAllLevelButtons()
+    //{
+    //    if (SoalBank.SemuaSoal.Count == 0)
+    //        return;
 
-        int i = 0;
+    //    int i = 0;
 
-        foreach(var soal in SoalBank.SemuaSoal)
-        {
-            GameObject btnTemp = Instantiate(levelBtnPrefab, levelBtnParent);
+    //    foreach(var soal in SoalBank.SemuaSoal)
+    //    {
+    //        GameObject btnTemp = Instantiate(levelBtnPrefab, levelBtnParent);
 
-            btnTemp.GetComponent<LevelButton>().SetIndex(i);
+    //        btnTemp.GetComponent<LevelButton>().SetIndex(i);
 
-            i++;
-        }
-    }
+    //        i++;
+    //    }
+    //}
 
     #region AR
     public void SwitchPengenalanAngka()
@@ -213,8 +277,6 @@ public class HomeManager : MonoBehaviour
 
     public void OnClick_SfxToggle()
     {
-        //sfxToggle.isOn = !sfxToggle.isOn;
-
         if(sfxToggle.isOn)
             sfxToggle.GetComponentInChildren<Image>().sprite = toggleOn;
         else
@@ -230,10 +292,18 @@ public class HomeManager : MonoBehaviour
         PlaySfx();
     }
 
-    public void OnClick_PlayQuizBtn()
-    {
-        PlaySfx();
+    //public void OnClick_PlayQuizBtn()
+    //{
+    //    PlaySfx();
 
+    //    SceneManager.LoadScene("Quiz - Development");
+    //}
+
+    public void OnClick_QuizDifficulty(int difficulty)
+    {
+        PlayerPrefs.SetInt(SELECTED_DIFFICULTY, difficulty);
+
+        PlaySfx();
         SceneManager.LoadScene("Quiz - Development");
     }
     #endregion

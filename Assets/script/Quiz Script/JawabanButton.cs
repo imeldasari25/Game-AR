@@ -10,8 +10,8 @@ public class JawabanButton : MonoBehaviour
     /// <param name="indexJawaban"></param>
     public void OnClick_JawbanBtn(int indexJawaban)
     {
-        SoalManager.Instance.AnswerSoal(indexJawaban);
+        QuizManager.Instance.AnswerSoal(indexJawaban);
 
-        SoalManager.Instance.PlaySfx();
+        QuizManager.Instance.PlaySfx();
     }
 }
