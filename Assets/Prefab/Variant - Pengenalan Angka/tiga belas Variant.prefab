@@ -7,6 +7,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1623343677654165834, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
+      propertyPath: mHeight
+      value: 1.386541
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623343677654165834, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.386541
+      objectReference: {fileID: 0}
+    - target: {fileID: 1623343677654165834, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/gambar5.xml
+      objectReference: {fileID: 0}
     - target: {fileID: 1623343677654165835, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -53,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1623343677654165838, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}
       propertyPath: m_Name
-      value: tiga belas
+      value: tiga belas Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e789fc0a717ab6a48a663b4f543634f3, type: 3}

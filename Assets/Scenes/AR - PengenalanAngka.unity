@@ -422,6 +422,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2842890826856781855, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
+      propertyPath: mHeight
+      value: 1.382812
+      objectReference: {fileID: 0}
+    - target: {fileID: 2842890826856781855, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.382812
+      objectReference: {fileID: 0}
+    - target: {fileID: 2842890826856781855, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/gambar5.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 2842890826856781855, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
+      propertyPath: mTrackableName
+      value: 19
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1069041749139103090, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
     - {fileID: 3964971989095758244, guid: 1d0d5946e9013a848a53422e1f1d794b, type: 3}
@@ -594,15 +610,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5941386406316719148, guid: 92a5e3dc5a925c44588321ce139011e5, type: 3}
       propertyPath: mHeight
-      value: 1.735593
+      value: 1.384977
       objectReference: {fileID: 0}
     - target: {fileID: 5941386406316719148, guid: 92a5e3dc5a925c44588321ce139011e5, type: 3}
       propertyPath: mAspectRatio
-      value: 1.735593
+      value: 1.384977
       objectReference: {fileID: 0}
     - target: {fileID: 5941386406316719148, guid: 92a5e3dc5a925c44588321ce139011e5, type: 3}
       propertyPath: mDataSetPath
-      value: Vuforia/Test.xml
+      value: Vuforia/gambar5.xml
       objectReference: {fileID: 0}
     - target: {fileID: 5941386406316719148, guid: 92a5e3dc5a925c44588321ce139011e5, type: 3}
       propertyPath: mTrackableName
@@ -814,19 +830,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1911891175845329164, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
       propertyPath: mHeight
-      value: 1.735358
+      value: 1.384977
       objectReference: {fileID: 0}
     - target: {fileID: 1911891175845329164, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
       propertyPath: mPreview
       value: 
-      objectReference: {fileID: 700854065}
+      objectReference: {fileID: 700854053}
     - target: {fileID: 1911891175845329164, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
       propertyPath: mAspectRatio
-      value: 1.735358
+      value: 1.384977
       objectReference: {fileID: 0}
     - target: {fileID: 1911891175845329164, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
       propertyPath: mDataSetPath
-      value: Vuforia/Test.xml
+      value: Vuforia/gambar5.xml
       objectReference: {fileID: 0}
     - target: {fileID: 1911891175845329164, guid: 98a2f2f8b01684140900560b8e1f274b, type: 3}
       propertyPath: mTrackableName
@@ -917,7 +933,7 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &700854064
+--- !u!114 &700854053
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -932,26 +948,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 700854050}
   mHiddenRoot: {fileID: 0}
   mTargetName: 2
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 700854050}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &700854065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 700854049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 700854050}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 2
-  mDatasetName: Vuforia/Test.xml
+  mDatasetName: Vuforia/gambar5.xml
   mCastedBehaviour: {fileID: 700854050}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -1886,7 +1883,7 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1443104372
+--- !u!114 &1443104357
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1901,11 +1898,11 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 1443104354}
   mHiddenRoot: {fileID: 0}
   mTargetName: 4
-  mDatasetName: Vuforia/Test.xml
+  mDatasetName: Vuforia/gambar5.xml
   mCastedBehaviour: {fileID: 1443104354}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
---- !u!114 &1443104373
+--- !u!114 &1443104358
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1920,7 +1917,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 1443104354}
   mHiddenRoot: {fileID: 0}
   mTargetName: 4
-  mDatasetName: Vuforia/Test.xml
+  mDatasetName: Vuforia/gambar5.xml
   mCastedBehaviour: {fileID: 1443104354}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}

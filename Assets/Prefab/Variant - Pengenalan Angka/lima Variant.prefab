@@ -57,15 +57,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9710663226471519, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
       propertyPath: mHeight
-      value: 1.737242
+      value: 1.384375
       objectReference: {fileID: 0}
     - target: {fileID: 9710663226471519, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
       propertyPath: mAspectRatio
-      value: 1.737242
+      value: 1.384375
       objectReference: {fileID: 0}
     - target: {fileID: 9710663226471519, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
       propertyPath: mDataSetPath
-      value: Vuforia/Test.xml
+      value: Vuforia/gambar5.xml
       objectReference: {fileID: 0}
     - target: {fileID: 9710663226471519, guid: 3d52b9892f945e149a47dd726297e10c, type: 3}
       propertyPath: mTrackableName

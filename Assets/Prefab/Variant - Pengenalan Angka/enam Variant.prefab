@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2263798370671030119, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
       propertyPath: m_Name
-      value: enam
+      value: enam Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2263798370671030138, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
       propertyPath: m_RootOrder
@@ -54,6 +54,22 @@ PrefabInstance:
     - target: {fileID: 2263798370671030138, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2263798370671030139, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
+      propertyPath: mHeight
+      value: 1.384977
+      objectReference: {fileID: 0}
+    - target: {fileID: 2263798370671030139, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.384977
+      objectReference: {fileID: 0}
+    - target: {fileID: 2263798370671030139, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/gambar5.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 2263798370671030139, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}
+      propertyPath: mTrackableName
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb25ec0a9954160499f8804ebf3a7be5, type: 3}

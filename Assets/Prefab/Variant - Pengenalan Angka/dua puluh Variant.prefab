@@ -9,7 +9,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5259989484995634168, guid: 72ce639d86def974faf37b7c38ee7ff5, type: 3}
       propertyPath: m_Name
-      value: dua puluh
+      value: dua puluh Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5259989484995634172, guid: 72ce639d86def974faf37b7c38ee7ff5, type: 3}
+      propertyPath: mHeight
+      value: 1.382812
+      objectReference: {fileID: 0}
+    - target: {fileID: 5259989484995634172, guid: 72ce639d86def974faf37b7c38ee7ff5, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.382812
+      objectReference: {fileID: 0}
+    - target: {fileID: 5259989484995634172, guid: 72ce639d86def974faf37b7c38ee7ff5, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/gambar5.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 5259989484995634172, guid: 72ce639d86def974faf37b7c38ee7ff5, type: 3}
+      propertyPath: mTrackableName
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5259989484995634173, guid: 72ce639d86def974faf37b7c38ee7ff5, type: 3}
       propertyPath: m_RootOrder
