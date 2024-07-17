@@ -1345,11 +1345,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 7
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.737242
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.386541
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.737242
+  mHeight: 1.386541
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -1641,11 +1641,7 @@ GameObject:
   - component: {fileID: 499417949546966587}
   - component: {fileID: 499417949546966586}
   - component: {fileID: 499417949546966584}
-  - component: {fileID: 4328939744420278732}
-  - component: {fileID: 4328939744420278733}
-  - component: {fileID: 4328939744420278734}
-  - component: {fileID: 4328939744420278735}
-  - component: {fileID: 4328939744420278736}
+  - component: {fileID: 499417949546966589}
   m_Layer: 0
   m_Name: empat
   m_TagString: Untagged
@@ -1778,16 +1774,16 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 4
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.737242
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384375
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.737242
+  mHeight: 1.384375
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 4328939744420278736}
+  mPreview: {fileID: 499417949546966589}
 --- !u!4 &499417949546966588
 Transform:
   m_ObjectHideFlags: 0
@@ -1804,6 +1800,25 @@ Transform:
   m_Father: {fileID: 1610893067}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &499417949546966589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499417949546966583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 499417949546966587}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 4
+  mDatasetName: Vuforia/gambar5.xml
+  mCastedBehaviour: {fileID: 499417949546966587}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!4 &508897120674846037
 Transform:
   m_ObjectHideFlags: 0
@@ -1888,16 +1903,16 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 3
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384375
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.384375
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 5521023240094696542}
+  mPreview: {fileID: 641933205104972904}
 --- !u!4 &641933205104972897
 Transform:
   m_ObjectHideFlags: 0
@@ -1926,11 +1941,7 @@ GameObject:
   - component: {fileID: 641933205104972896}
   - component: {fileID: 641933205104972903}
   - component: {fileID: 641933205104972901}
-  - component: {fileID: 5521023240094696538}
-  - component: {fileID: 5521023240094696539}
-  - component: {fileID: 5521023240094696540}
-  - component: {fileID: 5521023240094696541}
-  - component: {fileID: 5521023240094696542}
+  - component: {fileID: 641933205104972904}
   m_Layer: 0
   m_Name: tiga
   m_TagString: Untagged
@@ -2046,6 +2057,25 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &641933205104972904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641933205104972900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 641933205104972896}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: 3
+  mDatasetName: Vuforia/gambar5.xml
+  mCastedBehaviour: {fileID: 641933205104972896}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!33 &684079531023451913
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2097,11 +2127,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 13
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.386541
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.386541
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -2425,11 +2455,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 12
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.735358
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384977
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.735358
+  mHeight: 1.384977
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -2652,11 +2682,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 15
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.382812
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.382812
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -3183,11 +3213,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 16
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.737242
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384977
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.737242
+  mHeight: 1.384977
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -3689,92 +3719,16 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 19
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.382812
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.382812
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 1034400052378168032, guid: 74451ba372690a54cb45a26d7348e857, type: 3}
---- !u!114 &4138800512843236441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6870315053313043401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 6870315053313043444}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 1
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 6870315053313043444}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &4138800512843236442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6870315053313043401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 6870315053313043444}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 1
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 6870315053313043444}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &4138800512843236443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6870315053313043401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 6870315053313043444}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 1
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 6870315053313043444}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &4138800512843236444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6870315053313043401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 6870315053313043444}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 1
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 6870315053313043444}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!33 &4299730477046565547
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3791,101 +3745,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526847692231652514}
   m_Mesh: {fileID: -7432939776326845586, guid: de0d3b82c36c2a84f930e06d43b98830, type: 3}
---- !u!114 &4328939744420278732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499417949546966583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 499417949546966587}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 4
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 499417949546966587}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &4328939744420278733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499417949546966583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 499417949546966587}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 4
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 499417949546966587}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &4328939744420278734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499417949546966583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 499417949546966587}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 4
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 499417949546966587}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &4328939744420278735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499417949546966583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 499417949546966587}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 4
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 499417949546966587}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &4328939744420278736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 499417949546966583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 499417949546966587}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 4
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 499417949546966587}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!23 &4370969838578522642
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4237,82 +4096,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8709878624614097057}
   m_Mesh: {fileID: -3836088636122575373, guid: c76f6a7e895bfee42bfdb2d4720b5c75, type: 3}
---- !u!114 &4949485584226767154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7774191695842259210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 7774191695842259213}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 2
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 7774191695842259213}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &4949485584226767155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7774191695842259210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 7774191695842259213}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 2
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 7774191695842259213}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &4949485584226767156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7774191695842259210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 7774191695842259213}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 2
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 7774191695842259213}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &4949485584226767157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7774191695842259210}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 7774191695842259213}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 2
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 7774191695842259213}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!23 &4975862167264716675
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4416,11 +4199,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 20
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.737242
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.382812
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.737242
+  mHeight: 1.382812
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -4803,101 +4586,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5521023240094696538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641933205104972900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 641933205104972896}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 3
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 641933205104972896}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &5521023240094696539
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641933205104972900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 641933205104972896}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 3
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 641933205104972896}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &5521023240094696540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641933205104972900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 641933205104972896}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 3
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 641933205104972896}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &5521023240094696541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641933205104972900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 641933205104972896}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 3
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 641933205104972896}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
---- !u!114 &5521023240094696542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641933205104972900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 641933205104972896}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: 3
-  mDatasetName: Vuforia/Test.xml
-  mCastedBehaviour: {fileID: 641933205104972896}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1 &5533750691496231461
 GameObject:
   m_ObjectHideFlags: 0
@@ -5074,11 +4762,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 11
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.735358
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.386541
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.735358
+  mHeight: 1.386541
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -5101,11 +4789,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 8
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.382812
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.382812
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -5583,11 +5271,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 18
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.382812
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.382812
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -5766,11 +5454,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 10
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.382812
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.382812
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -6205,11 +5893,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 17
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384977
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.384977
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -6263,10 +5951,6 @@ GameObject:
   - component: {fileID: 6870315053313043444}
   - component: {fileID: 6870315053313043403}
   - component: {fileID: 6870315053313043446}
-  - component: {fileID: 4138800512843236441}
-  - component: {fileID: 4138800512843236442}
-  - component: {fileID: 4138800512843236443}
-  - component: {fileID: 4138800512843236444}
   - component: {fileID: 6870315053313043447}
   m_Layer: 0
   m_Name: satu
@@ -6384,11 +6068,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 1
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.735593
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384977
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.735593
+  mHeight: 1.384977
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -6441,7 +6125,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 6870315053313043444}
   mHiddenRoot: {fileID: 0}
   mTargetName: 1
-  mDatasetName: Vuforia/Test.xml
+  mDatasetName: Vuforia/gambar5.xml
   mCastedBehaviour: {fileID: 6870315053313043444}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -6720,10 +6404,6 @@ GameObject:
   - component: {fileID: 7774191695842259213}
   - component: {fileID: 7774191695842259212}
   - component: {fileID: 7774191695842259215}
-  - component: {fileID: 4949485584226767154}
-  - component: {fileID: 4949485584226767155}
-  - component: {fileID: 4949485584226767156}
-  - component: {fileID: 4949485584226767157}
   - component: {fileID: 7774191695842259216}
   m_Layer: 0
   m_Name: 'dua '
@@ -6841,11 +6521,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 2
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.735358
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384977
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.735358
+  mHeight: 1.384977
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -6898,7 +6578,7 @@ MonoBehaviour:
   mObserverBehaviour: {fileID: 7774191695842259213}
   mHiddenRoot: {fileID: 0}
   mTargetName: 2
-  mDatasetName: Vuforia/Test.xml
+  mDatasetName: Vuforia/gambar5.xml
   mCastedBehaviour: {fileID: 7774191695842259213}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -7167,11 +6847,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 5
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.737242
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384375
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.737242
+  mHeight: 1.384375
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -7260,11 +6940,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 6
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.737242
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384977
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.737242
+  mHeight: 1.384977
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -7624,11 +7304,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 9
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.382812
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.382812
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -7812,11 +7492,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 14
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.382812
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.382812
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0

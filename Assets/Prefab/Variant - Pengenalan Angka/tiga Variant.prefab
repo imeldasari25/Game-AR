@@ -53,11 +53,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4933138945015418931, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
       propertyPath: mHeight
-      value: 1.384977
+      value: 1.384375
       objectReference: {fileID: 0}
     - target: {fileID: 4933138945015418931, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
       propertyPath: mAspectRatio
-      value: 1.384977
+      value: 1.384375
       objectReference: {fileID: 0}
     - target: {fileID: 4933138945015418931, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
       propertyPath: mDataSetPath
@@ -65,11 +65,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4933138945015418931, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
       propertyPath: mTrackableName
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4933138945015418935, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
       propertyPath: m_Name
       value: tiga Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641095280367774325, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
+      propertyPath: mTargetName
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641095280367774325, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}
+      propertyPath: mDatasetName
+      value: Vuforia/gambar5.xml
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aae45805d47521448ad7dd02d7097ac3, type: 3}

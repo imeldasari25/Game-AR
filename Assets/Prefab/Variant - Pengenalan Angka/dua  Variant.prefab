@@ -56,8 +56,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3410175730174713894, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
+      propertyPath: mHeight
+      value: 1.384977
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410175730174713894, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
       propertyPath: mPreview
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410175730174713894, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
+      propertyPath: mAspectRatio
+      value: 1.384977
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410175730174713894, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
+      propertyPath: mDataSetPath
+      value: Vuforia/gambar5.xml
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410175730174713894, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}
+      propertyPath: mTrackableName
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d89ef58739fd56a40a3a6f5ad85d8c80, type: 3}

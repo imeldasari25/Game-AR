@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
+  m_IndirectSpecularColor: {r: 0.4440221, g: 0.49316514, b: 0.5722316, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1347,11 +1347,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 5
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.737242
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384375
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.737242
+  mHeight: 1.384375
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -2024,11 +2024,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 15
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.382812
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.382812
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -2086,11 +2086,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 13
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.386541
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.386541
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -2473,11 +2473,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 11
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.735358
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.386541
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.735358
+  mHeight: 1.386541
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -2765,11 +2765,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 6
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.737242
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384977
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.737242
+  mHeight: 1.384977
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -3232,11 +3232,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 2
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.735358
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384977
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.735358
+  mHeight: 1.384977
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -3489,11 +3489,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 8
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.382812
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.382812
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -3821,11 +3821,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 18
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.382812
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.382812
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -4118,11 +4118,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 4
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.737242
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384375
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.737242
+  mHeight: 1.384375
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -4336,11 +4336,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 10
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.382812
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.382812
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -4587,11 +4587,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 3
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384375
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.384375
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -4735,11 +4735,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 12
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.735358
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384977
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.735358
+  mHeight: 1.384977
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -4997,11 +4997,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 9
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.382812
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.382812
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -5201,11 +5201,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 20
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.737242
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.382812
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.737242
+  mHeight: 1.382812
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -5387,11 +5387,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 17
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384977
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.384977
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -6246,11 +6246,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 1
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.735593
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384977
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.735593
+  mHeight: 1.384977
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -6416,11 +6416,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 7
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.737242
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.386541
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.737242
+  mHeight: 1.386541
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -6562,11 +6562,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 16
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.737242
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.384977
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.737242
+  mHeight: 1.384977
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -7146,11 +7146,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 19
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.382812
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.382812
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -7392,11 +7392,11 @@ MonoBehaviour:
   RuntimeCollider: 0
   mTrackableName: 14
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.382812
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.382812
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
