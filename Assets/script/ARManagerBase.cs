@@ -6,45 +6,37 @@ using UnityEngine.SceneManagement;
 
 public abstract class ARManagerBase : MonoBehaviour
 {
-    [SerializeField]
-    protected int _trackedCardCount;
-
     /// <summary>
-    /// Ini adalah PROPERTY
+    /// Kartu yang ada di sebelah Kiri Layar
     /// </summary>
-    public int TrackedCardCount
+    public Transform Card_1
     {
-        //Di gunakan saat property digunakan Value-nya
         get
         {
-            return _trackedCardCount;
-        }
-        set
-        {
-            _trackedCardCount = value;
-
-            if (_trackedCardCount < 0)
+            if (_trackedCard.Count > 0)
             {
-                _trackedCardCount = 0;
+                return _trackedCard[0].transform;
             }
-
-            if (_trackedCardCount == 0)
-            {
-                Card_1 = null;
-                Card_2 = null;
-            }
+            else
+                return null;
         }
     }
 
     /// <summary>
-    /// Kartu yang ada di sebelah Kiri Layar
-    /// </summary>
-    public Transform Card_1;
-
-    /// <summary>
     /// Kartu yang ada di sebelah Kanan Layar
     /// </summary>
-    public Transform Card_2;
+    public Transform Card_2
+    {
+        get
+        {
+            if (_trackedCard.Count > 1)
+            {
+                return _trackedCard[1].transform;
+            }
+            else
+                return null;
+        }
+    }
 
     public float screenWidth;
     public float screenHeight;
@@ -53,8 +45,8 @@ public abstract class ARManagerBase : MonoBehaviour
     public int number_A;
     public int number_B;
     public int result;
-    public GameObject digit_1;
-    public GameObject digit_2;
+    public GameObject digit_1_Obj;
+    public GameObject digit_2_Obj;
 
     [Space(10)]
     public Transform mathOPIcon;
@@ -67,8 +59,21 @@ public abstract class ARManagerBase : MonoBehaviour
     [ListDrawerSettings(ShowIndexLabels = true)]
     public List<GameObject> angkaPrefab;
 
+    [SerializeField, ReadOnly]
+    protected List<TrackableNumberObject> _trackedCard;
+
+    /// <summary>
+    /// Ini adalah PROPERTY
+    /// </summary>
+    public int TrackedCardCount
+    {
+        get => _trackedCard.Count;
+    }
+
     protected virtual void Start()
     {
+        _trackedCard = new List<TrackableNumberObject>();
+
         Screen.orientation = ScreenOrientation.LandscapeLeft;
 
 #if UNITY_EDITOR
@@ -80,8 +85,6 @@ public abstract class ARManagerBase : MonoBehaviour
 #endif
 
         Debug.Log($"Width = {screenWidth}, Height = {screenHeight}");
-
-        TrackedCardCount = 0;
         mathOPIcon.gameObject.SetActive(false);
     }
 
@@ -92,50 +95,72 @@ public abstract class ARManagerBase : MonoBehaviour
             OnClick_BackBtn();
             return;
         }
+
+        UpdateAll();
     }
 
-    public void AssignCard(Transform card, float xCoord)
+    public void AddCard(TrackableNumberObject card)
     {
-        if (TrackedCardCount == 1)
+        _trackedCard.Add(card);
+
+        if(_trackedCard.Count > 2)
         {
-            // Kartu berada di sebelah Kiri Layar
-            if (xCoord < screenWidth / 2)
-            {
-                Card_1 = card;
-                number_A = Card_1.GetComponent<TrackableNumberObject>().number;
-
-                Card_2 = null;
-                number_B = 0;
-            }
-            // Kartu berada di sebelah Kanan Layar
-            else
-            {
-                Card_1 = null;
-                number_A = 0;
-
-                Card_2 = card;
-                number_B = Card_2.GetComponent<TrackableNumberObject>().number;
-            }
+            _trackedCard.RemoveAt(2);
         }
-        else if (TrackedCardCount == 2)
+
+        HandleCardCountChange();
+    }
+
+    public void RemoveCard(TrackableNumberObject card)
+    {
+        _trackedCard.Remove(card);
+
+        HandleCardCountChange();
+    }
+
+    public virtual void HandleCardCountChange()
+    {
+        if (TrackedCardCount == 2)
         {
-            // Kartu berada di sebelah Kiri Layar
-            if (xCoord < screenWidth / 2)
-            {
-                Card_1 = card;
-                number_A = Card_1.GetComponent<TrackableNumberObject>().number;
-            }
-            // Kartu berada di sebelah Kanan Layar
-            else
-            {
-                Card_2 = card;
-                number_B = Card_2.GetComponent<TrackableNumberObject>().number;
-            }
             PlaceMathOPIcon();
             PlaceResultNumber();
         }
+        else
+        {
+            Destroy(digit_1_Obj);
+            Destroy(digit_2_Obj);
+        }
 
         mathOPIcon.gameObject.SetActive(TrackedCardCount == 2);
+    }
+
+    public void UpdateAll()
+    {
+        try
+        {
+            number_A = _trackedCard[0].number;
+        }
+        catch { }
+
+        try
+        {
+            number_B = _trackedCard[1].number;
+        }
+        catch { }
+
+        if (_trackedCard.Count < 2)
+            return;
+
+        if (_trackedCard[1].PosInScreenX < _trackedCard[0].PosInScreenX)
+        {
+            TrackableNumberObject cardTemp = _trackedCard[0];
+
+            _trackedCard.RemoveAt(0);
+            _trackedCard.Add(cardTemp);
+        }
+
+        PlaceMathOPIcon();
+        PlaceResultNumber();
     }
 
     public void PlaceMathOPIcon()
@@ -153,36 +178,7 @@ public abstract class ARManagerBase : MonoBehaviour
         catch { }
     }
 
-    public abstract void PlaceResultNumber();
-
-    /// <summary>
-    /// Menambahkan 1 Card Count 
-    /// 
-    /// Dipanggil didalam Event Vuforia didalam Inspector
-    /// </summary>
-    public void AddCardCounter()
-    {
-        TrackedCardCount++;
-    }
-
-    /// <summary>
-    /// Mengurangi 1 Card Count 
-    /// 
-    /// Dipanggil didalam Event Vuforia didalam Inspector
-    /// </summary>
-    public virtual void RemoveCardCounter()
-    {
-        TrackedCardCount--;
-
-        if (TrackedCardCount != 2)
-        {
-            mathOPIcon.gameObject.SetActive(false);
-
-            Destroy(digit_1);
-            Destroy(digit_2);
-        }
-
-    }
+    public virtual void PlaceResultNumber() { }
 
     /// <summary>
     /// Ini di panggil di Tombol Back
@@ -190,6 +186,23 @@ public abstract class ARManagerBase : MonoBehaviour
     public void OnClick_BackBtn()
     {
         SceneManager.LoadScene("Home");
+    }
+
+    protected int[] ExtractDigitsFromNumber(int number)
+    {
+        // Convert the number to a string
+        string numberString = number.ToString();
+
+        // Create an array to hold the digits
+        int[] digits = new int[numberString.Length];
+
+        // Convert each character back to an integer and store it in the array
+        for (int i = 0; i < numberString.Length; i++)
+        {
+            digits[i] = int.Parse(numberString[i].ToString());
+        }
+
+        return digits;
     }
 
     //void OnGUI()

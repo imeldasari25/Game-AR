@@ -10,9 +10,18 @@ public class PenjumlahanManager : ARManagerBase
 {
     public static PenjumlahanManager Instance;
 
+    public GameObject equalIcon;
+
     private void Awake()
     {
         Instance = this;
+    }
+
+    protected override void Start()
+    {
+        base.Start();
+
+        equalIcon.SetActive(false);
     }
 
     public override void PlaceResultNumber()
@@ -20,19 +29,19 @@ public class PenjumlahanManager : ARManagerBase
         result = number_A + number_B;
         Debug.Log($"{number_A} + {number_B} = {result}");
 
-        // Step 2: Extract each digit of the sum and store them in separate variables
-        int digit1 = result % 10;         // Extract the ones place digit
-        int digit2 = (result / 10) % 10;  // Extract the tens place digit
+        int[] resultDigit = ExtractDigitsFromNumber( result );
 
-        if (digit_1 != null)
-            Destroy(digit_1);
-        if (digit_2 != null)
-            Destroy(digit_2);
+        #region Clear_Digit_Obj
+        if (digit_1_Obj != null)
+            Destroy(digit_1_Obj);
+        if (digit_2_Obj != null)
+            Destroy(digit_2_Obj);
+        #endregion
 
-        digit_1 = Instantiate(angkaPrefab[digit1], digit_1_Parent);
+        digit_1_Obj = Instantiate(angkaPrefab[resultDigit[0]], digit_1_Parent);
 
         if(result.ToString().Length > 1) 
-            digit_2 = Instantiate(angkaPrefab[digit2], digit_2_Parent);
+            digit_2_Obj = Instantiate(angkaPrefab[resultDigit[1]], digit_2_Parent);
 
         try
         {
@@ -40,5 +49,11 @@ public class PenjumlahanManager : ARManagerBase
             resultDigitParent.transform.position = Card_2.position + Vector3.right * resultOffset;
         }
         catch { }
+    }
+
+    public override void HandleCardCountChange()
+    {
+        base.HandleCardCountChange();
+        equalIcon.SetActive(TrackedCardCount == 2);
     }
 }

@@ -12,36 +12,9 @@ public class TrackableNumberObject : MonoBehaviour
 
     public AudioSource cameraAudioSource;
 
-    // Update is called once per frame
-    void Update()
+    public float PosInScreenX
     {
-        if (isTracked)
-        {
-            float xCoordinate = Camera.main.WorldToScreenPoint(transform.position).x;
-
-            Debug.Log(xCoordinate);
-
-            //Jika scene saat ini adalah Pengenalan Angka, maka pakai ini
-            if(PengenalanAngkaManager.Instance != null)
-            {
-                PengenalanAngkaManager.Instance.AssignCard(transform, xCoordinate);
-                //Debug.Log("Pengenalan Angka - Test");
-            }
-            else if(PenjumlahanManager.Instance != null)
-            {
-                PenjumlahanManager.Instance.AssignCard(transform, xCoordinate);
-                //Debug.Log("Penjumlahan - Test");
-            }
-            else if(PenguranganManager.Instance != null)
-            {
-                PenguranganManager.Instance.AssignCard(transform, xCoordinate);
-                //Debug.Log("Pengurangan - Test");
-            }
-        }
-        else
-        {
-            return;
-        }
+        get => Camera.main.WorldToScreenPoint(transform.position).x;
     }
 
     /// <summary>
@@ -54,6 +27,19 @@ public class TrackableNumberObject : MonoBehaviour
 
         if (isTracked)
         {
+            if (PengenalanAngkaManager.Instance != null)
+            {
+                PengenalanAngkaManager.Instance.AddCard(this);
+            }
+            else if (PenjumlahanManager.Instance != null)
+            {
+                PenjumlahanManager.Instance.AddCard(this);
+            }
+            else if (PenguranganManager.Instance != null)
+            {
+                PenguranganManager.Instance.AddCard(this);
+            }
+
             try
             {
                 if(numberVoice != null)
@@ -62,6 +48,21 @@ public class TrackableNumberObject : MonoBehaviour
                 }
             }
             catch { }
+        }
+        else
+        {
+            if (PengenalanAngkaManager.Instance != null)
+            {
+                PengenalanAngkaManager.Instance.RemoveCard(this);
+            }
+            else if (PenjumlahanManager.Instance != null)
+            {
+                PenjumlahanManager.Instance.RemoveCard(this);
+            }
+            else if (PenguranganManager.Instance != null)
+            {
+                PenguranganManager.Instance.RemoveCard(this);
+            }
         }
     }
 }
