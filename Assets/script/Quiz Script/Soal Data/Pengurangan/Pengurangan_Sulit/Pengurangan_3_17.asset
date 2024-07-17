@@ -19,11 +19,11 @@ MonoBehaviour:
   ListJawaban:
   - text: 30
     gambar: {fileID: 0}
-  - text: 7
+  - text: 70
     gambar: {fileID: 0}
-  - text: 5
+  - text: 79
     gambar: {fileID: 0}
-  - text: 60
+  - text: 89
     gambar: {fileID: 0}
-  indexJawabanBenar: 0
+  indexJawabanBenar: 1
   JumlahBintang: 0

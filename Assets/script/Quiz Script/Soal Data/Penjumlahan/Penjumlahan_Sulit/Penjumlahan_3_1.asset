@@ -17,7 +17,7 @@ MonoBehaviour:
   ListJawaban:
   - text: 20
     gambar: {fileID: 0}
-  - text: 10
+  - text: 58
     gambar: {fileID: 0}
   - text: 60
     gambar: {fileID: 0}

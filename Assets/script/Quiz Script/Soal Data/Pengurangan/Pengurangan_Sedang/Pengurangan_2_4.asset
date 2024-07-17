@@ -15,13 +15,13 @@ MonoBehaviour:
   soalText: 16 - 8
   soalGambar: {fileID: 0}
   ListJawaban:
-  - text: 20
-    gambar: {fileID: 0}
-  - text: 1
-    gambar: {fileID: 0}
   - text: 8
     gambar: {fileID: 0}
-  - text: 10
+  - text: 13
     gambar: {fileID: 0}
-  indexJawabanBenar: 2
+  - text: 41
+    gambar: {fileID: 0}
+  - text: 31
+    gambar: {fileID: 0}
+  indexJawabanBenar: 0
   JumlahBintang: 0

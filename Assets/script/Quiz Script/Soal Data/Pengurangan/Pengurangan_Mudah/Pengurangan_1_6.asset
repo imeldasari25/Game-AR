@@ -15,11 +15,11 @@ MonoBehaviour:
   soalText: 4 - 2
   soalGambar: {fileID: 0}
   ListJawaban:
-  - text: 8
+  - text: 1
     gambar: {fileID: 0}
   - text: 2
     gambar: {fileID: 0}
-  - text: 10
+  - text: 3
     gambar: {fileID: 0}
   - text: 4
     gambar: {fileID: 0}

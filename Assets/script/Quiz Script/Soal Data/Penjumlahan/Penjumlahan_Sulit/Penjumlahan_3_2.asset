@@ -17,11 +17,11 @@ MonoBehaviour:
   ListJawaban:
   - text: 60
     gambar: {fileID: 0}
-  - text: 1
+  - text: 75
     gambar: {fileID: 0}
-  - text: 2
+  - text: 45
     gambar: {fileID: 0}
-  - text: 3
+  - text: 50
     gambar: {fileID: 0}
   indexJawabanBenar: 0
   JumlahBintang: 0
