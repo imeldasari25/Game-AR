@@ -51,13 +51,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 17
+  mTrackableName: 13
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/Test.xml
-  mAspectRatio: 1.734605
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.386541
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.734605
+  mHeight: 1.386541
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0

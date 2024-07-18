@@ -9,6 +9,7 @@ public class PenguranganManager : ARManagerBase
     //Singleton
     public static PenguranganManager Instance;
 
+    public GameObject equalIcon;
     public GameObject minusIcon;
 
     private void Awake()
@@ -21,37 +22,37 @@ public class PenguranganManager : ARManagerBase
         base.Start();
 
         minusIcon.SetActive(false);
+        equalIcon.SetActive(false);
     }
 
     public override void PlaceResultNumber()
     {
         result = number_A - number_B;
 
-        int digit1 = result % 10;         // Extract the ones place digit
-        int digit2 = (result / 10) % 10;  // Extract the tens place digit
+        int[] resultDigit = ExtractDigitsFromNumber(Mathf.Abs(result));
 
-        if (digit_1 != null)
-            Destroy(digit_1);
-        if (digit_2 != null)
-            Destroy(digit_2);
+        if (digit_1_Obj != null)
+            Destroy(digit_1_Obj);
+        if (digit_2_Obj != null)
+            Destroy(digit_2_Obj);
 
         minusIcon.SetActive(false);
 
         if (result < 0)
         {
-            digit_1 = Instantiate(angkaPrefab[-digit1], digit_1_Parent);
+            digit_1_Obj = Instantiate(angkaPrefab[resultDigit[0]], digit_1_Parent);
 
             if (result.ToString().Length > 2)
-                digit_2 = Instantiate(angkaPrefab[-digit2], digit_2_Parent);
+                digit_2_Obj = Instantiate(angkaPrefab[resultDigit[1]], digit_2_Parent);
 
             minusIcon.SetActive(true);
         }
         else
         {
-            digit_1 = Instantiate(angkaPrefab[digit1], digit_1_Parent);
+            digit_1_Obj = Instantiate(angkaPrefab[resultDigit[0]], digit_1_Parent);
 
             if (result.ToString().Length > 1)
-                digit_2 = Instantiate(angkaPrefab[digit2], digit_2_Parent);
+                digit_2_Obj = Instantiate(angkaPrefab[resultDigit[1]], digit_2_Parent);
 
             minusIcon.SetActive(false);
         }
@@ -65,13 +66,10 @@ public class PenguranganManager : ARManagerBase
         catch { }
     }
 
-    public override void RemoveCardCounter()
+    public override void HandleCardCountChange()
     {
-        base.RemoveCardCounter();
-
-        if (TrackedCardCount != 2)
-        {
-            minusIcon.SetActive(false);
-        }
+        base.HandleCardCountChange();
+        minusIcon.SetActive(TrackedCardCount == 2);
+        equalIcon.SetActive(TrackedCardCount == 2);
     }
 }
