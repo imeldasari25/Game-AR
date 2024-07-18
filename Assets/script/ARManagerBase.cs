@@ -85,7 +85,12 @@ public abstract class ARManagerBase : MonoBehaviour
 #endif
 
         Debug.Log($"Width = {screenWidth}, Height = {screenHeight}");
-        mathOPIcon.gameObject.SetActive(false);
+
+        try
+        {
+            mathOPIcon.gameObject.SetActive(false);
+        }
+        catch { }
     }
 
     protected virtual void Update()
@@ -131,7 +136,11 @@ public abstract class ARManagerBase : MonoBehaviour
             Destroy(digit_2_Obj);
         }
 
-        mathOPIcon.gameObject.SetActive(TrackedCardCount == 2);
+        try
+        {
+            mathOPIcon.gameObject.SetActive(TrackedCardCount == 2);
+        }
+        catch { }
     }
 
     public void UpdateAll()
