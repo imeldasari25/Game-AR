@@ -50,6 +50,8 @@ public abstract class ARManagerBase : MonoBehaviour
 
     [Space(10)]
     public Transform mathOPIcon;
+    public GameObject equalIcon;
+
     public Transform digit_1_Parent;
     public Transform digit_2_Parent;
     public Transform resultDigitParent;
@@ -89,6 +91,7 @@ public abstract class ARManagerBase : MonoBehaviour
         try
         {
             mathOPIcon.gameObject.SetActive(false);
+            equalIcon.SetActive(false);
         }
         catch { }
     }
@@ -134,13 +137,10 @@ public abstract class ARManagerBase : MonoBehaviour
         {
             Destroy(digit_1_Obj);
             Destroy(digit_2_Obj);
-        }
 
-        try
-        {
-            mathOPIcon.gameObject.SetActive(TrackedCardCount == 2);
+            mathOPIcon.gameObject.SetActive(false);
+            equalIcon.gameObject.SetActive(false);
         }
-        catch { }
     }
 
     public void UpdateAll()
@@ -170,6 +170,13 @@ public abstract class ARManagerBase : MonoBehaviour
 
         PlaceMathOPIcon();
         PlaceResultNumber();
+
+        try
+        {
+            mathOPIcon.gameObject.SetActive(TrackedCardCount == 2 && result > 0);
+            equalIcon.gameObject.SetActive(TrackedCardCount == 2 && result > 0);
+        }
+        catch { }
     }
 
     public void PlaceMathOPIcon()

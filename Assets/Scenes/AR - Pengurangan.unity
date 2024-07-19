@@ -304,7 +304,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182254493}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.40000004, y: 0, z: 0}
+  m_LocalPosition: {x: 0.34, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2594,7 +2594,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1661166485
 Transform:
   m_ObjectHideFlags: 0
@@ -3237,6 +3237,7 @@ MonoBehaviour:
   digit_1_Obj: {fileID: 0}
   digit_2_Obj: {fileID: 0}
   mathOPIcon: {fileID: 1640557202}
+  equalIcon: {fileID: 1473620794}
   digit_1_Parent: {fileID: 893942267}
   digit_2_Parent: {fileID: 182254494}
   resultDigitParent: {fileID: 1004666601}
@@ -3253,8 +3254,6 @@ MonoBehaviour:
   - {fileID: 3055016459704013574, guid: 0e10ea1e86a47aa4d936335c05f4f507, type: 3}
   - {fileID: 2776182679314947101, guid: 057f5aa23fbcb08489ae734eeadec694, type: 3}
   _trackedCard: []
-  equalIcon: {fileID: 1473620794}
-  minusIcon: {fileID: 1661166484}
 --- !u!1001 &1850478636
 PrefabInstance:
   m_ObjectHideFlags: 0

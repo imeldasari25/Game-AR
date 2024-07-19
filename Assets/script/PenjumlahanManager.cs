@@ -10,18 +10,9 @@ public class PenjumlahanManager : ARManagerBase
 {
     public static PenjumlahanManager Instance;
 
-    public GameObject equalIcon;
-
     private void Awake()
     {
         Instance = this;
-    }
-
-    protected override void Start()
-    {
-        base.Start();
-
-        equalIcon.SetActive(false);
     }
 
     public override void PlaceResultNumber()
@@ -51,9 +42,9 @@ public class PenjumlahanManager : ARManagerBase
         catch { }
     }
 
-    public override void HandleCardCountChange()
-    {
-        base.HandleCardCountChange();
-        equalIcon.SetActive(TrackedCardCount == 2);
-    }
+    //public override void HandleCardCountChange()
+    //{
+    //    base.HandleCardCountChange();
+    //    equalIcon.SetActive(TrackedCardCount == 2);
+    //}
 }
