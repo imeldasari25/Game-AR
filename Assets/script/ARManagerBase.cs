@@ -138,8 +138,17 @@ public abstract class ARManagerBase : MonoBehaviour
             Destroy(digit_1_Obj);
             Destroy(digit_2_Obj);
 
-            mathOPIcon.gameObject.SetActive(false);
-            equalIcon.gameObject.SetActive(false);
+            try
+            {
+                mathOPIcon.gameObject.SetActive(false);
+            }
+            catch { }
+
+            try
+            {
+                equalIcon.gameObject.SetActive(false);
+            }
+            catch { }
         }
     }
 

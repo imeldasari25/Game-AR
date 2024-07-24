@@ -21,7 +21,7 @@ MonoBehaviour:
     gambar: {fileID: 0}
   - text: 5
     gambar: {fileID: 0}
-  - text: 42
+  - text: 50
     gambar: {fileID: 0}
   indexJawabanBenar: 3
   JumlahBintang: 0

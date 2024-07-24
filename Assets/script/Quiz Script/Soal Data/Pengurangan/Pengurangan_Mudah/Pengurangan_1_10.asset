@@ -23,5 +23,5 @@ MonoBehaviour:
     gambar: {fileID: 0}
   - text: 4
     gambar: {fileID: 0}
-  indexJawabanBenar: 1
+  indexJawabanBenar: 3
   JumlahBintang: 0
