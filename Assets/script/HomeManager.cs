@@ -73,14 +73,6 @@ public class HomeManager : MonoBehaviour
     [InfoBox("0,1,2 untuk Penjumalahan \n 3,4,5 untuk Pengurangan")]
     public List<int> playerCurrentLevel;
 
-    public const string PENJUMLAHAN_MUDAH = "Penjumlahan_Mudah";
-    public const string PENJUMLAHAN_SEDANG = "Penjumlahan_Sedang";
-    public const string PENJUMLAHAN_SULIT = "Penjumlahan_Sulit";
-
-    public const string PENGURANGAN_MUDAH = "Pengurangan_Mudah";
-    public const string PENGURANGAN_SEDANG = "Pengurangan_Sedang";
-    public const string PENGURANGAN_SULIT = "Pengurangan_Sulit";
-
     public const string SELECTED_DIFFICULTY = "SelectedDifficulty";
 
     private void Awake()
@@ -92,8 +84,6 @@ public class HomeManager : MonoBehaviour
         {
             playerCurrentLevel.Add(0);
         }
-
-        LoadPlayerData();
     }
 
     private void Start()
@@ -112,67 +102,6 @@ public class HomeManager : MonoBehaviour
             Application.Quit();
             return;
         }
-    }
-
-    void LoadPlayerData()
-    {
-        #region Penjumlahan
-        if (PlayerPrefs.HasKey(PENJUMLAHAN_MUDAH))
-        {
-            playerCurrentLevel[0] = PlayerPrefs.GetInt(PENJUMLAHAN_MUDAH);
-        }
-        else
-        {
-            PlayerPrefs.SetInt(PENJUMLAHAN_MUDAH, 0);
-        }
-
-        if (PlayerPrefs.HasKey(PENJUMLAHAN_SEDANG))
-        {
-            playerCurrentLevel[1] = PlayerPrefs.GetInt(PENJUMLAHAN_SEDANG);
-        }
-        else
-        {
-            PlayerPrefs.SetInt(PENJUMLAHAN_SEDANG, 0);
-        }
-
-        if (PlayerPrefs.HasKey(PENJUMLAHAN_SULIT))
-        {
-            playerCurrentLevel[2] = PlayerPrefs.GetInt(PENJUMLAHAN_SULIT);
-        }
-        else
-        {
-            PlayerPrefs.SetInt(PENJUMLAHAN_SULIT, 0);
-        }
-        #endregion
-
-        #region Pengurangan
-        if (PlayerPrefs.HasKey(PENGURANGAN_MUDAH))
-        {
-            playerCurrentLevel[3] = PlayerPrefs.GetInt(PENGURANGAN_MUDAH);
-        }
-        else
-        {
-            PlayerPrefs.SetInt(PENGURANGAN_MUDAH, 0);
-        }
-
-        if (PlayerPrefs.HasKey(PENGURANGAN_SEDANG))
-        {
-            playerCurrentLevel[4] = PlayerPrefs.GetInt(PENGURANGAN_SEDANG);
-        }
-        else
-        {
-            PlayerPrefs.SetInt(PENGURANGAN_SEDANG, 0);
-        }
-
-        if (PlayerPrefs.HasKey(PENGURANGAN_SULIT))
-        {
-            playerCurrentLevel[5] = PlayerPrefs.GetInt(PENGURANGAN_SULIT);
-        }
-        else
-        {
-            PlayerPrefs.SetInt(PENGURANGAN_SULIT, 0);
-        }
-        #endregion
     }
 
     public void ChangeCurrentTab(Tab newTab)

@@ -15,7 +15,7 @@ public class QuizManager : MonoBehaviour
     public LevelState CurrentLevelState;
 
     [ListDrawerSettings(ShowIndexLabels = true)]
-    public List<SoalDatabaseSO> SoalBank;    
+    public List<SoalDatabaseSO> SoalBank;
 
     [ReadOnly]
     public SoalPilihanGandaSO activeSoalSO;
@@ -49,24 +49,18 @@ public class QuizManager : MonoBehaviour
     [BoxGroup("Player Data")]
     public int selectedDifficulty;
     [BoxGroup("Player Data")]
+    [ListDrawerSettings(ShowIndexLabels = true)]
     public List<int> playerCurrentLevel;
     [BoxGroup("Player Data")]
+    [ListDrawerSettings(ShowIndexLabels = true)]
     public List<int> indexSoalRandom;
-
-    public const string RANDOM_PENJUMLAHAN_MUDAH = "RandomizedQuiz_PenjumlahanMudah";
-    public const string RANDOM_PENJUMLAHAN_SEDANG = "RandomizedQuiz_PenjumlahanSedang";
-    public const string RANDOM_PENJUMLAHAN_SULIT = "RandomizedQuiz_PenjumlahanSulit";
-
-    public const string RANDOM_PENGURANGAN_MUDAH = "RandomizedQuiz_PenguranganMudah";
-    public const string RANDOM_PENGURANGAN_SEDANG = "RandomizedQuiz_PenguranganSedang";
-    public const string RANDOM_PENGURANGAN_SULIT = "RandomizedQuiz_PenguranganSulit";
+    [BoxGroup("Player Data")]
+    [ListDrawerSettings(ShowIndexLabels = true)]
+    public List<bool> questionResult;
 
     public const float DEFAULT_TIMER = 180f;
 
     string _timerString;
-
-    string _difficultyDataKey = string.Empty;
-    string _randomizedDataKey = string.Empty;
 
     public void Awake()
     {
@@ -83,22 +77,18 @@ public class QuizManager : MonoBehaviour
 
     private void Start()
     {
+        questionResult = new List<bool>();
+
         // Mengambil index yang tersimpan di PlayerPrefs
         LoadPlayerData();
 
         UpdateSoal(indexSoalRandom[playerCurrentLevel[selectedDifficulty]]);
     }
 
-    void SavePlayerData()
-    {
-        PlayerPrefs.SetInt(_difficultyDataKey, playerCurrentLevel[selectedDifficulty]);
-        PlayerPrefs.SetString(_randomizedDataKey, JsonConvert.SerializeObject(indexSoalRandom));
-    }
-
     void LoadPlayerData()
     {
         // Load Selected Difficulty
-        if(PlayerPrefs.HasKey(HomeManager.SELECTED_DIFFICULTY))
+        if (PlayerPrefs.HasKey(HomeManager.SELECTED_DIFFICULTY))
         {
             selectedDifficulty = PlayerPrefs.GetInt(HomeManager.SELECTED_DIFFICULTY);
         }
@@ -107,61 +97,16 @@ public class QuizManager : MonoBehaviour
             PlayerPrefs.SetInt(HomeManager.SELECTED_DIFFICULTY, 0);
         }
 
-        switch (selectedDifficulty)
+        #region RANDOM_SOAL
+        indexSoalRandom = new List<int>();
+
+        for (int i = 0; i < SoalBank[selectedDifficulty].SemuaSoal.Count; i++)
         {
-            case 0:
-                _difficultyDataKey = HomeManager.PENJUMLAHAN_MUDAH;
-                _randomizedDataKey = RANDOM_PENJUMLAHAN_MUDAH;
-                break;
-            case 1:
-                _difficultyDataKey = HomeManager.PENJUMLAHAN_SEDANG;
-                _randomizedDataKey = RANDOM_PENJUMLAHAN_SEDANG;
-                break;
-            case 2:
-                _difficultyDataKey = HomeManager.PENJUMLAHAN_SULIT;
-                _randomizedDataKey = RANDOM_PENJUMLAHAN_SULIT;
-                break;
-            case 3:
-                _difficultyDataKey = HomeManager.PENGURANGAN_MUDAH;
-                _randomizedDataKey = RANDOM_PENGURANGAN_MUDAH;
-                break;
-            case 4:
-                _difficultyDataKey = HomeManager.PENGURANGAN_SEDANG;
-                _randomizedDataKey = RANDOM_PENGURANGAN_SEDANG;
-                break;
-            case 5:
-                _difficultyDataKey = HomeManager.PENGURANGAN_SULIT;
-                _randomizedDataKey = RANDOM_PENGURANGAN_SULIT;
-                break;
-            default:
-                Debug.Log("Difficulty Gk Ada");
-                break;
+            indexSoalRandom.Add(i);
         }
 
-        if (PlayerPrefs.HasKey(_difficultyDataKey))
-        {
-            playerCurrentLevel[selectedDifficulty] = PlayerPrefs.GetInt(_difficultyDataKey);
-        }
-        else
-        {
-            PlayerPrefs.SetInt(_difficultyDataKey, 0);
-        }
-
-        if (PlayerPrefs.HasKey(_randomizedDataKey))
-        {
-            indexSoalRandom = JsonConvert.DeserializeObject<List<int>>(PlayerPrefs.GetString(_randomizedDataKey));
-        }
-        else
-        {
-            indexSoalRandom = new List<int>();
-
-            for(int i = 0; i < SoalBank[selectedDifficulty].SemuaSoal.Count; i++)
-            {
-                indexSoalRandom.Add(i);
-            }
-
-            PlayerPrefs.SetString(_randomizedDataKey, JsonConvert.SerializeObject(indexSoalRandom));
-        }
+        RandomizeSoal();
+        #endregion
     }
 
     private void Update()
@@ -196,10 +141,7 @@ public class QuizManager : MonoBehaviour
         activeSoalSO = SoalBank[selectedDifficulty].SemuaSoal[indexSoalRandom[playerCurrentLevel[selectedDifficulty]]];
 
         // LABEL Menyesuaikan Konten Soal
-        levelTxt.text = "Soal " + (indexSoalRandom[playerCurrentLevel[selectedDifficulty]] + 1);
-
-        // LABEL mengulang ke 1 lagi, ex: Soal 20 -> Soal 1
-            //levelTxt.text = "Soal " + (playerCurrentLevel + 1);
+        levelTxt.text = (playerCurrentLevel[selectedDifficulty] + 1) + " / 20";
 
         #region Pengecekan_Soal_Text
         // Jika ada soal text
@@ -240,18 +182,18 @@ public class QuizManager : MonoBehaviour
                 jawabanTxt[i].text = activeSoalSO.ListJawaban[i].text;
             }
             // Kalo ada gambar
-            else if (activeSoalSO.ListJawaban[i].gambar != null) 
+            else if (activeSoalSO.ListJawaban[i].gambar != null)
             {
                 jawabanImg[i].sprite = activeSoalSO.ListJawaban[i].gambar;
-            }         
+            }
         }
         #endregion
     }
 
     public void ResetLevelState()
     {
-        winPanel.SetActive(false);
-        losePanel.SetActive(false);
+        //winPanel.SetActive(false);
+        //losePanel.SetActive(false);
         timerInSecond = DEFAULT_TIMER;
         CurrentLevelState = LevelState.Mikir;
         jumlahBintang = 0;
@@ -268,15 +210,16 @@ public class QuizManager : MonoBehaviour
     {
         CurrentLevelState = LevelState.UdahJawab;
 
-        if(indexJawaban == activeSoalSO.indexJawabanBenar)
+        if (indexJawaban == activeSoalSO.indexJawabanBenar)
         {
-            CountStar();
-            winPanel.SetActive(true);
+            questionResult.Add(true);
         }
         else
         {
-            losePanel.SetActive(true);
+            questionResult.Add(false);
         }
+
+        NextSoal();
     }
 
     public void CountStar()
@@ -291,8 +234,8 @@ public class QuizManager : MonoBehaviour
         for (int i = 0; i < maxBintang; i++)
         {
             timerInSecond -= timePerStar;
-            
-            if(timerInSecond >= 0)
+
+            if (timerInSecond >= 0)
             {
                 jumlahBintang++;
             }
@@ -302,12 +245,12 @@ public class QuizManager : MonoBehaviour
             }
         }
 
-        foreach(var bintang in bintangImg)
+        foreach (var bintang in bintangImg)
         {
             bintang.color = Color.grey;
         }
 
-        for(int i = 0; i < jumlahBintang; i++)
+        for (int i = 0; i < jumlahBintang; i++)
         {
             bintangImg[i].color = Color.white;
         }
@@ -336,19 +279,21 @@ public class QuizManager : MonoBehaviour
         PlaySfx();
     }
 
-    public void OnClick_NextBtn()
-    {        
+    public void NextSoal()
+    {
         playerCurrentLevel[selectedDifficulty]++;
-        
+
         // JIKA SOAL UDAH HABIS
-        if(playerCurrentLevel[selectedDifficulty] > SoalBank[selectedDifficulty].SemuaSoal.Count - 1)
+        if (playerCurrentLevel[selectedDifficulty] > SoalBank[selectedDifficulty].SemuaSoal.Count - 1)
         {
+            winPanel.SetActive(true);
+
             Debug.Log("SOAL UDAH ABIS");
 
             playerCurrentLevel[selectedDifficulty] = 0;
             RandomizeSoal();
         }
-        SavePlayerData();
+        //SavePlayerData();
 
         UpdateSoal(indexSoalRandom[playerCurrentLevel[selectedDifficulty]]);
 
