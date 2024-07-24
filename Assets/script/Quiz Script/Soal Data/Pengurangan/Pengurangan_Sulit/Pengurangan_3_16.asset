@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91927339f52234746ba46eaafb547c97, type: 3}
   m_Name: Pengurangan_3_16
   m_EditorClassIdentifier: 
-  soalText: '90 - 15
+  soalText: '18 - 11
 
 '
   soalGambar: {fileID: 0}
   ListJawaban:
-  - text: 35
+  - text: 5
     gambar: {fileID: 0}
-  - text: 75
+  - text: 7
     gambar: {fileID: 0}
-  - text: 85
+  - text: 9
     gambar: {fileID: 0}
-  - text: 95
+  - text: 13
     gambar: {fileID: 0}
   indexJawabanBenar: 1
   JumlahBintang: 0
