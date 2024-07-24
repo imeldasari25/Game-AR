@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91927339f52234746ba46eaafb547c97, type: 3}
   m_Name: Pengurangan_3_3
   m_EditorClassIdentifier: 
-  soalText: 37 - 7
+  soalText: 17 - 13
   soalGambar: {fileID: 0}
   ListJawaban:
-  - text: 30
+  - text: 2
     gambar: {fileID: 0}
   - text: 7
     gambar: {fileID: 0}
   - text: 5
     gambar: {fileID: 0}
-  - text: 60
+  - text: 4
     gambar: {fileID: 0}
-  indexJawabanBenar: 0
+  indexJawabanBenar: 3
   JumlahBintang: 0

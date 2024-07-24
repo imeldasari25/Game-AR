@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91927339f52234746ba46eaafb547c97, type: 3}
   m_Name: Pengurangan_1_10
   m_EditorClassIdentifier: 
-  soalText: 6 - 2
+  soalText: 8 - 5
   soalGambar: {fileID: 0}
   ListJawaban:
   - text: 1
@@ -23,5 +23,5 @@ MonoBehaviour:
     gambar: {fileID: 0}
   - text: 4
     gambar: {fileID: 0}
-  indexJawabanBenar: 3
+  indexJawabanBenar: 2
   JumlahBintang: 0

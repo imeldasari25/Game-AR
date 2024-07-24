@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91927339f52234746ba46eaafb547c97, type: 3}
   m_Name: Penjumlahan_1_15
   m_EditorClassIdentifier: 
-  soalText: 3 + 6
+  soalText: 6 + 2
   soalGambar: {fileID: 0}
   ListJawaban:
+  - text: 3
+    gambar: {fileID: 0}
+  - text: 6
+    gambar: {fileID: 0}
+  - text: 7
+    gambar: {fileID: 0}
   - text: 8
     gambar: {fileID: 0}
-  - text: 2
-    gambar: {fileID: 0}
-  - text: 9
-    gambar: {fileID: 0}
-  - text: 4
-    gambar: {fileID: 0}
-  indexJawabanBenar: 2
+  indexJawabanBenar: 3
   JumlahBintang: 0
