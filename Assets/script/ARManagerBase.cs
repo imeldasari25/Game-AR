@@ -91,6 +91,11 @@ public abstract class ARManagerBase : MonoBehaviour
         try
         {
             mathOPIcon.gameObject.SetActive(false);
+        }
+        catch { }
+
+        try
+        {
             equalIcon.SetActive(false);
         }
         catch { }
@@ -166,7 +171,14 @@ public abstract class ARManagerBase : MonoBehaviour
         }
         catch { }
 
-        if (_trackedCard.Count < 2)
+        try
+        {
+            mathOPIcon.gameObject.SetActive(TrackedCardCount == 2);
+            equalIcon.gameObject.SetActive(TrackedCardCount == 2);
+        }
+        catch { }
+
+        if (TrackedCardCount < 2)
             return;
 
         if (_trackedCard[1].PosInScreenX < _trackedCard[0].PosInScreenX)
@@ -179,13 +191,6 @@ public abstract class ARManagerBase : MonoBehaviour
 
         PlaceMathOPIcon();
         PlaceResultNumber();
-
-        try
-        {
-            mathOPIcon.gameObject.SetActive(TrackedCardCount == 2 && result > 0);
-            equalIcon.gameObject.SetActive(TrackedCardCount == 2 && result > 0);
-        }
-        catch { }
     }
 
     public void PlaceMathOPIcon()

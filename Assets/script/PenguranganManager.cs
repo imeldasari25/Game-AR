@@ -9,11 +9,35 @@ public class PenguranganManager : ARManagerBase
     //Singleton
     public static PenguranganManager Instance;
 
-    //public GameObject minusIcon;
+    public GameObject negativeResultNotification;
+
+    public bool ShowNegativeNotif
+    {
+        get => _showNegNotif;
+        set
+        {
+            if (value == _showNegNotif)
+                return;
+            else
+                _showNegNotif = value;
+
+            negativeResultNotification.SetActive(_showNegNotif);
+        }
+    }
+
+    bool _showNegNotif;
 
     private void Awake()
     {
         Instance = this;
+    }
+
+    protected override void Start()
+    {
+        base.Start();
+
+        ShowNegativeNotif = false;
+        negativeResultNotification.SetActive(ShowNegativeNotif);
     }
 
     public override void PlaceResultNumber()
@@ -29,7 +53,14 @@ public class PenguranganManager : ARManagerBase
         Debug.Log($"{number_A} + {number_B} = {result}");
 
         if (result < 0)
+        {
+            ShowNegativeNotif = true;
             return;
+        }
+        else
+        {
+            ShowNegativeNotif = false;
+        }
 
         int[] resultDigit = ExtractDigitsFromNumber(result);      
 
@@ -45,10 +76,4 @@ public class PenguranganManager : ARManagerBase
         }
         catch { }
     }
-
-    //public override void HandleCardCountChange()
-    //{
-    //    base.HandleCardCountChange();
-    //    //minusIcon.SetActive(TrackedCardCount == 2);
-    //}
 }
