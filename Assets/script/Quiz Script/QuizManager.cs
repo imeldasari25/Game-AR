@@ -35,11 +35,13 @@ public class QuizManager : MonoBehaviour
     public List<Image> jawabanImg;
     public GameObject winPanel;
     public List<Image> bintangImg;
-    public TextMeshProUGUI timerLeftTxt;
+    public TextMeshProUGUI correctQuizTxt;
     public GameObject losePanel;
     public TextMeshProUGUI levelTxt;
     public TextMeshProUGUI timerTxt;
     public GameObject pausePanel;
+    public GameObject correctPanel;
+    public GameObject incorrectPanel;
 
     [BoxGroup("SFX")]
     public AudioClip clickSfx;
@@ -57,6 +59,23 @@ public class QuizManager : MonoBehaviour
     [BoxGroup("Player Data")]
     [ListDrawerSettings(ShowIndexLabels = true)]
     public List<bool> questionResult;
+    [BoxGroup("Player Data")]
+    public int SoalBenar
+    {
+        get
+        {
+            int soalBenar = 0;
+            for (int i = 0; i < questionResult.Count; i++)
+            {
+                if (questionResult[i] == true)
+                {
+                    soalBenar++;
+                }
+            }
+
+            return soalBenar;
+        }
+    }
 
     public const float DEFAULT_TIMER = 180f;
 
@@ -83,6 +102,9 @@ public class QuizManager : MonoBehaviour
         LoadPlayerData();
 
         UpdateSoal(indexSoalRandom[playerCurrentLevel[selectedDifficulty]]);
+
+        correctPanel.SetActive(false);
+        incorrectPanel.SetActive(false);
     }
 
     void LoadPlayerData()
@@ -141,7 +163,7 @@ public class QuizManager : MonoBehaviour
         activeSoalSO = SoalBank[selectedDifficulty].SemuaSoal[indexSoalRandom[playerCurrentLevel[selectedDifficulty]]];
 
         // LABEL Menyesuaikan Konten Soal
-        levelTxt.text = (playerCurrentLevel[selectedDifficulty] + 1) + " / 20";
+        levelTxt.text = (playerCurrentLevel[selectedDifficulty] + 1) + " / " + SoalBank[selectedDifficulty].SemuaSoal.Count;
 
         #region Pengecekan_Soal_Text
         // Jika ada soal text
@@ -192,8 +214,8 @@ public class QuizManager : MonoBehaviour
 
     public void ResetLevelState()
     {
-        //winPanel.SetActive(false);
-        //losePanel.SetActive(false);
+        correctPanel.SetActive(false);
+        incorrectPanel.SetActive(false);
         timerInSecond = DEFAULT_TIMER;
         CurrentLevelState = LevelState.Mikir;
         jumlahBintang = 0;
@@ -213,36 +235,38 @@ public class QuizManager : MonoBehaviour
         if (indexJawaban == activeSoalSO.indexJawabanBenar)
         {
             questionResult.Add(true);
+            correctPanel.SetActive(true);
         }
         else
         {
             questionResult.Add(false);
+            incorrectPanel.SetActive(true);
+            
         }
 
-        NextSoal();
+        StartCoroutine(NextSoalDelayCo(2f));
+        //NextSoal();
     }
 
     public void CountStar()
     {
-        timerLeftTxt.text = _timerString;
+        jumlahBintang = 0;
 
-        int maxBintang = 3;
-        float timePerStar = DEFAULT_TIMER / maxBintang;
+        correctQuizTxt.text = SoalBenar + " / " + SoalBank[selectedDifficulty].SemuaSoal.Count;
 
-        jumlahBintang = 1;
-
-        for (int i = 0; i < maxBintang; i++)
+        if(SoalBenar > 0)
         {
-            timerInSecond -= timePerStar;
+            jumlahBintang++;
+        }
 
-            if (timerInSecond >= 0)
-            {
-                jumlahBintang++;
-            }
-            else
-            {
-                break;
-            }
+        if (SoalBenar >= SoalBank[selectedDifficulty].SemuaSoal.Count / 2)
+        {
+            jumlahBintang++;
+        }
+
+        if (SoalBenar >= SoalBank[selectedDifficulty].SemuaSoal.Count)
+        {
+            jumlahBintang++;
         }
 
         foreach (var bintang in bintangImg)
@@ -286,6 +310,7 @@ public class QuizManager : MonoBehaviour
         // JIKA SOAL UDAH HABIS
         if (playerCurrentLevel[selectedDifficulty] > SoalBank[selectedDifficulty].SemuaSoal.Count - 1)
         {
+            CountStar();
             winPanel.SetActive(true);
 
             Debug.Log("SOAL UDAH ABIS");
@@ -300,8 +325,21 @@ public class QuizManager : MonoBehaviour
         PlaySfx();
     }
 
+    IEnumerator NextSoalDelayCo(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        NextSoal();
+    }
+
     public void OnClick_RestartBtn()
     {
+        playerCurrentLevel[selectedDifficulty] = 0;
+
+        winPanel.SetActive(false);
+
+        RandomizeSoal();
+
         UpdateSoal(indexSoalRandom[playerCurrentLevel[selectedDifficulty]]);
 
         PlaySfx();
