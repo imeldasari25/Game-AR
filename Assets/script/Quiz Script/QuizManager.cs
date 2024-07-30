@@ -258,16 +258,19 @@ public class QuizManager : MonoBehaviour
 
         correctQuizTxt.text = SoalBenar + " / " + SoalBank[selectedDifficulty].SemuaSoal.Count;
 
+        // Benar minimal satu
         if(SoalBenar > 0)
         {
             jumlahBintang++;
         }
 
+        // Benar lebih dari sama dengan 10
         if (SoalBenar >= SoalBank[selectedDifficulty].SemuaSoal.Count / 2)
         {
             jumlahBintang++;
         }
 
+        // Benar 20 soal
         if (SoalBenar >= SoalBank[selectedDifficulty].SemuaSoal.Count)
         {
             jumlahBintang++;

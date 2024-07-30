@@ -3433,7 +3433,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1178437684
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5250,7 +5250,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1483968841}
+      - m_Target: {fileID: 1571905004}
         m_TargetAssemblyTypeName: JawabanButton, Assembly-CSharp
         m_MethodName: OnClick_JawbanBtn
         m_Mode: 3
@@ -6144,7 +6144,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1483968841}
+      - m_Target: {fileID: 1876015824}
         m_TargetAssemblyTypeName: JawabanButton, Assembly-CSharp
         m_MethodName: OnClick_JawbanBtn
         m_Mode: 3
