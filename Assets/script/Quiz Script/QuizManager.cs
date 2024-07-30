@@ -44,6 +44,10 @@ public class QuizManager : MonoBehaviour
     public GameObject incorrectPanel;
 
     [BoxGroup("SFX")]
+    public AudioClip correctSfx;
+    [BoxGroup("SFX")]
+    public AudioClip wrongSfx;
+    [BoxGroup("SFX")]
     public AudioClip clickSfx;
     [BoxGroup("SFX")]
     public AudioSource sfxAudioSource;
@@ -236,16 +240,16 @@ public class QuizManager : MonoBehaviour
         {
             questionResult.Add(true);
             correctPanel.SetActive(true);
+            PlaySfx(correctSfx);
         }
         else
         {
             questionResult.Add(false);
             incorrectPanel.SetActive(true);
-            
+            PlaySfx(wrongSfx);
         }
 
         StartCoroutine(NextSoalDelayCo(2f));
-        //NextSoal();
     }
 
     public void CountStar()
@@ -321,8 +325,6 @@ public class QuizManager : MonoBehaviour
         //SavePlayerData();
 
         UpdateSoal(indexSoalRandom[playerCurrentLevel[selectedDifficulty]]);
-
-        PlaySfx();
     }
 
     IEnumerator NextSoalDelayCo(float delay)
@@ -366,6 +368,11 @@ public class QuizManager : MonoBehaviour
     public void PlaySfx()
     {
         sfxAudioSource.PlayOneShot(clickSfx);
+    }
+
+    public void PlaySfx(AudioClip clip)
+    {
+        sfxAudioSource.PlayOneShot(clip);
     }
     #endregion
 }
