@@ -17,11 +17,11 @@ MonoBehaviour:
   ListJawaban:
   - text: 4
     gambar: {fileID: 0}
+  - text: 6
+    gambar: {fileID: 0}
   - text: 8
     gambar: {fileID: 0}
-  - text: 9
+  - text: 12
     gambar: {fileID: 0}
-  - text: 11
-    gambar: {fileID: 0}
-  indexJawabanBenar: 1
+  indexJawabanBenar: 2
   JumlahBintang: 0
