@@ -1406,9 +1406,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0203a36808622f44a404af16f2b12b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Card_1: {fileID: 0}
-  Card_2: {fileID: 0}
   screenWidth: 0
+  screenHeight: 0
+  number_A: 0
+  number_B: 0
+  result: 0
+  digit_1_Obj: {fileID: 0}
+  digit_2_Obj: {fileID: 0}
+  mathOPIcon: {fileID: 0}
+  equalIcon: {fileID: 0}
+  digit_1_Parent: {fileID: 0}
+  digit_2_Parent: {fileID: 0}
+  resultDigitParent: {fileID: 0}
+  resultOffset: 0
+  angkaPrefab: []
+  _trackedCard: []
 --- !u!4 &1041048004
 Transform:
   m_ObjectHideFlags: 0
@@ -3436,7 +3448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   number: 18
   isTracked: 0
-  numberVoice: {fileID: 8300000, guid: 286326bee7b85244b90d19d0d1fe0804, type: 3}
+  numberVoice: {fileID: 8300000, guid: 7ec9d023378a7c24d856710878f2a60f, type: 3}
   cameraAudioSource: {fileID: 1125444933}
 --- !u!1 &2067762551952464113
 GameObject:
