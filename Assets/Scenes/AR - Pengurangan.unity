@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4440221, g: 0.49316514, b: 0.5722316, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402242, g: 0.49316543, b: 0.5722324, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6726,13 +6726,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: revisiangka9
+  mTrackableName: 9
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/KartuAngka.xml
-  mAspectRatio: 1.385937
+  mDataSetPath: Vuforia/gambar5.xml
+  mAspectRatio: 1.382812
   mImageTargetType: 0
   mWidth: 1
-  mHeight: 1.385937
+  mHeight: 1.382812
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -6872,8 +6872,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1845138094271391108}
   mHiddenRoot: {fileID: 0}
-  mTargetName: revisiangka9
-  mDatasetName: Vuforia/KartuAngka.xml
+  mTargetName: 9
+  mDatasetName: Vuforia/gambar5.xml
   mCastedBehaviour: {fileID: 1845138094271391108}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
